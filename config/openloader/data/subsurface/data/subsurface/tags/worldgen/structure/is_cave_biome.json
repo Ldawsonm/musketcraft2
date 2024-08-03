@@ -1,0 +1,15 @@
+{
+  "values": [
+    "subsurface:coral_caves",
+    "subsurface:foliage_caves",
+    "subsurface:fungal_caves",
+    "subsurface:icicle_caves",
+    "subsurface:mesa_caves",
+    "subsurface:quartz_canyons",
+    "subsurface:sand_caves",
+    "subsurface:soul_canyons",
+    "subsurface:swamp_caves",
+    "subsurface:underground_forest",
+    "subsurface:underground_taiga"
+  ]
+}

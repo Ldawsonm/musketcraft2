@@ -1,0 +1,6 @@
+kill @e[type=item,nbt={Item:{id:"minecraft:diamond_leggings",Count:1b}},limit=1,sort=nearest]
+summon item ~ ~0.5 ~ {Item:{id:"minecraft:leather_leggings",Count:1b,tag:{Unbreakable:1,RepairCost:1000,Tags:["ancient_armor"],display:{color:7622482,Name:'[{"text":"Ancient Leggings","italic":false,"color":"dark_red"}]',Lore:['[{"text":"Strength I","italic":false,"color":"gray"},{"text":"","italic":false,"color":"dark_purple"}]','[{"text":"","italic":false,"color":"dark_purple"}]','[{"text":"-2.0 ❤","italic":false,"color":"red"},{"text":"","italic":false,"color":"dark_purple"}]','[{"text":"","italic":false,"color":"dark_purple"}]','[{"text":"Set Bonus:","italic":false,"color":"dark_purple"},{"text":"","italic":false,"color":"dark_purple"}]','[{"text":"-No blood toll on ancient","italic":false,"color":"dark_purple"},{"text":"","italic":false,"color":"dark_purple"}]','[{"text":"items","italic":false,"color":"dark_purple"}]']},Enchantments:[{}],HideFlags:68,Trim:{pattern:silence,material:redstone}}}}
+tag @s add has_crafted
+
+particle dust 0.443 0.055 0.055 2 ~ ~ ~ 0.3 0.3 0.3 1 30 normal @a
+playsound block.end_portal_frame.fill block @a ~ ~ ~ 0.8 0.3 0
