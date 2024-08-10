@@ -16,7 +16,7 @@
 	#----Should Recruits look like Villagers?----
 	#	(takes effect after restart)
 	#	default: true
-	RecruitsLookLikeVillagers = false
+	RecruitsLookLikeVillagers = true
 	#----UpdateCheckerClientside----
 	#	(takes effect after restart)
 	#	
