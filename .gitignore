@@ -3,3 +3,5 @@ simplebackups/*
 crash-reports/*
 logs/*
 config/blockswap/known_states/*
+modernfix/*
+screenshots/*
