@@ -1,6 +1,8 @@
 {
   "favorites": [],
   "lookup_history": [
+    "item:minecraft:netherite_helmet{Damage:0}",
+    "item:minecraft:armor_stand",
     "item:minecraft:carrot",
     "item:farmersdelight:carrot_crate",
     "item:supplementaries:slingshot{Damage:0}",
