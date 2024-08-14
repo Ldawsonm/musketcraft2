@@ -1,6 +1,8 @@
 {
   "favorites": [],
   "lookup_history": [
+    "item:minecraft:carrot",
+    "item:farmersdelight:carrot_crate",
     "item:supplementaries:slingshot{Damage:0}",
     "item:minecraft:oak_slab",
     "item:minecraft:oak_planks",
