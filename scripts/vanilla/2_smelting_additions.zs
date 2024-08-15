@@ -1,3 +1,5 @@
+
+
 // <recipetype:clayworks:baking>.remove(<item:minecraft:green_dye>);
 <recipetype:clayworks:baking>.addJsonRecipe("cactus_kiln", {
  ingredient: <item:minecraft:cactus>,

@@ -1,6 +1,11 @@
 {
   "favorites": [],
   "lookup_history": [
+    "item:magistuarmory:steel_ingot",
+    "item:mctb:spruce_crafting_table",
+    "item:mctb:dark_oak_crafting_table",
+    "item:sophisticatedbackpacks:backpack{borderColor:10329495,clothColor:10329495}",
+    "item:minecraft:stripped_birch_log",
     "item:minecraft:netherite_helmet{Damage:0}",
     "item:minecraft:armor_stand",
     "item:minecraft:carrot",
@@ -50,7 +55,6 @@
     "item:magistuarmory:pantyhose{Damage:0}",
     "item:magistuarmory:woolen_fabric",
     "item:magistuarmory:coif{Damage:0}",
-    "item:magistuarmory:steel_ingot",
     "item:magistuarmory:kettlehat{Damage:0}",
     "item:quark:green_crystal_lamp",
     "item:minecraft:chainmail_helmet{Damage:0}",

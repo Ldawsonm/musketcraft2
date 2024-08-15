@@ -1,5 +1,5 @@
-val air = <item:minecraft:air>;
-val coral = <tag:items:musketeer:coral>;
+
+
 var book = <item:minecraft:book>;
 var lapis = <item:minecraft:lapis_lazuli>;
 

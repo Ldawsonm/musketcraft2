@@ -2,7 +2,7 @@ import crafttweaker.api.text.Component;
 import crafttweaker.api.text.MutableComponent;
 
 // var disabled_items = <tag:items:musketeer:hidden_items>;
-var variant_items = <tag:items:tagpack:made_with_variant_selector>;
+var variant_items = <tag:items:musketcraft:made_with_variant_selector>;
 
 // var disabled_tooltip = Component.translatable("hidden_tooltip.musketeer") as MutableComponent;
 // disabled_tooltip.setStyle(<constant:minecraft:formatting:red>.asStyle());

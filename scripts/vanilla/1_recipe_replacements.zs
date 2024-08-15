@@ -140,3 +140,33 @@ craftingTable.remove(magma_cream);
 // Easier Map
 craftingTable.remove(map);
 craftingTable.addShapeless("map_but_cheap", map, [paper, paper, paper, black_dye]);
+
+# Sensible Blast Furnace
+val iron = <item:minecraft:iron_ingot>;
+val cobble = <item:minecraft:cobblestone>;
+val furnace = <item:minecraft:furnace>;
+
+craftingTable.remove(<item:minecraft:blast_furnace>);
+craftingTable.addShaped("sensible_blast_furnace", <item:minecraft:blast_furnace>, [
+    [iron, iron, iron],
+    [iron, furnace, iron],
+    [cobble, cobble, cobble]
+]);
+
+# Smoker Motif
+val log = <tag:items:minecraft:logs>;
+craftingTable.remove(<item:minecraft:smoker>);
+craftingTable.addShaped("sensible_smoker", <item:minecraft:smoker>, [
+    [log, log, log],
+    [log, furnace, log],
+    [cobble, cobble, cobble]
+]);
+
+# Crossbow recipe change
+val gunpowder = <item:minecraft:gunpowder>;
+craftingTable.remove(<item:minecraft:crossbow>);
+craftingTable.addShaped("thematic_crossbow", <item:minecraft:crossbow>, [
+    [air, iron, air],
+    [iron, <item:minecraft:bow>, gunpowder],
+    [air, air, log]
+]);
