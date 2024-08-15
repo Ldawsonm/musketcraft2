@@ -83,30 +83,27 @@ var shipTip2 = Component.literal("Press W/S to Lower/Raise");
 shipTip2.setStyle(<constant:minecraft:formatting:dark_gray>.asStyle());
 <tag:items:smallships:ships>.asIIngredient().addShiftTooltip(shipTip2);
 
-// # Better Storage Vault Tooltip
-// <item:storagedrawers:oak_full_drawers_1>.clearTooltip(true);
+# Better Storage Vault Tooltip
+// <item:functionalstorage:oak_1>.clearTooltip(true);
 // var vaultTip = Component.literal("Holds 2048 of an item");
 // vaultTip.setStyle(<constant:minecraft:formatting:gray>.asStyle());
-// <item:storagedrawers:oak_full_drawers_1>.addTooltip(vaultTip);
-// var vaultTip2 = Component.literal("Retains contents when broken");
-// vaultTip2.setStyle(<constant:minecraft:formatting:gray>.asStyle());
-// <item:storagedrawers:oak_full_drawers_1>.addTooltip(vaultTip2);
+// <item:functionalstorage:oak_1>.addTooltip(vaultTip);
+var vaultTip2 = Component.literal("Retains contents when broken");
+vaultTip2.setStyle(<constant:minecraft:formatting:gray>.asStyle());
+<item:functionalstorage:oak_1>.addTooltip(vaultTip2);
 
-
-
-
-// var vaultTip3 = Component.literal("Left Click: Take one");
-// vaultTip3.setStyle(<constant:minecraft:formatting:dark_gray>.asStyle());
-// <item:storagedrawers:oak_full_drawers_1>.addShiftTooltip(vaultTip3, controlTip);
-// var vaultTip4 = Component.literal("Crouch + Left Click: Take stack");
-// vaultTip4.setStyle(<constant:minecraft:formatting:dark_gray>.asStyle());
-// <item:storagedrawers:oak_full_drawers_1>.addShiftTooltip(vaultTip4);
-// var vaultTip5 = Component.literal("Right Click: Deposit stack");
-// vaultTip5.setStyle(<constant:minecraft:formatting:dark_gray>.asStyle());
-// <item:storagedrawers:oak_full_drawers_1>.addShiftTooltip(vaultTip5);
-// var vaultTip6 = Component.literal("Double Right Click: Deposit all of item type in inventory");
-// vaultTip6.setStyle(<constant:minecraft:formatting:dark_gray>.asStyle());
-// <item:storagedrawers:oak_full_drawers_1>.addShiftTooltip(vaultTip6);
+var vaultTip3 = Component.literal("Left Click: Take one");
+vaultTip3.setStyle(<constant:minecraft:formatting:dark_gray>.asStyle());
+<item:functionalstorage:oak_1>.addShiftTooltip(vaultTip3, controlTip);
+var vaultTip4 = Component.literal("Crouch + Left Click: Take stack");
+vaultTip4.setStyle(<constant:minecraft:formatting:dark_gray>.asStyle());
+<item:functionalstorage:oak_1>.addShiftTooltip(vaultTip4);
+var vaultTip5 = Component.literal("Right Click: Deposit stack");
+vaultTip5.setStyle(<constant:minecraft:formatting:dark_gray>.asStyle());
+<item:functionalstorage:oak_1>.addShiftTooltip(vaultTip5);
+var vaultTip6 = Component.literal("Double Right Click: Deposit all of item type in inventory");
+vaultTip6.setStyle(<constant:minecraft:formatting:dark_gray>.asStyle());
+<item:functionalstorage:oak_1>.addShiftTooltip(vaultTip6);
 
 # Sophisticated Backpacks tooltip
 var backpackTip = Component.literal("Press B to open. Works anywhere in inventory");

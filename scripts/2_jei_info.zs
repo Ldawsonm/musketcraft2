@@ -32,5 +32,5 @@ i(<item:minecraft:wither_skeleton_skull>, "wither_skeleton_skull");
 i(<item:quark:hammer>, "hammer");
 // i(<item:quark:myalite>, "myalite");
 i(<item:supplementaries:wrench>, "wrench");
-// i(<item:storagedrawers:oak_full_drawers_1>, "drawers");
+i(<item:functionalstorage:oak_1>, "drawers");
 i(<item:minecraft:white_wool>, "carpets");

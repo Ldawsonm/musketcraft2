@@ -1,1 +1,0 @@
-If you want to use this without mods you can you just have to paste everything from changes.txt into the overworld.json file in terralith in minecraft/dimension(paying attention to where you're pasting so that all of the brackets line up and you're pasting in the right spot) and then copy that edited file here. If you need more help ask on the discord.

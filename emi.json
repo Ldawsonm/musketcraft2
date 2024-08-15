@@ -1,6 +1,9 @@
 {
   "favorites": [],
   "lookup_history": [
+    "item:functionalstorage:oak_1",
+    "item:minecraft:oak_planks",
+    "item:minecraft:copper_ingot",
     "item:magistuarmory:steel_ingot",
     "item:mctb:spruce_crafting_table",
     "item:mctb:dark_oak_crafting_table",
@@ -12,7 +15,6 @@
     "item:farmersdelight:carrot_crate",
     "item:supplementaries:slingshot{Damage:0}",
     "item:minecraft:oak_slab",
-    "item:minecraft:oak_planks",
     "item:minecraft:oak_wood",
     {
       "type": "item",
