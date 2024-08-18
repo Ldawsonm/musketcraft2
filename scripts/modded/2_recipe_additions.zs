@@ -1,15 +1,4 @@
-val leather = <item:minecraft:leather>;
-val gold = <item:minecraft:gold_ingot>;
-val diamond = <item:minecraft:diamond>;
 
-# SOPHISTICATED BACKPACKS
-
-# Backpack
-craftingTable.addShaped("new_backpack", <item:sophisticatedbackpacks:backpack>, [
-    [leather, gold, leather],
-    [leather, <tag:items:forge:chests/wooden>, leather],
-    [leather, diamond, leather]
-]);
 
 
 val hemp = <item:supplementaries:flax>;
@@ -21,3 +10,6 @@ craftingTable.addShaped("spider_eye_rope", <item:supplementaries:rope> * 6, [
     [spider_eye],
     [hemp]
 ]);
+
+# NATURALIST
+# Froglight

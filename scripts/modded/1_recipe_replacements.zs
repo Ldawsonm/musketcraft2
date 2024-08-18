@@ -2,6 +2,13 @@ val air = <item:minecraft:air>;
 val cobble = <item:minecraft:cobblestone>;
 val furnace = <item:minecraft:furnace>;
 val brick = <item:minecraft:bricks>;
+val emerald_block = <item:minecraft:emerald_block>;
+val ender_pearl = <item:minecraft:ender_pearl>;
+val leather = <item:minecraft:leather>;
+val gold = <item:minecraft:gold_ingot>;
+val diamond = <item:minecraft:diamond>;
+
+
 # Glass Item Frame
 craftingTable.remove(<item:quark:glass_item_frame>);
 val glass = <tag:items:forge:glass/colorless>;
@@ -31,4 +38,20 @@ craftingTable.addShaped("sensible_kiln", <item:clayworks:kiln>, [
     [brick, brick, brick],
     [brick, furnace, brick],
     [cobble, cobble, cobble]
+]);
+
+#Waystone
+craftingTable.remove(<item:waystones:waystone>);
+craftingTable.addShaped("waystone", <item:waystones:waystone>, [
+    [air, emerald_block, air],
+    [emerald_block, ender_pearl, emerald_block],
+    [cobble, cobble, cobble]
+]);
+
+# Backpack
+craftingTable.removeByName("sophisticatedbackpacks:backpack");
+craftingTable.addShaped("new_backpack", <item:sophisticatedbackpacks:backpack>, [
+    [leather, gold, leather],
+    [leather, <tag:items:forge:chests/wooden>, leather],
+    [leather, diamond, leather]
 ]);

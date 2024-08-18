@@ -9,6 +9,7 @@ val stick = <item:minecraft:stick>;
 val crafting_table = <item:minecraft:crafting_table>;
 
 val planks = <tag:items:minecraft:planks>;
+val wool = <tag:items:minecraft:wool>;
 
 recipes.removeByModid("toms_storage");
 
@@ -61,4 +62,9 @@ craftingTable.addShapedMirrored("inventory_proxy", MirrorAxis.HORIZONTAL, <item:
     [air, planks],
     [cable, planks],
     [air, planks]
+]);
+
+craftingTable.addShapedMirrored("paint_kit", MirrorAxis.HORIZONTAL, <item:toms_storage:ts.paint_kit>, [
+    [air, wool],
+    [stick, air]
 ]);

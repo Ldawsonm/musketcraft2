@@ -15,8 +15,7 @@ val enchant_upgrades = {
     "minecraft:bane_of_arthropods" : <item:minecraft:spider_eye>,
     "minecraft:fire_protection" : <item:minecraft:magma_block>,
     "minecraft:blast_protection" : <item:minecraft:gunpowder>,
-    "minecraft:soul_speed": <item:minecraft:soul_soil>,
-    "minecraft:swift_sneak": <item:minecraft:echo_shard>
+    "minecraft:soul_speed": <item:minecraft:soul_soil>
 };
 
 # REMOVE THE ENCHANTMENT TABLE
@@ -26,6 +25,9 @@ var counter = 1;
 
 # CREATE ENCHANTMENT RECIPES
 for enchant, material in enchant_upgrades {
+    if (enchant == "majruszsenchantments:misanthropy") {
+        continue;
+    }
     craftingTable.addShaped("enchanted_book" + counter, <item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1, id: enchant}]}), 
         [[material, lapis, material],
          [lapis, book, lapis],

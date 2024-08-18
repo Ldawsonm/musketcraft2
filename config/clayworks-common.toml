@@ -7,6 +7,6 @@
 	"Terracotta bricks" = true
 
 	[blocks.decorated_pot]
-		"Decorated pot colors" = true
+		"Decorated pot colors" = false
 		"Decorated pot trims" = true
 
