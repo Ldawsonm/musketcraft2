@@ -1,6 +1,6 @@
 {
   "minecraft": {
-    "item_storage.show_name_amount": 5,
+    "item_storage.show_name_amount": 0,
     "furnace": true,
     "harvest_tool.show_unbreakable": false,
     "animal_owner": true,
@@ -10,7 +10,7 @@
     "harvest_tool": true,
     "armor_stand": true,
     "fluid_storage.detailed": false,
-    "energy_storage": true,
+    "energy_storage": false,
     "entity_armor.max_for_render": 40,
     "breaking_progress": true,
     "tnt_stability": true,
@@ -24,7 +24,7 @@
     "entity_health.show_fractions": false,
     "mob_spawner": true,
     "redstone": true,
-    "fluid_storage": true,
+    "fluid_storage": false,
     "chicken_egg": true,
     "jukebox": true,
     "brewing_stand": true,
@@ -39,7 +39,7 @@
     "harvest_tool.creative": false,
     "horse_stats": true,
     "item_tooltip": true,
-    "entity_health": true,
+    "entity_health": false,
     "enchantment_power": true,
     "zombie_villager": true,
     "villager_profession": true,
@@ -59,7 +59,7 @@
     "block_face": false,
     "coordinates": false,
     "registry_name": "OFF",
-    "mod_name": true
+    "mod_name": false
   },
   "waystones": {
     "waystone": true
@@ -71,6 +71,6 @@
     "display.stacklimit": true,
     "main": true,
     "display.content": true,
-    "display.status": true
+    "display.status": false
   }
 }

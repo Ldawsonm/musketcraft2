@@ -2,16 +2,16 @@
 [redstone]
 	wind_vane = true
 	clock_block = true
-	redstone_illuminator = true
+	redstone_illuminator = false
 	crank = true
 	cog_block = true
 	gold_door = true
 	gold_trapdoor = true
-	lock_block = true
-	relayer = true
+	lock_block = false
+	relayer = false
 
 	[redstone.speaker_block]
-		enabled = true
+		enabled = false
 		#Enable/disable speaker block narrator mode
 		narrator_enabled = true
 		#Max text
@@ -22,7 +22,7 @@
 		range = 64
 
 	[redstone.bellows]
-		enabled = true
+		enabled = false
 		#bellows pushes air following this equation: 
 		#air=(sin(2PI*ticks/period)<0), with period = base_period-(redstone_power-1)*power_scaling 
 		#represents base period at 1 power
@@ -51,7 +51,7 @@
 		fall_height_required = 5
 
 	[redstone.enderman_head]
-		enabled = true
+		enabled = false
 		drop_head = true
 		#Time to increase 1 power level when being looked at
 		#Range: 0 ~ 10000
@@ -78,20 +78,20 @@
 		face_forward = false
 
 	[redstone.faucet]
-		enabled = true
+		enabled = false
 		#Turn off to prevent faucets from dropping items
 		spill_items = true
 		#Allows faucets to fill entities inventories
 		fill_entities_below = false
 
 	[redstone.crystal_display]
-		enabled = true
+		enabled = false
 		#Allows chaining 2 crystal displays, letting one power the other to its left IF its own power exceeds 10. Given power will be its own divided by 10. Note that to work the decimal display must NOT have power directly behind it. Doing so will override the behavior to non chaining mode
 		chaining = true
 
 [functional]
-	fodder = true
-	hourglass = true
+	fodder = false
+	hourglass = false
 
 	[functional.rope]
 		#So you came here to disable supp rope not because they are bad but because they are the easiest to disable, despite them doing all the stuff other ropes can do. Well too bad, this config doesnt do anything :P. Learn how to use datapacks to disable stuff, like its normally done
@@ -106,7 +106,7 @@
 		horizontal_ropes = true
 
 	[functional.jar]
-		enabled = true
+		enabled = false
 		#Jar liquid capacity: leave at 12 for pixel accuracy
 		#Range: 0 ~ 1024
 		capacity = 12
@@ -125,7 +125,7 @@
 		jar_liquids = true
 
 	[functional.cage]
-		enabled = true
+		enabled = false
 		#Allows all entities to be captured by cages and jars. Not meant for survival
 		allow_all_mobs = false
 		#Allows all baby mobs to be captured by cages
@@ -139,7 +139,7 @@
 		health_threshold = 100
 
 	[functional.safe]
-		enabled = true
+		enabled = false
 		#Makes safes only breakable by their owner or by a player in creative
 		prevent_breaking = false
 		#Make safes simpler so they do not require keys:
@@ -147,7 +147,7 @@
 		simple_safes = false
 
 	[functional.sack]
-		enabled = true
+		enabled = false
 		#Penalize the player with slowness effect when carrying too many sacks
 		sack_penalty = true
 		#Maximum number of sacks after which the overencumbered effect will be applied. Each multiple of this number will increase the effect strength by one
@@ -158,7 +158,7 @@
 		slots = 9
 
 	[functional.bamboo_spikes]
-		enabled = true
+		enabled = false
 		tipped_spikes = true
 		#Allows entities killed by spikes to drop loot as if they were killed by a player
 		player_loot = false
@@ -168,14 +168,14 @@
 		populate_creative_tab = true
 
 	[functional.urn]
-		enabled = true
+		enabled = false
 		#Chance for an urn to spawn a critter from the urn_spawn tag
 		#Range: 0.0 ~ 1.0
 		critter_spawn_chance = 0.009999999776482582
 		cave_urns = true
 
 	[functional.soap]
-		enabled = true
+		enabled = false
 		#Dyed Bock types that cannot be cleaned with soap
 		clean_blacklist = ["minecraft:glazed_terracotta", "botania:mystical_flower", "mna:chimerite_crystal", "botania:floating_flower", ",minecraft:mushroom", "botania:mushroom", "botania:tall_mystical_flower", "botania:petal_block", "morered:network_cable", "xycraft_world:glowing_shiny_aurey_block", "xycraft_world:shiny_aurey_block", "xycraft_world:rgb_lamp", "xycraft_world:glowing_rgb_viewer", "xycraft_world:glowing_matte_rgb_block", "xycraft_world:rgb_lamp_pole"]
 
@@ -188,7 +188,7 @@
 
 	[functional.present]
 		enabled = true
-		trapped_present = true
+		trapped_present = false
 
 	[functional.flax]
 		enabled = true
@@ -205,15 +205,15 @@
 	sconce = true
 	sconce_lever = true
 	pancake = true
-	netherite_door = true
-	netherite_trapdoor = true
+	netherite_door = false
+	netherite_trapdoor = false
 	checker_block = true
-	raked_gravel = true
-	feather_block = true
-	statue = true
+	raked_gravel = false
+	feather_block = false
+	statue = false
 	flower_box = true
-	doormat = true
-	flint_block = true
+	doormat = false
+	flint_block = false
 	candle_holder = true
 
 	[building.blackboard]
@@ -259,7 +259,7 @@
 		rich_soil_planter = true
 
 	[building.notice_board]
-		enabled = true
+		enabled = false
 		#Allows notice boards to accept and display any item, not just maps and books
 		allow_any_item = false
 		#Enables a GUI for the block. Not needed as the block just holds one item which you can place by clicking on it
@@ -272,7 +272,7 @@
 		crystal_enchanting = 3
 
 	[building.ash]
-		enabled = true
+		enabled = false
 		#Burnable blocks will have a chance to create ash layers when burned. Greater this number the greater the chance will be
 		#Range: 0.0 ~ 1.0
 		ash_from_fire_chance = 1.0
@@ -298,7 +298,7 @@
 
 	[building.globe]
 		enabled = true
-		sepia_globe = true
+		sepia_globe = false
 
 	[building.sign_post]
 		enabled = true
@@ -314,20 +314,20 @@
 		wattle_and_daub = true
 
 	[building.ash_bricks]
-		enabled = true
+		enabled = false
 
 	[building.hat_stand]
-		enabled = true
+		enabled = false
 		#Allow all items to go on hat stand
 		unrestricted = false
 
 [tools]
-	candy = true
-	stasis = true
-	altimeter = true
+	candy = false
+	stasis = false
+	altimeter = false
 
 	[tools.quiver]
-		enabled = true
+		enabled = false
 		#Allows using a quiver without being slowed down
 		use_without_slow = true
 		#Arrow stacks that can fit inside a quiver. Requires reboot
@@ -348,7 +348,7 @@
 		range_multiplier = 0.25
 
 	[tools.bubble_blower]
-		enabled = true
+		enabled = false
 		#Amount of soap consumed per bubble block placed
 		#Range: 1 ~ 25
 		stasis_cost = 5
@@ -377,7 +377,7 @@
 		exclusive_to_crossbows = false
 
 	[tools.flute]
-		enabled = true
+		enabled = false
 		#Radius in which an unbound flute will search pets
 		#Range: 0 ~ 500
 		unbound_radius = 64
@@ -386,7 +386,7 @@
 		bound_distance = 64
 
 	[tools.bomb]
-		enabled = true
+		enabled = false
 		#Bomb explosion radius (damage depends on this)
 		#Range: 0.1 ~ 10.0
 		explosion_radius = 2.0
@@ -406,7 +406,7 @@
 			break_blocks = "WEAK"
 
 	[tools.slingshot]
-		enabled = true
+		enabled = false
 		#Slingshot range multiplier. Affect the initial projectile speed
 		#Range: 0.0 ~ 5.0
 		range_multiplier = 1.0
@@ -430,7 +430,7 @@
 		allow_enderpearls = false
 
 	[tools.antique_ink]
-		enabled = true
+		enabled = false
 
 #General settings
 [general]
@@ -453,20 +453,20 @@
 
 	[tweaks.shulker_helmet]
 		#Allows wearing shulker shells
-		enabled = true
+		enabled = false
 
 	[tweaks.golden_apple_disenchant]
-		enabled = true
+		enabled = false
 
 	[tweaks.traders_open_doors]
 		#Allows traders to open doors (because they couldnt aparently)
-		enabled = true
+		enabled = false
 
 	[tweaks.dispenser_tweaks]
 		#Allows dispensers to use axes on blocks to strip logs and scrape off copper oxidation and wax
 		axe_strip = true
 		#Enables shooting ender pearls with dispensers
-		shoot_ender_pearls = true
+		shoot_ender_pearls = false
 
 	[tweaks.throwable_bricks]
 		#Throw bricks at your foes! Might break glass blocks
@@ -476,7 +476,7 @@
 		#Allow placeable sticks
 		sticks = true
 		#Allow placeable blaze rods
-		blaze_rods = true
+		blaze_rods = false
 
 	[tweaks.placeable_gunpowder]
 		#Allow placeable gunpowder
@@ -490,7 +490,7 @@
 
 	[tweaks.raked_gravel]
 		#allow gravel to be raked with a hoe
-		enabled = true
+		enabled = false
 
 	[tweaks.bottle_xp]
 		#Allow bottling up xp by using a bottle on an enchanting table
@@ -511,7 +511,7 @@
 		block_map_markers = true
 		#Shows a death marker on your map when you die. Requires a recovery compass in player inventory or similar
 		#Allowed Values: OFF, WITH_COMPASS, ALWAYS
-		death_marker = "WITH_COMPASS"
+		death_marker = "ALWAYS"
 		#If Quark is installed adventurer maps will be replaced by adventurer quills. These will not lag the server when generating
 		quill_adventurer_maps = true
 		#If Quark is installed replaces buried treasure and mansion maps with their equivalent quill form. This removes the lag spike they create when generating
@@ -545,7 +545,7 @@
 		#Allows zombie horses to be ridden underwater
 		rideable_underwater = true
 		#Convert a zombie horse back by feeding it a golden carrot
-		zombie_horse_inverse_conversion = true
+		zombie_horse_inverse_conversion = false
 
 	[tweaks.noteblocks_scare]
 		#Noteblocks with a zombie head will scare off villagers
@@ -553,9 +553,9 @@
 
 	[tweaks.bad_luck_tweaks]
 		#Hit a void cat, get the unluck
-		cat_unluck = true
+		cat_unluck = false
 		#If you have unluck you are more likely to get hit by a lighting
-		lightning_unluck = true
+		lightning_unluck = false
 
 	[tweaks.item_lore]
 		#Adds a recipe to add 'lore' strings to an item by combining it with a named nametag
