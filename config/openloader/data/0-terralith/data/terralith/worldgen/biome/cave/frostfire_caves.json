@@ -112,6 +112,12 @@
         "misc": [],
         "monster": [
             {
+                "type": "minecraft:spider",
+                "maxCount": 4,
+                "minCount": 4,
+                "weight": 75
+            },
+            {
                 "type": "minecraft:skeleton",
                 "maxCount": 4,
                 "minCount": 4,
@@ -121,6 +127,12 @@
                 "type": "minecraft:stray",
                 "maxCount": 4,
                 "minCount": 4,
+                "weight": 50
+            },
+            {
+                "type": "minecraft:cave_spider",
+                "maxCount": 4,
+                "minCount": 1,
                 "weight": 50
             }
         ],

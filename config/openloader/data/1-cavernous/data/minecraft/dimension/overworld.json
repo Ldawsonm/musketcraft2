@@ -58507,36 +58507,6 @@
                     }
                 },
                 {
-                    "biome": "minecraft:deep_dark",
-                    "parameters": {
-                        "continentalness": [
-                            -1,
-                            1
-                        ],
-                        "depth": [
-                            1.05,
-                            2
-                        ],
-                        "erosion": [
-                            -2,
-                            -0.475
-                        ],
-                        "humidity": [
-                            -1,
-                            1
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            -1,
-                            1
-                        ],
-                        "weirdness": [
-                            -1,
-                            1
-                        ]
-                    }
-                },
-                {
                     "biome": "minecraft:lush_caves",
                     "parameters": {
                         "continentalness": [

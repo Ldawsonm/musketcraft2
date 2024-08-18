@@ -1,9 +1,14 @@
 {
   "favorites": [],
   "lookup_history": [
+    "item:magistuarmory:leather_strip",
+    "item:magistuarmory:hilt",
+    "item:magistuarmory:longbow{Damage:0}",
+    "item:magistuarmory:lion_decoration",
+    "item:magistuarmory:rondel_decoration",
+    "item:magistuarmory:cuirassier_leggings{Damage:0}",
+    "item:minecraft:cobblestone",
     "item:minecraft:netherite_upgrade_smithing_template",
-    "item:antiquelegacy:antique_cloak_decoration",
-    "item:antiquelegacy:greek_crest_decoration",
     "item:magistuarmory:minicrown_decoration{Damage:0}",
     "item:quark:paper_wall",
     "item:minecraft:shulker_box",
@@ -74,7 +79,6 @@
     "item:quark:violet_crystal_lamp",
     "item:magistuarmory:wood_roundshield{Damage:0}",
     "item:magistuarmory:bronze_roundshield{Damage:0}",
-    "item:antiquelegacy:bronze_republic_scutum{Damage:0}",
     "item:magistuarmory:bronze_heatershield{Damage:0}",
     "item:magistuarmory:chainmail_helmet{Damage:0}",
     "item:magistuarmory:steel_chainmail",
@@ -306,7 +310,6 @@
     "item:minecraft:painting{EntityTag:{variant:\"minecraft:pointer\"}}",
     "item:minecraft:painting{EntityTag:{variant:\"minecraft:pigscene\"}}",
     "item:minecraft:painting{EntityTag:{variant:\"minecraft:burning_skull\"}}",
-    "item:antiquelegacy:deepslate_tin_ore",
     "item:overworld_quartz:overworld_quartz_ore",
     "item:overworld_quartz:deepslate_quartz_ore"
   ]
