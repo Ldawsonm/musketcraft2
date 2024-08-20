@@ -68,3 +68,5 @@ craftingTable.addShapedMirrored("paint_kit", MirrorAxis.HORIZONTAL, <item:toms_s
     [air, wool],
     [stick, air]
 ]);
+
+craftingTable.addShapeless("filter", <item:toms_storage:ts.item_filter>, [cable, <item:minecraft:paper>]);

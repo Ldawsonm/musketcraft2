@@ -21,7 +21,7 @@ Version = 7
 	#----Should Workers look like Villagers?----
 	#	(takes effect after restart)
 	#	default: true
-	WorkersLookLikeVillagers = true
+	WorkersLookLikeVillagers = false
 
 #Workers Config:
 [Workers]

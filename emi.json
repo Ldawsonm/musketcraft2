@@ -1,6 +1,12 @@
 {
   "favorites": [],
   "lookup_history": [
+    "item:toms_storage:ts.inventory_connector",
+    "item:toms_storage:ts.item_filter",
+    "item:minecraft:bone_meal",
+    "item:minecraft:chest",
+    "item:minecraft:saddle",
+    "item:magistuarmory:netherite_estoc{Damage:0}",
     "item:magistuarmory:leather_strip",
     "item:magistuarmory:hilt",
     "item:magistuarmory:longbow{Damage:0}",
@@ -67,7 +73,6 @@
     "item:supplementaries:present_orange",
     "item:minecraft:cyan_bed",
     "item:quark:brown_stool",
-    "item:minecraft:chest",
     "item:woodworks:oak_chest",
     "item:clayworks:chiseled_purple_terracotta_bricks",
     "item:clayworks:green_terracotta_bricks",
@@ -135,7 +140,6 @@
     "item:toms_storage:ts.crafting_terminal",
     "item:minecraft:copper_ingot",
     "item:minecraft:copper_block",
-    "item:toms_storage:ts.inventory_connector",
     "item:toms_storage:ts.open_crate",
     "item:minecraft:barrel",
     "item:minecraft:stick",
