@@ -1,14 +1,5 @@
 {
-  "structures": [
-    {
-      "structure": "terralith:fortified_village",
-      "weight": 1
-    },
-    {
-      "structure": "terralith:fortified_desert_village",
-      "weight": 1
-    }
-  ],
+  "structures": [],
   "placement": {
     "type": "minecraft:random_spread",
     "salt": 1798451114,

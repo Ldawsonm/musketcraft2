@@ -42727,36 +42727,6 @@
                     }
                 },
                 {
-                    "biome": "terralith:skylands_winter",
-                    "parameters": {
-                        "continentalness": [
-                            -0.745,
-                            -0.455
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            -0.2225,
-                            0.05
-                        ],
-                        "humidity": [
-                            -0.1,
-                            0.1
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            -0.45,
-                            -0.155
-                        ],
-                        "weirdness": [
-                            0.19,
-                            1
-                        ]
-                    }
-                },
-                {
                     "biome": "minecraft:deep_cold_ocean",
                     "parameters": {
                         "continentalness": [
@@ -42787,36 +42757,6 @@
                     }
                 },
                 {
-                    "biome": "terralith:skylands_autumn",
-                    "parameters": {
-                        "continentalness": [
-                            -0.745,
-                            -0.455
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            -0.2225,
-                            0.05
-                        ],
-                        "humidity": [
-                            -0.35,
-                            -0.1
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            -0.155,
-                            0.2
-                        ],
-                        "weirdness": [
-                            0.19,
-                            1
-                        ]
-                    }
-                },
-                {
                     "biome": "minecraft:deep_ocean",
                     "parameters": {
                         "continentalness": [
@@ -42834,36 +42774,6 @@
                         "humidity": [
                             -0.1,
                             0.1
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            -0.155,
-                            0.2
-                        ],
-                        "weirdness": [
-                            0.19,
-                            1
-                        ]
-                    }
-                },
-                {
-                    "biome": "terralith:skylands_spring",
-                    "parameters": {
-                        "continentalness": [
-                            -0.745,
-                            -0.455
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            -0.2225,
-                            0.05
-                        ],
-                        "humidity": [
-                            0.1,
-                            0.3
                         ],
                         "offset": 0,
                         "temperature": [
@@ -42899,36 +42809,6 @@
                         "temperature": [
                             -0.155,
                             0.2
-                        ],
-                        "weirdness": [
-                            0.19,
-                            1
-                        ]
-                    }
-                },
-                {
-                    "biome": "terralith:skylands_summer",
-                    "parameters": {
-                        "continentalness": [
-                            -0.745,
-                            -0.455
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            -0.2225,
-                            0.05
-                        ],
-                        "humidity": [
-                            -0.1,
-                            0.1
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            0.2,
-                            0.55
                         ],
                         "weirdness": [
                             0.19,
