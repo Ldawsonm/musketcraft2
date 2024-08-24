@@ -13,7 +13,7 @@
 7 : '',
 8 : '',
 9 : '{Count:1b,ForgeCaps:{Parent:{maps:[I;0,1,2,3,4,5,6,7,8,115,116,117,118,119,120,121,122,123]}},id:"map_atlases:atlas",tag:{empty:9}}',
-10 : '{Count:1b,id:"toolbelt:belt",tag:{}}',
+10 : '',
 11 : '',
 12 : '',
 13 : '',
