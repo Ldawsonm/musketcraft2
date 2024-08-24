@@ -1,0 +1,310 @@
+{
+  "structures": [
+    {
+      "structure": "repurposed_structures:village_badlands",
+      "weight": 8
+    },
+    {
+      "structure": "repurposed_structures:village_birch",
+      "weight": 8
+    },
+    {
+      "structure": "repurposed_structures:village_dark_forest",
+      "weight": 8
+    },
+    {
+      "structure": "repurposed_structures:village_giant_taiga",
+      "weight": 8
+    },
+    {
+      "structure": "repurposed_structures:village_jungle",
+      "weight": 8
+    },
+    {
+      "structure": "repurposed_structures:village_mountains",
+      "weight": 8
+    },
+    {
+      "structure": "repurposed_structures:village_oak",
+      "weight": 8
+    },
+    {
+      "structure": "repurposed_structures:village_swamp",
+      "weight": 8
+    },
+    {
+      "structure": "repurposed_structures:village_ocean",
+      "weight": 3
+    },
+    {
+      "structure": "towns_and_towers:village_old_growth_taiga",
+      "weight": 5
+    },
+    {
+      "structure": "towns_and_towers:village_snowy_taiga",
+      "weight": 5
+    },
+    {
+      "structure": "towns_and_towers:village_badlands",
+      "weight": 5
+    },
+    {
+      "structure": "towns_and_towers:village_sunflower_plains",
+      "weight": 5
+    },
+    {
+      "structure": "towns_and_towers:village_wooded_badlands",
+      "weight": 5
+    },
+    {
+      "structure": "towns_and_towers:village_meadow",
+      "weight": 5
+    },
+    {
+      "structure": "towns_and_towers:village_swamp",
+      "weight": 5
+    },
+    {
+      "structure": "towns_and_towers:village_grove",
+      "weight": 5
+    },
+    {
+      "structure": "towns_and_towers:village_ocean",
+      "weight": 4
+    },
+    {
+      "structure": "towns_and_towers:village_forest",
+      "weight": 6
+    },
+    {
+      "structure": "towns_and_towers:village_snowy_slopes",
+      "weight": 5
+    },
+    {
+      "structure": "towns_and_towers:village_sparse_jungle",
+      "weight": 5
+    },
+    {
+      "structure": "towns_and_towers:village_jungle",
+      "weight": 5
+    },
+    {
+      "structure": "towns_and_towers:village_birch_forest",
+      "weight": 5
+    },
+    {
+      "structure": "repurposed_structures:outpost_badlands",
+      "weight": 6
+    },
+    {
+      "structure": "repurposed_structures:outpost_birch",
+      "weight": 6
+    },
+    {
+      "structure": "repurposed_structures:outpost_desert",
+      "weight": 6
+    },
+    {
+      "structure": "repurposed_structures:outpost_giant_tree_taiga",
+      "weight": 6
+    },
+    {
+      "structure": "repurposed_structures:outpost_icy",
+      "weight": 6
+    },
+    {
+      "structure": "repurposed_structures:outpost_jungle",
+      "weight": 6
+    },
+    {
+      "structure": "repurposed_structures:outpost_mangrove",
+      "weight": 6
+    },
+    {
+      "structure": "repurposed_structures:outpost_oak",
+      "weight": 6
+    },
+    {
+      "structure": "repurposed_structures:outpost_snowy",
+      "weight": 6
+    },
+    {
+      "structure": "repurposed_structures:outpost_taiga",
+      "weight": 6
+    },
+    {
+      "structure": "towns_and_towers:pillager_outpost_meadow",
+      "weight": 3
+    },
+    {
+      "structure": "towns_and_towers:pillager_outpost_sunflower_plains",
+      "weight": 3
+    },
+    {
+      "structure": "towns_and_towers:pillager_outpost_desert",
+      "weight": 3
+    },
+    {
+      "structure": "towns_and_towers:pillager_outpost_snowy_taiga",
+      "weight": 3
+    },
+    {
+      "structure": "towns_and_towers:pillager_outpost_savanna",
+      "weight": 3
+    },
+    {
+      "structure": "towns_and_towers:pillager_outpost_taiga",
+      "weight": 3
+    },
+    {
+      "structure": "towns_and_towers:pillager_outpost_birch_forest",
+      "weight": 3
+    },
+    {
+      "structure": "towns_and_towers:pillager_outpost_ocean",
+      "weight": 5
+    },
+    {
+      "structure": "towns_and_towers:pillager_outpost_old_growth_taiga",
+      "weight": 3
+    },
+    {
+      "structure": "towns_and_towers:pillager_outpost_badlands",
+      "weight": 3
+    },
+    {
+      "structure": "towns_and_towers:pillager_outpost_forest",
+      "weight": 3
+    },
+    {
+      "structure": "towns_and_towers:pillager_outpost_snowy_plains",
+      "weight": 3
+    },
+    {
+      "structure": "towns_and_towers:pillager_outpost_jungle",
+      "weight": 3
+    },
+    {
+      "structure": "towns_and_towers:pillager_outpost_beach",
+      "weight": 3
+    },
+    {
+      "structure": "towns_and_towers:pillager_outpost_flower_forest",
+      "weight": 2
+    },
+    {
+      "structure": "towns_and_towers:pillager_outpost_grove",
+      "weight": 3
+    },
+    {
+      "structure": "towns_and_towers:pillager_outpost_snowy_slopes",
+      "weight": 3
+    },
+    {
+      "structure": "towns_and_towers:pillager_outpost_mushroom_fields",
+      "weight": 3
+    },
+    {
+      "structure": "towns_and_towers:pillager_outpost_sparse_jungle",
+      "weight": 3
+    },
+    {
+      "structure": "towns_and_towers:pillager_outpost_swamp",
+      "weight": 3
+    },
+    {
+      "structure": "towns_and_towers:pillager_outpost_wooded_badlands",
+      "weight": 3
+    },
+    {
+      "structure": "towns_and_towers:pillager_outpost_snowy_beach",
+      "weight": 3
+    },
+    {
+      "structure": "minecraft:pillager_outpost",
+      "weight": 8
+    },
+    {
+      "structure": "minecraft:village_plains",
+      "weight": 8
+    },
+    {
+      "structure": "minecraft:village_desert",
+      "weight": 8
+    },
+    {
+      "structure": "minecraft:village_savanna",
+      "weight": 8
+    },
+    {
+      "structure": "minecraft:village_snowy",
+      "weight": 8
+    },
+    {
+      "structure": "minecraft:village_taiga",
+      "weight": 8
+    },
+    {
+      "structure": "nova_structures:badlands_miner_outpost",
+      "weight": 2
+    },
+    {
+      "structure": "nova_structures:illager_camp",
+      "weight": 3
+    },
+    {
+      "structure": "nova_structures:tavern_acacia",
+      "weight": 2
+    },
+    {
+      "structure": "nova_structures:tavern_birch",
+      "weight": 2
+    },
+    {
+      "structure": "nova_structures:tavern_dark_oak",
+      "weight": 2
+    },
+    {
+      "structure": "nova_structures:tavern_desert",
+      "weight": 2
+    },
+    {
+      "structure": "nova_structures:tavern_mangrove",
+      "weight": 2
+    },
+    {
+      "structure": "nova_structures:tavern_oak",
+      "weight": 2
+    },
+    {
+      "structure": "nova_structures:tavern_spruce",
+      "weight": 2
+    },
+    {
+      "structure": "nova_structures:jungle_ruins",
+      "weight": 3
+    },
+    {
+      "structure": "nova_structures:village_jungle",
+      "weight": 1
+    },
+    {
+      "structure": "nova_structures:village_swamp",
+      "weight": 3
+    },
+    {
+      "structure": "repurposed_structures:village_mushroom",
+      "weight": 3
+    },
+    {
+      "structure": "towns_and_towers:village_mushroom_fields",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 608450500,
+    "spacing": 16,
+    "separation": 8
+  }
+}
