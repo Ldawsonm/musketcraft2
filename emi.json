@@ -1,6 +1,12 @@
 {
   "favorites": [],
   "lookup_history": [
+    "item:minecraft:nether_quartz_ore",
+    "item:minecraft:blackstone",
+    "item:minecraft:tuff",
+    "item:minecraft:smooth_basalt",
+    "#item:forge:rope",
+    "item:supplementaries:rope_arrow{Damage:0}",
     "item:minecraft:shield{Damage:0}",
     {
       "type": "item",
@@ -125,7 +131,6 @@
     "item:functionalstorage:gold_upgrade",
     "item:quark:azalea_hedge",
     "item:quark:flowering_azalea_hedge",
-    "item:minecraft:tuff",
     "item:supplementaries:rope",
     "item:supplementaries:doormat",
     "item:supplementaries:timber_cross_brace",

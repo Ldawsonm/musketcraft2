@@ -1,5 +1,6 @@
 saves/*
 simplebackups/*
+backups/*
 crash-reports/*
 logs/*
 config/blockswap/known_states/*

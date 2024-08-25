@@ -2,7 +2,7 @@
   "structures": [
     {
       "structure": "nova_structures:illager_camp",
-      "weight": 3
+      "weight": 2
     },
 
     {
@@ -12,11 +12,11 @@
 
     {
       "structure": "repurposed_structures:village_badlands",
-      "weight": 8
+      "weight": 7
     },
     {
       "structure": "repurposed_structures:outpost_badlands",
-      "weight": 10
+      "weight": 9
     },
     {
       "structure": "nova_structures:badlands_miner_outpost",
@@ -24,41 +24,41 @@
     },
     {
 			"structure": "ctov:small/village_mesa",
-			"weight": 4
+			"weight": 2
 		},
     {
 			"structure": "ctov:small/village_mesa_fortified",
-			"weight": 4
+			"weight": 3
 		},
     {
 			"structure": "ctov:medium/village_mesa",
-			"weight": 4
+			"weight": 1
 		},
     {
 			"structure": "ctov:medium/village_mesa_fortified",
-			"weight": 4
+			"weight": 2
 		},
 
     {
       "structure": "repurposed_structures:outpost_birch",
-      "weight": 6
+      "weight": 5
     },
     {
       "structure": "nova_structures:tavern_birch",
-      "weight": 2
+      "weight": 3
     },
     {
       "structure": "repurposed_structures:village_birch",
-      "weight": 8
+      "weight": 7
     },
 
     {
       "structure": "repurposed_structures:village_dark_forest",
-      "weight": 8
+      "weight": 6
     },
     {
       "structure": "nova_structures:tavern_dark_oak",
-      "weight": 2
+      "weight": 3
     },
     {
 			"structure": "ctov:small/village_dark_forest",
@@ -66,12 +66,12 @@
 		},
     {
 			"structure": "ctov:medium/village_dark_forest",
-			"weight": 4
+			"weight": 2
 		},
 
     {
       "structure": "minecraft:village_desert",
-      "weight": 8
+      "weight": 5
     },
     {
       "structure": "repurposed_structures:outpost_desert",
@@ -87,23 +87,23 @@
 		},
     {
 			"structure": "ctov:medium/village_desert",
-			"weight": 4
+			"weight": 3
 		},
     {
 			"structure": "ctov:medium/village_desert_oasis",
-			"weight": 4
+			"weight": 3
 		},
     {
       "structure": "nova_structures:tavern_desert",
-      "weight": 2
+      "weight": 4
     },
     {
       "structure": "terralith:desert_outpost",
-      "weight": 1
+      "weight": 4
     },
     {
       "structure": "terralith:fortified_desert_village",
-      "weight": 1
+      "weight": 4
     },
     {
 			"structure": "castle_dungeons:castle_illager_desert",
@@ -112,7 +112,7 @@
 
     {
       "structure": "repurposed_structures:village_giant_taiga",
-      "weight": 8
+      "weight": 5
     },
     {
       "structure": "repurposed_structures:outpost_giant_tree_taiga",
@@ -126,16 +126,16 @@
 
     {
       "structure": "repurposed_structures:outpost_icy",
-      "weight": 6
+      "weight": 3
     },
 
     {
       "structure": "repurposed_structures:village_jungle",
-      "weight": 8
+      "weight": 7
     },
     {
       "structure": "repurposed_structures:outpost_jungle",
-      "weight": 6
+      "weight": 9
     },
     {
       "structure": "nova_structures:jungle_ruins",
@@ -143,7 +143,7 @@
     },
     {
       "structure": "nova_structures:village_jungle",
-      "weight": 1
+      "weight": 3
     },
     {
 			"structure": "ctov:small/village_jungle",
@@ -155,16 +155,16 @@
 		},
     {
 			"structure": "ctov:medium/village_jungle",
-			"weight": 4
+			"weight": 2
 		},
     {
 			"structure": "ctov:medium/village_jungle_tree",
-			"weight": 4
+			"weight": 2
 		},
 
     {
       "structure": "terralith:mage_tower",
-      "weight": 1
+      "weight": 3
     },
     {
       "structure": "terralith:mage_complex",
@@ -173,28 +173,28 @@
 
     {
       "structure": "repurposed_structures:village_mountains",
-      "weight": 8
+      "weight": 5
     },
     {
 			"structure": "ctov:small/village_mountain",
-			"weight": 4
+			"weight": 2
 		},
     {
 			"structure": "ctov:small/village_mountain_alpine",
-			"weight": 4
+			"weight": 2
 		},
     {
 			"structure": "ctov:medium/village_mountain",
-			"weight": 4
+			"weight": 1
 		},
     {
 			"structure": "ctov:medium/village_mountain_alpine",
-			"weight": 4
+			"weight": 1
 		},
 
     {
       "structure": "repurposed_structures:village_oak",
-      "weight": 8
+      "weight": 5
     },
     {
       "structure": "repurposed_structures:outpost_oak",
@@ -202,16 +202,16 @@
     },
     {
       "structure": "nova_structures:tavern_oak",
-      "weight": 2
+      "weight": 3
     },
 
     {
       "structure": "minecraft:village_plains",
-      "weight": 8
+      "weight": 7
     },
     {
       "structure": "minecraft:pillager_outpost",
-      "weight": 8
+      "weight": 9
     },
     {
 			"structure": "ctov:small/village_plains",
@@ -219,19 +219,19 @@
 		},
     {
 			"structure": "ctov:small/village_plains_fortified",
-			"weight": 4
+			"weight": 5
 		},
     {
 			"structure": "ctov:medium/village_plains",
-			"weight": 4
+			"weight": 1
 		},
     {
 			"structure": "ctov:medium/village_plains_fortified",
-			"weight": 4
+			"weight": 2
 		},
     {
       "structure": "terralith:fortified_village",
-      "weight": 1
+      "weight": 2
     },
     {
 			"structure": "castle_dungeons:castle_illager_plains",
@@ -240,7 +240,7 @@
     
     {
       "structure": "minecraft:village_savanna",
-      "weight": 8
+      "weight": 7
     },
     {
 			"structure": "ctov:small/village_savanna_na",
@@ -252,15 +252,15 @@
 		},
     {
 			"structure": "ctov:medium/village_savanna_na",
-			"weight": 4
+			"weight": 2
 		},
     {
 			"structure": "ctov:medium/village_savanna",
-			"weight": 4
+			"weight": 2
 		},
     {
       "structure": "nova_structures:tavern_acacia",
-      "weight": 2
+      "weight": 3
     },
 
     {
@@ -270,11 +270,11 @@
 
     {
       "structure": "repurposed_structures:outpost_snowy",
-      "weight": 6
+      "weight": 9
     },
     {
       "structure": "minecraft:village_snowy",
-      "weight": 8
+      "weight": 7
     },
     {
 			"structure": "ctov:small/village_christmas",
@@ -286,11 +286,11 @@
 		},
     {
 			"structure": "ctov:medium/village_christmas",
-			"weight": 4
+			"weight": 2
 		},
     {
 			"structure": "ctov:medium/village_snowy_igloo",
-			"weight": 4
+			"weight": 2
 		},
 
     {
@@ -299,8 +299,12 @@
     },
 
     {
+      "structure": "repurposed_structures:outpost_mangrove",
+      "weight": 9
+    },
+    {
       "structure": "repurposed_structures:village_swamp",
-      "weight": 8
+      "weight": 7
     },
     {
       "structure": "nova_structures:village_swamp",
@@ -312,24 +316,28 @@
 		},
     {
 			"structure": "ctov:small/village_swamp_fortified",
-			"weight": 4
+			"weight": 5
 		},
     {
 			"structure": "ctov:medium/village_swamp",
-			"weight": 4
+			"weight": 1
 		},
     {
 			"structure": "ctov:medium/village_swamp_fortified",
-			"weight": 4
+			"weight": 2
 		},
+    {
+      "structure": "nova_structures:tavern_mangrove",
+      "weight": 3
+    },
 
     {
       "structure": "minecraft:village_taiga",
-      "weight": 8
+      "weight": 7
     },
     {
       "structure": "repurposed_structures:outpost_taiga",
-      "weight": 6
+      "weight": 9
     },
     {
 			"structure": "ctov:small/village_taiga",
@@ -337,35 +345,28 @@
 		},
     {
 			"structure": "ctov:small/village_taiga_fortified",
-			"weight": 4
+			"weight": 5
 		},
     {
 			"structure": "ctov:medium/village_taiga",
-			"weight": 4
+			"weight": 2
 		},
     {
 			"structure": "ctov:medium/village_taiga_fortified",
-			"weight": 4
+			"weight": 3
 		},
     {
       "structure": "nova_structures:tavern_spruce",
       "weight": 2
     },
 
-    {
-      "structure": "repurposed_structures:outpost_mangrove",
-      "weight": 6
-    },
-    {
-      "structure": "nova_structures:tavern_mangrove",
-      "weight": 2
-    },
+    
 
     
 
     {
       "structure": "repurposed_structures:village_mushroom",
-      "weight": 3
+      "weight": 5
     },
     {
 			"structure": "ctov:small/village_mushroom",
@@ -373,7 +374,7 @@
 		},
     {
 			"structure": "ctov:medium/village_mushroom",
-			"weight": 4
+			"weight": 2
 		}
   ],
   "placement": {

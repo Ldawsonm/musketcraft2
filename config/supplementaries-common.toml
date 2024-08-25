@@ -480,7 +480,7 @@
 
 	[tweaks.placeable_gunpowder]
 		#Allow placeable gunpowder
-		enabled = true
+		enabled = false
 		#Number of ticks it takes for gunpowder to burn 1 stage (out of 8). Increase to slow it down
 		#Range: 0 ~ 20
 		speed = 2

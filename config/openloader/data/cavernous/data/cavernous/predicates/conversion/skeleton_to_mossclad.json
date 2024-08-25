@@ -1,0 +1,25 @@
+{
+	"condition": "minecraft:any_of",
+	"terms": [
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"type": "minecraft:skeleton",
+				"location": {
+					"biome": "cavernous:tropical_caves"
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"type": "minecraft:skeleton",
+				"location": {
+					"biome": "cavernous:myst/noxwoods"
+				}
+			}
+		}
+	]
+}
