@@ -1,0 +1,90 @@
+{
+	"type": "lithostitched:remove_structures_from_structure_set",
+	"structure_set": "minecraft:villages",
+	"entries": [
+		{
+			"structure": "ctov:large/village_beach",
+			"weight": 1
+		},
+		{
+			"structure": "ctov:large/village_christmas",
+			"weight": 1
+		},
+		{
+			"structure": "ctov:large/village_desert",
+			"weight": 1
+		},
+		{
+			"structure": "ctov:large/village_desert_oasis",
+			"weight": 1
+		},
+		{
+			"structure": "ctov:large/village_dark_forest",
+			"weight": 1
+		},
+		{
+			"structure": "ctov:large/village_jungle",
+			"weight": 1
+		},
+		{
+			"structure": "ctov:large/village_jungle_tree",
+			"weight": 1
+		},
+		{
+			"structure": "ctov:large/village_mesa",
+			"weight": 1
+		},
+		{
+			"structure": "ctov:large/village_mesa_fortified",
+			"weight": 1
+		},
+		{
+			"structure": "ctov:large/village_mountain",
+			"weight": 1
+		},
+		{
+			"structure": "ctov:large/village_mountain_alpine",
+			"weight": 1
+		},
+		{
+			"structure": "ctov:large/village_mushroom",
+			"weight": 1
+		},
+		{
+			"structure": "ctov:large/village_plains",
+			"weight": 1
+		},
+		{
+			"structure": "ctov:large/village_plains_fortified",
+			"weight": 1
+		},
+		{
+			"structure": "ctov:large/village_savanna",
+			"weight": 1
+		},
+		{
+			"structure": "ctov:large/village_savanna_na",
+			"weight": 1
+		},
+		{
+			"structure": "ctov:large/village_snowy_igloo",
+			"weight": 1
+		},
+		{
+			"structure": "ctov:large/village_swamp",
+			"weight": 1
+		},
+		{
+			"structure": "ctov:large/village_swamp_fortified",
+			"weight": 1
+		},
+		{
+			"structure": "ctov:large/village_taiga",
+			"weight": 1
+		},
+		{
+			"structure": "ctov:large/village_taiga_fortified",
+			"weight": 1
+		}
+	]
+}
