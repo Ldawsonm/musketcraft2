@@ -1,6 +1,11 @@
 {
   "favorites": [],
   "lookup_history": [
+    "item:minecraft:water_bucket",
+    "item:minecraft:mud",
+    "item:minecraft:packed_mud",
+    "item:minecraft:mud_bricks",
+    "item:minecraft:granite",
     {
       "type": "item",
       "id": "minecraft:netherite_upgrade_smithing_template",
@@ -108,7 +113,6 @@
     "item:minecraft:tall_grass",
     "item:minecraft:gravel",
     "item:minecraft:clay",
-    "item:minecraft:mud",
     "item:minecraft:farmland",
     "item:minecraft:coarse_dirt",
     "item:minecraft:dirt",
