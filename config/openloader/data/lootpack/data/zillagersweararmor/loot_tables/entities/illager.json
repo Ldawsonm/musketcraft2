@@ -1,0 +1,14 @@
+{
+  "type": "zillagersweararmor:slot",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "zillagersweararmor:entities/armor_sets/magistuarmory_chainmail"
+        }
+      ]
+    }
+  ]
+}

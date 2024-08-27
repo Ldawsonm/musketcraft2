@@ -157,6 +157,16 @@
         'end',
       ],
     },
+    {
+      id: 'terracotta',
+      lang: {
+        en_us: 'Terracotta',
+      },
+      block_id: 'minecraft:terracotta',
+      types: [
+        'stone',
+      ],
+    },
   ],
   provided_ores: [
     {

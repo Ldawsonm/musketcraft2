@@ -42,6 +42,7 @@
 	"stone_mappings": {
 		deepslate: "minecraft:deepslate",
 		"red_sandstone": "minecraft:red_sandstone",
+		terracotta: "minecraft:terracotta",
 		"quark_shale": "quark:shale",
 		dripstone: "minecraft:dripstone_block",
 		calcite: "minecraft:calcite",

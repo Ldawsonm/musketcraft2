@@ -2,7 +2,7 @@
 [default]
 	#quad expansion increment. enlarges each quad. Use to hide gaps. Keep both as close to 0 as possible. Note that increasing it to non 0 will slightly increase the amount of quads per item model. Could be an issue with HD texture packs.Try these values: 0.002 or 0.008
 	#Range: -0.1 ~ 0.1
-	item_quads_expansion = 0.0
+	item_quads_expansion = 0.007
 	#quad x/y offset. simply put moves the quad toward the center of the item. Use to hide gaps
 	#Range: -0.1 ~ 0.1
 	item_quads_indent = 0.007
