@@ -3,10 +3,27 @@
   "pools": [
     {
       "rolls": 1,
+      "conditions": [
+        {
+          "condition": "random_chance",
+          "chance": 0.5
+        }
+      ],
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "zillagersweararmor:entities/armor_sets/magistuarmory_chainmail"
+          "name": "zillagersweararmor:entities/armor_sets/militia",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "zillagersweararmor:entities/armor_sets/soldier",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "zillagersweararmor:entities/armor_sets/knight",
+          "weight": 1
         }
       ]
     }

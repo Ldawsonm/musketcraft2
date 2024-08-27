@@ -1,0 +1,35 @@
+{
+    "type": "zillagersweararmor:slot",
+    "pools": [
+      {
+        "rolls": 1,
+        "conditions": [
+          {
+            "condition": "zillagersweararmor:wave",
+            "wave": 6
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "name": "zillagersweararmor:entities/armor_sets/king"
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "conditions": [
+          {
+            "condition": "zillagersweararmor:wave",
+            "wave": 8
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "name": "zillagersweararmor:entities/armor_sets/king"
+          }
+        ]
+      }
+    ]
+  }

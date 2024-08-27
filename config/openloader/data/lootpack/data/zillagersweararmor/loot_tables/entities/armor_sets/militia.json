@@ -1,0 +1,157 @@
+{
+    "type": "zillagersweararmor:slot",
+    "pools": [
+      {
+        "rolls": 1,
+        "conditions": [
+            {
+                "condition": "random_chance",
+                "chance": 0.5
+            }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "magistuarmory:kettlehat",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "magistuarmory:coif",
+            "weight": 3
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:leather_helmet",
+            "weight": 3,
+            "functions": [
+              {
+                "function": "minecraft:reference",
+                "name": "musketcraft:color_leather_armor"
+              }
+            ]
+          }
+        ],
+        "functions": [
+          {
+            "function": "zillagersweararmor:slot",
+            "slot": "head"
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "conditions": [
+            {
+                "condition": "random_chance",
+                "chance": 0.5
+            }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "magistuarmory:gambeson_chestplate",
+            "weight": 2
+          },
+          {
+            "type": "minecraft:item",
+            "name": "magistuarmory:brigandine_chestplate",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:leather_chestplate",
+            "weight": 2,
+            "functions": [
+              {
+                "function": "minecraft:reference",
+                "name": "musketcraft:color_leather_armor"
+              }
+            ]
+          }
+        ],
+        "functions": [
+          {
+            "function": "zillagersweararmor:slot",
+            "slot": "chest"
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "conditions": [
+            {
+                "condition": "random_chance",
+                "chance": 0.5
+            }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "magistuarmory:cuirassier_leggings",
+            "weight": 2
+          },
+          {
+            "type": "minecraft:item",
+            "name": "magistuarmory:pantyhose",
+            "weight": 2
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:leather_leggings",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:reference",
+                "name": "musketcraft:color_leather_armor"
+              }
+            ]
+          }
+        ],
+        "functions": [
+          {
+            "function": "zillagersweararmor:slot",
+            "slot": "legs"
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "conditions": [
+            {
+                "condition": "random_chance",
+                "chance": 0.5
+            }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "magistuarmory:cuirassier_boots",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "magistuarmory:gambeson_boots",
+            "weight": 2
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:leather_boots",
+            "weight": 2,
+            "functions": [
+              {
+                "function": "minecraft:reference",
+                "name": "musketcraft:color_leather_armor"
+              }
+            ]
+          }
+        ],
+        "functions": [
+          {
+            "function": "zillagersweararmor:slot",
+            "slot": "feet"
+          }
+        ]
+      }
+    ]
+  }

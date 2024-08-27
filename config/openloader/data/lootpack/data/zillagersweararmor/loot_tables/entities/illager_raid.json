@@ -1,0 +1,218 @@
+{
+  "type": "zillagersweararmor:slot",
+  "pools": [
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "random_chance",
+          "chance": 0.75
+        },
+        {
+          "condition": "zillagersweararmor:wave",
+          "wave": 1
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "zillagersweararmor:entities/armor_sets/militia",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "zillagersweararmor:entities/armor_sets/soldier",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "zillagersweararmor:entities/armor_sets/knight",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "zillagersweararmor:wave",
+          "wave": 2
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "zillagersweararmor:entities/armor_sets/militia",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "zillagersweararmor:entities/armor_sets/soldier",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "zillagersweararmor:entities/armor_sets/knight",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "random_chance",
+          "chance": 0.5
+        },
+        {
+          "condition": "zillagersweararmor:wave",
+          "wave": 3
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "zillagersweararmor:entities/armor_sets/militia",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "zillagersweararmor:entities/armor_sets/soldier",
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "random_chance",
+          "chance": 0.75
+        },
+        {
+          "condition": "zillagersweararmor:wave",
+          "wave": 4
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "zillagersweararmor:entities/armor_sets/militia",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "zillagersweararmor:entities/armor_sets/soldier",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "zillagersweararmor:entities/armor_sets/knight",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "random_chance",
+          "chance": 0.8
+        },
+        {
+          "condition": "zillagersweararmor:wave",
+          "wave": 5
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "zillagersweararmor:entities/armor_sets/soldier",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "zillagersweararmor:entities/armor_sets/knight",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "zillagersweararmor:wave",
+          "wave": 6
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "zillagersweararmor:entities/armor_sets/militia",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "zillagersweararmor:entities/armor_sets/soldier",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "zillagersweararmor:entities/armor_sets/knight",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "random_chance",
+          "chance": 0.8
+        },
+        {
+          "condition": "zillagersweararmor:wave",
+          "wave": 7
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "zillagersweararmor:entities/armor_sets/soldier",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "zillagersweararmor:entities/armor_sets/knight",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "zillagersweararmor:wave",
+          "wave": 8
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "zillagersweararmor:entities/armor_sets/militia",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "zillagersweararmor:entities/armor_sets/soldier",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "zillagersweararmor:entities/armor_sets/knight",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

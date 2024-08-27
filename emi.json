@@ -1,6 +1,8 @@
 {
   "favorites": [],
   "lookup_history": [
+    "item:magistuarmory:wingedhussar_chestplate{Damage:0}",
+    "item:magistuarmory:barbute{Damage:0}",
     "item:magistuarmory:armet{ArmorDecoration:{Items:[{color:-10092544,dyeable:1b,name:\"magistuarmory:big_plume\"}]},Damage:0,display:{Name:\u0027{\"translate\":\"magistuarmory.decorated\",\"with\":[\"Armet\"]}\u0027}}",
     "item:magistuarmory:lamellar_rows",
     "item:magistuarmory:bronze_ranseur{Damage:0}",

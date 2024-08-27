@@ -1,0 +1,202 @@
+{
+    "type": "zillagersweararmor:slot",
+    "pools": [
+      {
+        "rolls": 1,
+        "conditions": [
+            {
+                "condition": "random_chance",
+                "chance": 0.6
+            }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "magistuarmory:norman_helmet",
+            "weight": 2
+          },
+          {
+            "type": "minecraft:item",
+            "name": "magistuarmory:shishak",
+            "weight": 2
+          },
+          {
+            "type": "minecraft:item",
+            "name": "magistuarmory:cuirassier_helmet",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "magistuarmory:barbute",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "magistuarmory:kettlehat",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "magistuarmory:chainmail_helmet",
+            "weight": 2
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:chainmail_helmet",
+            "weight": 2
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:iron_helmet",
+            "weight": 2
+          }
+        ],
+        "functions": [
+          {
+            "function": "zillagersweararmor:slot",
+            "slot": "head"
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "magistuarmory:lamellar_chestplate",
+            "weight": 2
+          },
+          {
+            "type": "minecraft:item",
+            "name": "magistuarmory:platemail_chestplate",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "magistuarmory:chainmail_chestplate",
+            "weight": 2
+          },
+          {
+            "type": "minecraft:item",
+            "name": "magistuarmory:halfarmor_chestplate",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:iron_chestplate",
+            "weight": 2
+          },
+          {
+            "type": "minecraft:item",
+            "name": "magistuarmory:cuirassier_chestplate",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "magistuarmory:brigandine_chestplate",
+            "weight": 2
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:chainmail_chestplate",
+            "weight": 2
+          }
+        ],
+        "functions": [
+          {
+            "function": "zillagersweararmor:slot",
+            "slot": "chest"
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "conditions": [
+            {
+                "condition": "random_chance",
+                "chance": 0.6
+            }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "magistuarmory:chainmail_leggings",
+            "weight": 2
+          },
+          {
+            "type": "minecraft:item",
+            "name": "magistuarmory:platemail_leggings",
+            "weight": 2
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:iron_leggings",
+            "weight": 2
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:chainmail_leggings",
+            "weight": 2
+          },
+          {
+            "type": "minecraft:item",
+            "name": "magistuarmory:crusader_leggings",
+            "weight": 1
+          }
+        ],
+        "functions": [
+          {
+            "function": "zillagersweararmor:slot",
+            "slot": "legs"
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "conditions": [
+            {
+                "condition": "random_chance",
+                "chance": 0.6
+            }
+        ],
+        "entries": [
+            {
+                "type": "minecraft:item",
+                "name": "magistuarmory:lamellar_boots",
+                "weight": 2
+            },
+            {
+                "type": "minecraft:item",
+                "name": "magistuarmory:platemail_boots",
+                "weight": 1
+            },
+            {
+                "type": "minecraft:item",
+                "name": "magistuarmory:chainmail_boots",
+                "weight": 4
+            },
+            {
+                "type": "minecraft:item",
+                "name": "magistuarmory:cuirassier_boots",
+                "weight": 3
+            },
+            {
+                "type": "minecraft:item",
+                "name": "magistuarmory:crusader_boots",
+                "weight": 3
+            },
+            {
+                "type": "minecraft:item",
+                "name": "minecraft:iron_boots",
+                "weight": 2
+            }
+        ],
+        "functions": [
+          {
+            "function": "zillagersweararmor:slot",
+            "slot": "feet"
+          }
+        ]
+      }
+    ]
+  }
