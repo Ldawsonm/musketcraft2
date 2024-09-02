@@ -34,6 +34,6 @@ brewing.addRecipe(
 );
 
 # Potions are Stackable to 4
-<item:minecraft:potion>.maxStackSize = 4;
+// <item:minecraft:potion>.maxStackSize = 4;
 <item:minecraft:splash_potion>.maxStackSize = 4;
 <item:minecraft:lingering_potion>.maxStackSize = 4;

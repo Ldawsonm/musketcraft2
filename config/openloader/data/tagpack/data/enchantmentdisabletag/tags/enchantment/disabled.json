@@ -1,0 +1,13 @@
+{
+    "replace": false,
+    "values": [
+        "difficultraids:critical_burst",
+        "difficultraids:critical_resistance",
+        "difficultraids:critical_strike",
+        "difficultraids:invisibility",
+        "difficultraids:lightning_resistance",
+        "difficultraids:projectile_evasion",
+        "difficultraids:raiders_bane",
+        "supplementaries:stasis"
+    ]
+}

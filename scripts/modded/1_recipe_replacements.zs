@@ -7,6 +7,7 @@ val ender_pearl = <item:minecraft:ender_pearl>;
 val leather = <item:minecraft:leather>;
 val gold = <item:minecraft:gold_ingot>;
 val diamond = <item:minecraft:diamond>;
+val lapis = <item:minecraft:lapis_lazuli>;
 
 
 # Glass Item Frame
@@ -54,4 +55,12 @@ craftingTable.addShaped("new_backpack", <item:sophisticatedbackpacks:backpack>, 
     [leather, gold, leather],
     [leather, <tag:items:forge:chests/wooden>, leather],
     [leather, diamond, leather]
+]);
+
+# XP Tome
+craftingTable.remove(<item:xpbook:xp_tome>);
+craftingTable.addShaped("xp_tome", <item:xpbook:xp_tome>, [
+    [lapis, lapis, lapis],
+    [lapis, <item:minecraft:book>, lapis],
+    [lapis, lapis, lapis]
 ]);

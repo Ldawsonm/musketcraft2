@@ -105,10 +105,6 @@
       "structure": "terralith:fortified_desert_village",
       "weight": 4
     },
-    {
-			"structure": "castle_dungeons:castle_illager_desert",
-			"weight": 1
-		},
 
     {
       "structure": "repurposed_structures:village_giant_taiga",
@@ -150,15 +146,7 @@
 			"weight": 4
 		},
     {
-			"structure": "ctov:small/village_jungle_tree",
-			"weight": 4
-		},
-    {
 			"structure": "ctov:medium/village_jungle",
-			"weight": 2
-		},
-    {
-			"structure": "ctov:medium/village_jungle_tree",
 			"weight": 2
 		},
 
@@ -233,10 +221,6 @@
       "structure": "terralith:fortified_village",
       "weight": 2
     },
-    {
-			"structure": "castle_dungeons:castle_illager_plains",
-			"weight": 1
-		},
     
     {
       "structure": "minecraft:village_savanna",

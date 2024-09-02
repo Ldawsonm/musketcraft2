@@ -325,5 +325,5 @@
 		#Should recruits spawn corpse of corpse mod when dead?.
 		#	(takes effect after restart)
 		#	default: true
-		CompatCorpseMod = true
+		CompatCorpseMod = false
 

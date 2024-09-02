@@ -1,0 +1,27 @@
+{
+    "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 3042970,
+    "separation": 32,
+    "spacing": 96,
+    "spread_type": "triangular"
+    },
+    "structures": [
+        {
+            "structure": "taxtg:giant_cherryblossom_tree",
+            "weight": 1
+        },
+        {
+            "structure": "taxtg:giant_jungle_tree",
+            "weight": 1
+        },
+        {
+            "structure": "taxtg:giant_oak_tree",
+            "weight": 1
+        },
+        {
+            "structure": "taxtg:giant_spruce_tree",
+            "weight": 1
+        }
+    ]
+}
