@@ -1,0 +1,34 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "difficultraids:dart_illager_spawn_egg"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "minecraft:vindicator_spawn_egg"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "minecraft:witch_spawn_egg"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "minecraft:magma_cube_spawn_egg"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "quark:foxhound_spawn_egg"
+                }
+            ]
+        }
+    ]
+}

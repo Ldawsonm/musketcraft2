@@ -1,6 +1,9 @@
 {
   "favorites": [],
   "lookup_history": [
+    "item:minecraft:magma_cream",
+    "item:minecraft:name_tag",
+    "item:minecraft:blaze_rod",
     "item:minecraft:netherite_ingot",
     "item:smallships:spruce_drakkar",
     "item:smallships:bamboo_cog",
@@ -12,7 +15,6 @@
     "item:supplementaries:checker_block",
     "#item:quark:corundum",
     "item:quark:smithing_template_rune",
-    "item:minecraft:blaze_rod",
     "item:minecraft:magma_block",
     "item:supplementaries:flax_block",
     "item:supplementaries:flax",

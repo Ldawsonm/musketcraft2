@@ -1,0 +1,29 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "name": "musketcraft:monster_box/mob/pillager"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "difficultraids:warrior_illager_spawn_egg"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "name": "musketcraft:monster_box/mob/spider"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "name": "musketcraft:monster_box/mob/slime"
+                }
+            ]
+        }
+    ]
+}

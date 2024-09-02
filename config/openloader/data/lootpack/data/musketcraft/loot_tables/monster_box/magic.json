@@ -1,0 +1,34 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "all_bark_all_bite:houndmaster_spawn_egg"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "difficultraids:necromancer_illager_spawn_egg"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "difficultraids:shaman_illager_spawn_egg"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "difficultraids:frost_illager_spawn_egg"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "quark:forgotten_spawn_egg"
+                }
+            ]
+        }
+    ]
+}
