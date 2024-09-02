@@ -4,6 +4,9 @@
 import crafttweaker.api.ingredient.type.IIngredientEmpty;
 var empty = IIngredientEmpty.getInstance();
 
+# Remove all crafting for absent by design
+recipes.removeByModid("absentbydesign");
+
 recipes.remove(<item:minecraft:armor_stand>);
 
 craftingTable.addShaped("musketeer_armor_stand", <item:minecraft:armor_stand>, [[<tag:items:forge:rods/wooden>, <tag:items:forge:rods/wooden>, <tag:items:forge:rods/wooden>], [empty, <tag:items:forge:rods/wooden>, empty], [<tag:items:forge:rods/wooden>, <item:minecraft:smooth_stone>, <tag:items:forge:rods/wooden>]]);

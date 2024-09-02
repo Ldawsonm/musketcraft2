@@ -9,18 +9,6 @@
         "horse_colors:donkey_spawn_egg",
         "horse_colors:horse_spawn_egg",
         "horse_colors:mule_spawn_egg",
-        "illagerinvasion:alchemist_spawn_egg",
-        "illagerinvasion:archivist_spawn_egg",
-        "illagerinvasion:basher_spawn_egg",
-        "illagerinvasion:firecaller_spawn_egg",
-        "illagerinvasion:illusioner_spawn_egg",
-        "illagerinvasion:inquisitor_spawn_egg",
-        "illagerinvasion:invoker_spawn_egg",
-        "illagerinvasion:marauder_spawn_egg",
-        "illagerinvasion:necromancer_spawn_egg",
-        "illagerinvasion:provoker_spawn_egg",
-        "illagerinvasion:sorcerer_spawn_egg",
-        "illagerinvasion:surrendered_spawn_egg",
         "majruszsdifficulty:giant_spawn_egg",
         "majruszsdifficulty:illusioner_spawn_egg",
         "majruszsdifficulty:tank_spawn_egg",
@@ -156,6 +144,15 @@
         "workers:merchant_spawn_egg",
         "workers:miner_spawn_egg",
         "workers:shepherd_spawn_egg",
-        "workers:swineherd_spawn_egg"
-        ]        
+        "workers:swineherd_spawn_egg",
+        "difficultraids:ashenmancer_illager_spawn_egg",
+        "difficultraids:assassin_illager_spawn_egg",
+        "difficultraids:dart_illager_spawn_egg",
+        "difficultraids:electro_illager_spawn_egg",
+        "difficultraids:frost_illager_spawn_egg",
+        "difficultraids:necromancer_illager_spawn_egg",
+        "difficultraids:shaman_illager_spawn_egg",
+        "difficultraids:tank_illager_spawn_egg",
+        "difficultraids:warrior_illager_spawn_egg"
+    ]        
 }

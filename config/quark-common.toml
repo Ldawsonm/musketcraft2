@@ -127,7 +127,7 @@
 	"Nether Brick Fence Gate" = true
 	"Rainbow Lamps" = true
 	"Raw Metal Bricks" = true
-	Rope = true
+	Rope = false
 	"Shear Vines" = true
 	Shingles = true
 	"Soul Sandstone" = true
@@ -135,9 +135,9 @@
 	"Sturdy Stone" = true
 	Thatch = true
 	"Variant Bookshelves" = true
-	"Variant Chests" = true
-	"Variant Furnaces" = true
-	"Variant Ladders" = true
+	"Variant Chests" = false
+	"Variant Furnaces" = false
+	"Variant Ladders" = false
 	"Vertical Planks" = true
 	"Vertical Slabs" = true
 	"Wooden Posts" = true
@@ -197,8 +197,8 @@
 
 	[building.leaf_carpet]
 		#This feature disables itself if any of the following mods are loaded:
-		# - woodworks
 		# - immersive_weathering
+		# - woodworks
 		#This is done to prevent content overlap.
 		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
 		"Ignore Anti Overlap" = false
@@ -237,8 +237,8 @@
 		#Allowed values: [0,1]
 		"Fall Damage Multiplier" = 0.5
 		#This feature disables itself if any of the following mods are loaded:
-		# - goated
 		# - environmental
+		# - goated
 		#This is done to prevent content overlap.
 		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
 		"Ignore Anti Overlap" = false
@@ -246,8 +246,8 @@
 	[building.variant_bookshelves]
 		"Change Names" = true
 		#This feature disables itself if any of the following mods are loaded:
-		# - woodworks
 		# - woodster
+		# - woodworks
 		#This is done to prevent content overlap.
 		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
 		"Ignore Anti Overlap" = false
@@ -266,8 +266,8 @@
 	[building.variant_ladders]
 		"Change Names" = true
 		#This feature disables itself if any of the following mods are loaded:
-		# - woodworks
 		# - woodster
+		# - woodworks
 		#This is done to prevent content overlap.
 		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
 		"Ignore Anti Overlap" = false
@@ -1816,7 +1816,7 @@
 		"Maximum Restocks Per Day" = 3
 		#If enabled, villagers will reroll when they restock, rather than when they begin work for the day.
 		#If disabled, players can prevent rerolling by ensuring the villager isn't out of stock on their last restock of the day.
-		"Reroll On Any Restock" = false
+		"Reroll On Any Restock" = true
 		#If enabled, villagers will be able to reroll any trade that has been used AT ALL since the last restock.
 		"Reroll Even If Not Out Of Stock" = false
 

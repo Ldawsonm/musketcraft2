@@ -129,11 +129,11 @@ var wrenchTip = Component.literal("Rotates Blocks");
 wrenchTip.setStyle(<constant:minecraft:formatting:dark_gray>.asStyle());
 <item:supplementaries:wrench>.addTooltip(wrenchTip);
 
-# Ancient Inscription
+# Corrupted Tablet
 <item:minecraft:netherite_upgrade_smithing_template>.clearTooltip(true);
 var inscriptionTip = Component.literal("Bind to Diamond equipment");
 inscriptionTip.setStyle(<constant:minecraft:formatting:dark_gray>.asStyle());
 <item:minecraft:netherite_upgrade_smithing_template>.addTooltip(inscriptionTip);
-var inscriptionTip2 = Component.literal("and embed a Corrupted Emerald");
+var inscriptionTip2 = Component.literal("and Corrupt a Hero's Medallion");
 inscriptionTip2.setStyle(<constant:minecraft:formatting:dark_gray>.asStyle());
 <item:minecraft:netherite_upgrade_smithing_template>.addTooltip(inscriptionTip2);

@@ -1,1 +1,0 @@
-If you want to make this work without using Patched see the instructions.txt in /data/minecraft/dimension and /data/minecraft/worldgen/noise-settings. Only was tested to work with Terralith(2.4.8), Tectonic/Terratonic(2.1.1), and WWOO(2.00). Make sure to load Cavernous-X-Patched before Terralith.

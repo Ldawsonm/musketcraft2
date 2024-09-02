@@ -1,1 +1,0 @@
-effect give @a night_vision infinite 1 true

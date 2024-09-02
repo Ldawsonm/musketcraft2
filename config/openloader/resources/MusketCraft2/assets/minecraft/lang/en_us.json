@@ -1,10 +1,11 @@
 {
-    "item.minecraft.netherite_scrap": "Ancient Corruption",
+    "item.minecraft.netherite_scrap": "Ancient Silver",
+    "item.minecraft.ancient_debris": "Ancient Ore",
     "item.minecraft.quartz": "Quartz",
-    "item.minecraft.netherite_ingot": "Corrupted Emerald",
-    "block.minecraft.netherite_block": "Block of Corrupted Emerald",
+    "item.minecraft.netherite_ingot": "Hero's Medallion",
+    "block.minecraft.netherite_block": "Hero's Block",
     "item.minecraft.nether_star": "Star",
-    "item.minecraft.smithing_template": "Ancient Tablet",
+    "item.minecraft.smithing_template": "Tablet of Corruption",
     "item.minecraft.netherite_helmet": "Corrupted Helmet",
     "item.minecraft.netherite_chestplate": "Corrupted Chestplate",
     "item.minecraft.netherite_leggings": "Corrupted Leggings",
@@ -13,6 +14,8 @@
     "item.minecraft.netherite_axe": "Corrupted Axe",
     "item.minecraft.netherite_pickaxe": "Corrupted Pickaxe",
     "item.minecraft.netherite_hoe": "Corrupted Hoe",
-    "item.minecraft.netherite_shovel": "Corrupted Shovel"
+    "item.minecraft.netherite_shovel": "Corrupted Shovel",
+    "item.minecraft.blaze_rod": "Monster Mash",
+    "item.minecraft.blaze_powder": "Magma Powder"
     
 }

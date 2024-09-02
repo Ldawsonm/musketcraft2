@@ -9,7 +9,6 @@ val gold = <item:minecraft:gold_ingot>;
 val diamond = <item:minecraft:diamond>;
 val lapis = <item:minecraft:lapis_lazuli>;
 
-
 # Glass Item Frame
 craftingTable.remove(<item:quark:glass_item_frame>);
 val glass = <tag:items:forge:glass/colorless>;
