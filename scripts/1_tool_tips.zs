@@ -53,18 +53,22 @@ saddleTip2.setStyle(<constant:minecraft:formatting:dark_gray>.asStyle());
 // <item:minecraft:saddle>.addTooltip(saddleTip3);
 
 # sleeping bag
-var sleepingBagTip = Component.literal("Does not set a respawn point");
+<tag:items:comforts:sleeping_bags>.asIIngredient().clearTooltip(true);
+var sleepingBagTip = Component.literal("Crouch to Place");
 sleepingBagTip.setStyle(<constant:minecraft:formatting:gray>.asStyle());
 <tag:items:comforts:sleeping_bags>.asIIngredient().addTooltip(sleepingBagTip);
+var sleepingBagTip2 = Component.literal("Does not set a respawn point");
+sleepingBagTip2.setStyle(<constant:minecraft:formatting:gray>.asStyle());
+<tag:items:comforts:sleeping_bags>.asIIngredient().addTooltip(sleepingBagTip2);
 
 
 # Hammock
 var hammockTip = Component.literal("Lets you sleep through the day");
 hammockTip.setStyle(<constant:minecraft:formatting:gray>.asStyle());
 <tag:items:comforts:hammocks>.asIIngredient().addTooltip(hammockTip);
-var hammockTip2 = Component.literal("Requires Rope and Nail");
-hammockTip2.setStyle(<constant:minecraft:formatting:gray>.asStyle());
-<tag:items:comforts:hammocks>.asIIngredient().addTooltip(hammockTip2);
+// var hammockTip2 = Component.literal("Requires Rope and Nail");
+// hammockTip2.setStyle(<constant:minecraft:formatting:gray>.asStyle());
+// <tag:items:comforts:hammocks>.asIIngredient().addTooltip(hammockTip2);
 # Abacus
 var abacusTip = Component.literal("Measures Distance");
 abacusTip.setStyle(<constant:minecraft:formatting:gray>.asStyle());

@@ -3,3 +3,6 @@ type = customizablemenus
 net.minecraft.client.gui.screens.TitleScreen {
 }
 
+com.talhanation.recruits.client.gui.RecruitInventoryScreen {
+}
+

@@ -1,6 +1,17 @@
 {
   "favorites": [],
   "lookup_history": [
+    "item:berry_good:sweet_berry_pips",
+    "item:tradingpost:trading_post",
+    "item:minecraft:sea_lantern",
+    "item:quark:midori_block",
+    "item:minecraft:purpur_block",
+    "item:minecraft:basalt",
+    "item:minecraft:smooth_basalt",
+    "item:minecraft:gilded_blackstone",
+    "item:quark:tuff_pillar",
+    "item:minecraft:chiseled_sandstone",
+    "item:minecraft:granite",
     "item:minecraft:magma_cream",
     "item:minecraft:name_tag",
     "item:minecraft:blaze_rod",
@@ -111,7 +122,6 @@
     "item:minecraft:mud",
     "item:minecraft:packed_mud",
     "item:minecraft:mud_bricks",
-    "item:minecraft:granite",
     "item:minecraft:netherite_scrap",
     "item:minecraft:white_banner{BlockEntityTag:{Patterns:[{Color:9,Pattern:\"mr\"},{Color:8,Pattern:\"bs\"},{Color:7,Pattern:\"cs\"},{Color:8,Pattern:\"bo\"},{Color:15,Pattern:\"ms\"},{Color:8,Pattern:\"hh\"},{Color:8,Pattern:\"mc\"},{Color:15,Pattern:\"bo\"}],id:\"minecraft:banner\"},HideFlags:32,display:{Name:\u0027{\"color\":\"gold\",\"translate\":\"block.minecraft.ominous_banner\"}\u0027}}",
     "item:minecraft:terracotta",
@@ -125,17 +135,11 @@
     "item:minecraft:nether_quartz_ore",
     "item:minecraft:blackstone",
     "item:minecraft:tuff",
-    "item:minecraft:smooth_basalt",
     "item:minecraft:shield{Damage:0}",
     {
       "type": "item",
       "id": "minecraft:rotten_flesh",
       "amount": 61
-    },
-    {
-      "type": "item",
-      "id": "minecraft:gilded_blackstone",
-      "amount": 4
     },
     {
       "type": "item",

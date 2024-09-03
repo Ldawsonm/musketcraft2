@@ -26,7 +26,7 @@
 	#Show the chat typing Gui in world
 	showPlayerActiveChatGui = true
 	#If there isnt an exact Gui available for what the player is using, it will show the Chest Gui. If this is false, it will show nothing, lots of modded Guis will use this for now
-	showPlayerActiveGuiIfNotExactMatch = true
+	showPlayerActiveGuiIfNotExactMatch = false
 	#Show 'Player is typing...' on the chat screen
 	screenTypingVisible = true
 	#Adjust the X position where the 'Player is typing...' text shows in the chat Gui

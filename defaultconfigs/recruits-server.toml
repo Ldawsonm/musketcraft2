@@ -89,7 +89,7 @@
 	#	
 	#Should the Horse units spawn with a horse?""
 	#default: true
-	RecruitHorseUnitsHorse = true
+	RecruitHorseUnitsHorse = false
 	#
 	#RangedRecruitsNeedArrowsToShoot
 	#	(takes effect after restart)
@@ -98,7 +98,7 @@
 	#If enabled ranged units will resupply arrows from upkeep chest and spawn with arrows.
 	#""
 	#default: false
-	RangedRecruitsNeedArrowsToShoot = false
+	RangedRecruitsNeedArrowsToShoot = true
 	#RecruitsChunkLoading
 	#	(takes effect after restart)
 	#	
@@ -114,7 +114,7 @@
 	#False -> only one villager can become a recruit with one table.
 	#	(takes effect after restart)
 	#	default: true
-	RecruitTablesPOIReleasing = true
+	RecruitTablesPOIReleasing = false
 	#
 	#Should Recruits instead of Iron Golems spawn in Villages
 	#	(takes effect after restart)
@@ -125,7 +125,7 @@
 	#	(takes effect after restart)
 	#	default: 1
 	#Range: 1 ~ 1453
-	MaxSpawnRecruitsInVillage = 1
+	MaxSpawnRecruitsInVillage = 4
 
 #Recruits Equipment Config:
 [Equipments]
