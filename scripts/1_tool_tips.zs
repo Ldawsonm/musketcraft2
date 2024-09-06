@@ -134,7 +134,10 @@ wrenchTip.setStyle(<constant:minecraft:formatting:dark_gray>.asStyle());
 <item:supplementaries:wrench>.addTooltip(wrenchTip);
 
 # Corrupted Tablet
-<item:minecraft:netherite_upgrade_smithing_template>.clearTooltip(true);
+<item:minecraft:netherite_upgrade_smithing_template>.clearTooltip(false);
+var inscriptionTip0 = Component.literal("Tablet of Corruption");
+inscriptionTip0.setStyle(<constant:minecraft:formatting:white>.asStyle());
+<item:minecraft:netherite_upgrade_smithing_template>.addTooltip(inscriptionTip0);
 var inscriptionTip = Component.literal("Bind to Diamond equipment");
 inscriptionTip.setStyle(<constant:minecraft:formatting:dark_gray>.asStyle());
 <item:minecraft:netherite_upgrade_smithing_template>.addTooltip(inscriptionTip);

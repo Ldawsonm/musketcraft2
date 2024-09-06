@@ -1,0 +1,1 @@
+// <item:magistuarmory:gilding_template>.displayName = "Gilding Template";

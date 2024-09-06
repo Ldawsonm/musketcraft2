@@ -59,7 +59,7 @@
 	#The default value is 48000 ticks (40 minutes, or 2 minecraft days).
 	#To disable pregnancy altogether, set this number to 0.
 	#Lowering this will not let female horses breed again sooner unless you
-	#also lower femaleRebreedTicks
+	#also lower femaleBreedingCooldown
 	#Range: > 0
 	pregnancyLength = 48000
 	#Foods which put horses in love mode, along with the usual benefits to health, growth, and tameness.
