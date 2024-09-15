@@ -41,7 +41,7 @@
 	#Hunger settings
 	#
 	#Set to true to retain food level on death
-	keepFoodLevel = true
+	keepFoodLevel = false
 	#Highest amount of food level you can respawn with
 	#Range: 0 ~ 20
 	maxFoodLevel = 20

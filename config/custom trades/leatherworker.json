@@ -1,0 +1,185 @@
+{
+  "profession": "minecraft:leatherworker",
+  "removeOtherTrades": true,
+  "maxTrades": 2,
+  "trades": [
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "minecraft:leather",
+        "amount": 3,
+        "amountRange": 4
+      },
+      "tradeExp": 2,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:leatherworker_emerald_for_leather"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 3
+      },
+      "request": {
+        "itemKey": "naturalist:antler",
+        "amount": 1
+      },
+      "tradeExp": 10,
+      "maxUses": 8,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:leatherworker_emerald_for_antler"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 5
+      },
+      "request": {
+        "itemKey": "naturalist:bear_fur",
+        "amount": 1
+      },
+      "tradeExp": 20,
+      "maxUses": 8,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:leatherworker_emerald_for_bear_fur"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:saddle",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 5,
+        "amountRange": 6
+      },
+      "tradeExp": 10,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:leatherworker_saddle_for_emerald"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "magistuarmory:gazelle_horns_decoration",
+          "amount": 1
+        },
+        {
+          "itemKey": "magistuarmory:bullhorns_decoration",
+          "amount": 1
+        },
+        {
+          "itemKey": "magistuarmory:antlers_decoration",
+          "amount": 1
+        }
+      ],
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 3
+      },
+      "tradeExp": 10,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:leatherworker_multioffer_gazelle_horns_decoration_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 2
+      },
+      "request": {
+        "itemKey": "minecraft:rabbit_hide",
+        "amount": 1
+      },
+      "tradeExp": 15,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:leatherworker_emerald_for_rabbit_hide"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "magistuarmory:duck_decoration",
+          "amount": 1
+        },
+        {
+          "itemKey": "magistuarmory:horse_decoration",
+          "amount": 1
+        }
+      ],
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 3
+      },
+      "tradeExp": 20,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:leatherworker_multioffer_duck_decoration_for_emerald"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "magistuarmory:bear_decoration",
+          "amount": 1
+        },
+        {
+          "itemKey": "magistuarmory:lion_decoration",
+          "amount": 1
+        }
+      ],
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 4
+      },
+      "tradeExp": 20,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:leatherworker_multioffer_bear_decoration_for_emerald"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "magistuarmory:unicorn_decoration",
+          "amount": 1
+        },
+        {
+          "itemKey": "magistuarmory:griffin_decoration",
+          "amount": 1
+        },
+        {
+          "itemKey": "magistuarmory:dragon_decoration",
+          "amount": 1
+        }
+      ],
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 5
+      },
+      "tradeExp": 30,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:leatherworker_multioffer_unicorn_decoration_for_emerald"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+    "replace": false,
+    "values": [
+        "magistuarmory:crusader_chestplate",
+        "magistuarmory:platemail_chestplate",
+        "magistuarmory:halfarmor_chestplate",
+        "magistuarmory:cuirassier_chestplate",
+        "magistuarmory:wingedhussar_chestplate",
+        "magistuarmory:lamellar_chestplate",
+        "magistuarmory:chainmail_chestplate",
+        "magistuarmory:brigandine_chestplate",
+        "magistuarmory:jousting_chestplate"
+    ]
+}

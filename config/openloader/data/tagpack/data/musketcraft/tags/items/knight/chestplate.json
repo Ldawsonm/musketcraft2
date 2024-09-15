@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [
+        "magistuarmory:gothic_chestplate",
+        "magistuarmory:knight_chestplate",
+        "magistuarmory:xivcentury_chestplate",
+        "magistuarmory:kastenbrust_chestplate"
+    ]
+}

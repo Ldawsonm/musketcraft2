@@ -18,6 +18,8 @@
         "quark:ancient_tome",
         "supplementaries:quark/sign_post_azalea",
         "supplementaries:quark/sign_post_ancient",
-        "supplementaries:quark/sign_post_blossom"
+        "supplementaries:quark/sign_post_blossom",
+        "workers:merchant_block",
+        "minecraft:nether_brick"
     ]
 }

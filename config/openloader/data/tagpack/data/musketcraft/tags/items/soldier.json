@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [
+        "#musketcraft:soldier/helmet",
+        "#musketcraft:soldier/chestplate",
+        "#musketcraft:soldier/leggings",
+        "#musketcraft:soldier/boots"
+    ]
+}

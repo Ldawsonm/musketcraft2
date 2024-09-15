@@ -1,0 +1,21 @@
+{
+    "replace": false,
+    "values": [
+        "workers:miner_block",
+        "workers:lumberjack_block",
+        "workers:fisherman_block",
+        "workers:merchant_block",
+        "workers:shepherd_block",
+        "workers:swineherd_block",
+        "workers:cattle_farmer_block",
+        "workers:chicken_farmer_block",
+        "workers:farmer_block",
+        "recruits:recruit_block",
+        "recruits:recruit_block",
+        "recruits:bowman_block",
+        "recruits:recruit_shield_block",
+        "recruits:crossbowman_block",
+        "recruits:horseman_block",
+        "recruits:nomad_block"
+    ]
+}

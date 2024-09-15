@@ -1,154 +1,382 @@
 {
   "profession": "minecraft:armorer",
   "removeOtherTrades": true,
-  "maxTrades": 3,
+  "maxTrades": 2,
   "trades": [
     {
       "offer": {
-        "itemKey": "minecraft:dirt",
-        "amount": 3,
-        "priceModifier": 0,
-        "enchantments": [
-          {
-            "enchantmentKey": "minecraft:knockback",
-            "enchantmentLevel": 2,
-            "maxEnchantmentLevel": 3
-          },
-          {
-            "enchantmentKey": "minecraft:sharpness",
-            "enchantmentLevel": -1,
-            "maxEnchantmentLevel": 5
-          }
-        ]
+        "itemKey": "magistuarmory:chainmail_helmet",
+        "amount": 1
       },
       "request": {
-        "itemKey": "minecraft:cobblestone",
-        "amount": 1,
-        "priceModifier": 0
+        "itemKey": "minecraft:emerald",
+        "amount": 2
       },
-      "tradeExp": 3,
-      "maxUses": 10,
-      "priceMultiplier": 0.1,
+      "tradeExp": 2,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
       "demand": 0,
-      "tradeLevel": 3,
-      "UTID": "minecraft:armorer_dirt_for_cobblestone"
+      "tradeLevel": 1,
+      "UTID": "minecraft:armorer_chainmail_helmet_for_emerald"
     },
     {
       "offer": {
-        "itemKey": "minecraft:emerald",
-        "amount": 2,
-        "priceModifier": 0
+        "itemKey": "magistuarmory:chainmail_chestplate",
+        "amount": 1
       },
       "request": {
-        "itemKey": "minecraft:iron_ingot",
-        "amount": 2,
-        "priceModifier": 0
+        "itemKey": "minecraft:emerald",
+        "amount": 4
       },
-      "additionalRequest": {
-        "itemKey": "minecraft:gold_ingot",
-        "amount": 1,
-        "priceModifier": 0
-      },
-      "tradeExp": 6,
-      "maxUses": 10,
-      "priceMultiplier": 0.1,
+      "tradeExp": 2,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
       "demand": 0,
-      "tradeLevel": 2,
-      "UTID": "minecraft:armorer_emerald_for_iron_ingot_and_gold_ingot"
+      "tradeLevel": 1,
+      "UTID": "minecraft:armorer_chainmail_chestplate_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "magistuarmory:chainmail_leggings",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 3
+      },
+      "tradeExp": 2,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:armorer_chainmail_leggings_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "magistuarmory:chainmail_boots",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1
+      },
+      "tradeExp": 2,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:armorer_chainmail_boots_for_emerald"
     },
     {
       "multiOffer": [
         {
-          "itemKey": "minecraft:iron_axe",
-          "amount": 1,
-          "priceModifier": -3
+          "itemKey": "magistuarmory:cuirassier_boots",
+          "amount": 1
         },
         {
-          "itemKey": "minecraft:golden_axe",
-          "amount": 1,
-          "priceModifier": 0
-        },
-        {
-          "itemKey": "minecraft:diamond_axe",
-          "amount": 1,
-          "priceModifier": 4
+          "itemKey": "magistuarmory:crusader_boots",
+          "amount": 1
         }
       ],
       "request": {
-        "itemKey": "minecraft:iron_ingot",
-        "amount": 6,
-        "priceModifier": 0
+        "itemKey": "minecraft:emerald",
+        "amount": 2
       },
-      "tradeExp": 15,
-      "maxUses": 5,
-      "priceMultiplier": 0.1,
+      "tradeExp": 5,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
       "demand": 0,
-      "tradeLevel": 3,
-      "UTID": "minecraft:armorer_multioffer_iron_axe_for_iron_ingot"
+      "tradeLevel": 2,
+      "UTID": "minecraft:armorer_multioffer_cuirassier_boots_for_emerald"
     },
     {
-      "offer": {
-        "itemKey": "minecraft:wooden_sword",
-        "amount": 1,
-        "priceModifier": 0,
-        "semiRandomEnchantments": [
-          {
-            "enchantmentKey": "minecraft:mending",
-            "enchantmentLevel": 1,
-            "maxEnchantmentLevel": 3
-          },
-          {
-            "enchantmentKey": "minecraft:looting",
-            "enchantmentLevel": 3,
-            "maxEnchantmentLevel": 3
-          },
-          {
-            "enchantmentKey": "minecraft:sweeping",
-            "enchantmentLevel": 2,
-            "maxEnchantmentLevel": 3
-          }
-        ]
-      },
+      "multiOffer": [
+        {
+          "itemKey": "magistuarmory:norman_helmet",
+          "amount": 1
+        },
+        {
+          "itemKey": "magistuarmory:shishak",
+          "amount": 1
+        }
+      ],
       "request": {
-        "itemKey": "minecraft:quartz",
-        "amount": 5,
-        "priceModifier": 0
+        "itemKey": "minecraft:emerald",
+        "amount": 3
       },
-      "tradeExp": 1,
-      "maxUses": 5,
-      "priceMultiplier": 0.9,
+      "tradeExp": 5,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
       "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "minecraft:armorer_wooden_sword_for_quartz"
+      "tradeLevel": 2,
+      "UTID": "minecraft:armorer_multioffer_norman_helmet_for_emerald"
     },
     {
       "offer": {
-        "itemKey": "minecraft:enchanted_book",
-        "amount": 1,
-        "priceModifier": 0,
-        "enchantments": [
-          {
-            "enchantmentKey": "random",
-            "enchantmentLevel": 2,
-            "maxEnchantmentLevel": 3
-          }
-        ],
-        "blacklistedEnchantments": [
-          "minecraft:protection",
-          "minecraft:fire_protection"
-        ]
+        "itemKey": "magistuarmory:platemail_chestplate",
+        "amount": 1
       },
       "request": {
         "itemKey": "minecraft:emerald",
-        "amount": 3,
-        "priceModifier": 0
+        "amount": 6
       },
-      "tradeExp": 3,
-      "maxUses": 10,
-      "priceMultiplier": 0.1,
+      "tradeExp": 5,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 2,
-      "UTID": "minecraft:armorer_enchanted_book_for_emerald"
+      "UTID": "minecraft:armorer_platemail_chestplate_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "magistuarmory:platemail_leggings",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 4
+      },
+      "tradeExp": 5,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:armorer_platemail_leggings_for_emerald"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "magistuarmory:halfarmor_chestplate",
+          "amount": 1
+        },
+        {
+          "itemKey": "magistuarmory:cuirassier_chestplate",
+          "amount": 1
+        }
+      ],
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 6
+      },
+      "tradeExp": 10,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:armorer_multioffer_halfarmor_chestplate_for_emerald"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "magistuarmory:iron_target",
+          "amount": 1
+        },
+        {
+          "itemKey": "magistuarmory:iron_buckler",
+          "amount": 1
+        },
+        {
+          "itemKey": "magistuarmory:iron_roundshield",
+          "amount": 1
+        }
+      ],
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 3,
+        "amountRange": 4
+      },
+      "tradeExp": 10,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:armorer_multioffer_iron_target_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "magistuarmory:lamellar_chestplate",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 5
+      },
+      "tradeExp": 10,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:armorer_lamellar_chestplate_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "magistuarmory:lamellar_boots",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 3
+      },
+      "tradeExp": 10,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:armorer_lamellar_boots_for_emerald"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "magistuarmory:kettlehat",
+          "amount": 1
+        },
+        {
+          "itemKey": "magistuarmory:barbute",
+          "amount": 1
+        },
+        {
+          "itemKey": "magistuarmory:cuirassier_helmet",
+          "amount": 1
+        }
+      ],
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 4
+      },
+      "tradeExp": 20,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:armorer_multioffer_kettlehat_for_emerald"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "magistuarmory:iron_heatershield",
+          "amount": 1
+        },
+        {
+          "itemKey": "magistuarmory:iron_tartsche",
+          "amount": 1
+        },
+        {
+          "itemKey": "magistuarmory:iron_ellipticalshield",
+          "amount": 1
+        },
+        {
+          "itemKey": "magistuarmory:iron_kiteshield",
+          "amount": 1
+        }
+      ],
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 5,
+        "amountRange": 7
+      },
+      "tradeExp": 20,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:armorer_multioffer_iron_heatershield_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "magistuarmory:crusader_chestplate",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 6
+      },
+      "tradeExp": 20,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:armorer_crusader_chestplate_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "magistuarmory:crusader_leggings",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 5
+      },
+      "tradeExp": 20,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:armorer_crusader_leggings_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "magistuarmory:platemail_boots",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 4
+      },
+      "tradeExp": 30,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:armorer_platemail_boots_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "magistuarmory:wingedhussar_chestplate",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 10,
+        "amountRange": 14
+      },
+      "tradeExp": 30,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:armorer_wingedhussar_chestplate_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "magistuarmory:iron_rondache",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 6
+      },
+      "tradeExp": 30,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:armorer_iron_rondache_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "magistuarmory:iron_pavese",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 8
+      },
+      "tradeExp": 30,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:armorer_iron_pavese_for_emerald"
     }
   ]
 }

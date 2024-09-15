@@ -1,0 +1,228 @@
+{
+  "profession": "minecraft:shepherd",
+  "removeOtherTrades": true,
+  "maxTrades": 2,
+  "trades": [
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "minecraft:white_wool",
+        "amount": 4,
+        "amountRange": 6
+      },
+      "tradeExp": 1,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:shepherd_emerald_for_white_wool"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:shears",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 2
+      },
+      "tradeExp": 5,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:shepherd_shears_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "magistuarmory:woolen_fabric",
+        "amount": 2,
+        "amountRange": 3
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1
+      },
+      "tradeExp": 10,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:shepherd_woolen_fabric_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "minecraft:string",
+        "amount": 3,
+        "amountRange": 4
+      },
+      "tradeExp": 5,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:shepherd_emerald_for_string"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "minecraft:light_gray_dye",
+          "amount": 1,
+          "amountRange": 3
+        },
+        {
+          "itemKey": "minecraft:black_dye",
+          "amount": 1,
+          "amountRange": 3
+        },
+        {
+          "itemKey": "minecraft:gray_dye",
+          "amount": 1,
+          "amountRange": 3
+        }
+      ],
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1
+      },
+      "tradeExp": 10,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:shepherd_multioffer_light_gray_dye_for_emerald"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "minecraft:red_dye",
+          "amount": 2,
+          "amountRange": 3
+        },
+        {
+          "itemKey": "minecraft:yellow_dye",
+          "amount": 2,
+          "amountRange": 3
+        },
+        {
+          "itemKey": "minecraft:orange_dye",
+          "amount": 2,
+          "amountRange": 3
+        }
+      ],
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1
+      },
+      "tradeExp": 10,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:shepherd_multioffer_red_dye_for_emerald"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "minecraft:light_blue_dye",
+          "amount": 1,
+          "amountRange": 2
+        },
+        {
+          "itemKey": "minecraft:blue_dye",
+          "amount": 1,
+          "amountRange": 2
+        },
+        {
+          "itemKey": "minecraft:cyan_dye",
+          "amount": 1,
+          "amountRange": 2
+        }
+      ],
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1
+      },
+      "tradeExp": 10,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:shepherd_multioffer_light_blue_dye_for_emerald"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "minecraft:pink_dye",
+          "amount": 1
+        },
+        {
+          "itemKey": "minecraft:purple_dye",
+          "amount": 1
+        },
+        {
+          "itemKey": "minecraft:magenta_dye",
+          "amount": 1
+        }
+      ],
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 2,
+        "amountRange": 3
+      },
+      "tradeExp": 10,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:shepherd_multioffer_pink_dye_for_emerald"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "minecraft:lime_dye",
+          "amount": 2,
+          "amountRange": 3
+        },
+        {
+          "itemKey": "minecraft:green_dye",
+          "amount": 2,
+          "amountRange": 3
+        }
+      ],
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1
+      },
+      "tradeExp": 10,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:shepherd_multioffer_lime_dye_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:brown_dye",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1
+      },
+      "tradeExp": 10,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:shepherd_brown_dye_for_emerald"
+    }
+  ]
+}

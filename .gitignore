@@ -9,3 +9,4 @@ screenshots/*
 config/spark/*
 ct_dumps
 map_atlases/*
+emi.json

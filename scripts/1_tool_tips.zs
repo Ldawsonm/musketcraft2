@@ -144,3 +144,8 @@ inscriptionTip.setStyle(<constant:minecraft:formatting:dark_gray>.asStyle());
 var inscriptionTip2 = Component.literal("and Corrupt a Hero's Medallion");
 inscriptionTip2.setStyle(<constant:minecraft:formatting:dark_gray>.asStyle());
 <item:minecraft:netherite_upgrade_smithing_template>.addTooltip(inscriptionTip2);
+
+# Hireling Blocks
+var hirelingTip = Component.literal("Reusable");
+hirelingTip.setStyle(<constant:minecraft:formatting:gray>.asStyle());
+<tag:items:musketcraft:hireling_blocks>.asIIngredient().addTooltip(hirelingTip);

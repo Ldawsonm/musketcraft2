@@ -1,0 +1,11 @@
+{
+    "replace": false,
+    "values": [
+        "magistuarmory:sallet",
+        "magistuarmory:armet",
+        "magistuarmory:grand_bascinet",
+        "magistuarmory:bascinet",
+        "magistuarmory:greathelm",
+        "magistuarmory:face_helmet"
+    ]
+}

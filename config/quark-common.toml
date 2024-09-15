@@ -61,7 +61,7 @@
 	"Iron Rod" = true
 	"Metal Buttons" = true
 	"Obsidian Plate" = true
-	"Pistons Move Tile Entities" = true
+	"Pistons Move Tile Entities" = false
 	"Redstone Randomizer" = true
 
 	[automation.crafter]
@@ -197,8 +197,8 @@
 
 	[building.leaf_carpet]
 		#This feature disables itself if any of the following mods are loaded:
-		# - woodworks
 		# - immersive_weathering
+		# - woodworks
 		#This is done to prevent content overlap.
 		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
 		"Ignore Anti Overlap" = false
@@ -237,8 +237,8 @@
 		#Allowed values: [0,1]
 		"Fall Damage Multiplier" = 0.5
 		#This feature disables itself if any of the following mods are loaded:
-		# - goated
 		# - environmental
+		# - goated
 		#This is done to prevent content overlap.
 		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
 		"Ignore Anti Overlap" = false
@@ -246,8 +246,8 @@
 	[building.variant_bookshelves]
 		"Change Names" = true
 		#This feature disables itself if any of the following mods are loaded:
-		# - woodworks
 		# - woodster
+		# - woodworks
 		#This is done to prevent content overlap.
 		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
 		"Ignore Anti Overlap" = false
@@ -266,8 +266,8 @@
 	[building.variant_ladders]
 		"Change Names" = true
 		#This feature disables itself if any of the following mods are loaded:
-		# - woodworks
 		# - woodster
+		# - woodworks
 		#This is done to prevent content overlap.
 		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
 		"Ignore Anti Overlap" = false
@@ -517,7 +517,7 @@
 	"Campfires Boost Elytra" = true
 	"Compasses Work Everywhere" = true
 	"Coral On Cactus" = true
-	"Diamond Repair" = true
+	"Diamond Repair" = false
 	"Double Door Opening" = true
 	"Dragon Scales" = false
 	"Dyeable Item Frames" = true
@@ -1608,7 +1608,7 @@
 
 	[client.improved_tooltips]
 		"Attribute Tooltips" = true
-		"Food Tooltips" = true
+		"Food Tooltips" = false
 		"Shulker Tooltips" = true
 		"Map Tooltips" = true
 		"Enchanting Tooltips" = true
@@ -1679,7 +1679,7 @@
 	"Spawner Replacer" = false
 	#Allows placing variant blocks automatically via a selector menu triggered from a keybind
 	"Variant Selector" = true
-	"Villager Rerolling Rework" = true
+	"Villager Rerolling Rework" = false
 
 	[experimental.adjustable_chat]
 		"Horizontal Shift" = 0
@@ -1810,7 +1810,7 @@
 		#It's possible for a trade to not restock even when the chance is 1. This happens when the rerolled trade is one the villager already has.
 		#This chance only guarantees a reroll will be attempted.
 		#Allowed values: [0,1]
-		"Chance To Reroll When Restocking" = 0.25
+		"Chance To Reroll When Restocking" = 1.0
 		#Set to 0 to disable the chance to reroll trades when restocking. Set to -1 to allow unlimited rerolling.
 		#Trades earlier in the list will restock first.
 		"Maximum Restocks Per Day" = 3
@@ -1818,7 +1818,7 @@
 		#If disabled, players can prevent rerolling by ensuring the villager isn't out of stock on their last restock of the day.
 		"Reroll On Any Restock" = true
 		#If enabled, villagers will be able to reroll any trade that has been used AT ALL since the last restock.
-		"Reroll Even If Not Out Of Stock" = false
+		"Reroll Even If Not Out Of Stock" = true
 
 [oddities]
 	Backpack = false

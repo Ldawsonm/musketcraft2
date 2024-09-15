@@ -6,3 +6,6 @@ net.minecraft.client.gui.screens.TitleScreen {
 com.talhanation.recruits.client.gui.RecruitInventoryScreen {
 }
 
+tallestegg.guardvillagers.client.gui.GuardInventoryScreen {
+}
+

@@ -1,0 +1,431 @@
+{
+  "profession": "minecraft:weaponsmith",
+  "removeOtherTrades": true,
+  "maxTrades": 2,
+  "trades": [
+    {
+      "multiOffer": [
+        {
+          "itemKey": "magistuarmory:copper_stylet",
+          "amount": 1
+        },
+        {
+          "itemKey": "magistuarmory:copper_shortsword",
+          "amount": 1
+        },
+        {
+          "itemKey": "magistuarmory:copper_katzbalger",
+          "amount": 1
+        }
+      ],
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1
+      },
+      "tradeExp": 2,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:weaponsmith_multioffer_copper_stylet_for_emerald_0"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "magistuarmory:copper_heavymace",
+          "amount": 1
+        },
+        {
+          "itemKey": "magistuarmory:copper_heavywarhammer",
+          "amount": 1
+        },
+        {
+          "itemKey": "magistuarmory:copper_morgenstern",
+          "amount": 1
+        },
+        {
+          "itemKey": "magistuarmory:copper_chainmorgenstern",
+          "amount": 1
+        }
+      ],
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "amountRange": 2
+      },
+      "tradeExp": 2,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:weaponsmith_multioffer_copper_heavymace_for_emerald_0"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "magistuarmory:copper_estoc",
+          "amount": 1
+        },
+        {
+          "itemKey": "magistuarmory:copper_claymore",
+          "amount": 1
+        },
+        {
+          "itemKey": "magistuarmory:copper_zweihander",
+          "amount": 1
+        }
+      ],
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 2,
+        "amountRange": 3
+      },
+      "tradeExp": 10,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:weaponsmith_multioffer_copper_estoc_for_emerald"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "magistuarmory:copper_lochaberaxe",
+          "amount": 1
+        },
+        {
+          "itemKey": "magistuarmory:copper_concavehalberd",
+          "amount": 1
+        },
+        {
+          "itemKey": "magistuarmory:copper_guisarme",
+          "amount": 1
+        },
+        {
+          "itemKey": "magistuarmory:copper_lucernhammer",
+          "amount": 1
+        }
+      ],
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 3,
+        "amountRange": 4
+      },
+      "tradeExp": 10,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:weaponsmith_multioffer_copper_lochaberaxe_for_emerald_0"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "magistuarmory:copper_pike",
+          "amount": 1
+        },
+        {
+          "itemKey": "magistuarmory:copper_ranseur",
+          "amount": 1
+        },
+        {
+          "itemKey": "magistuarmory:copper_ahlspiess",
+          "amount": 1
+        }
+      ],
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 2
+      },
+      "tradeExp": 2,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:weaponsmith_multioffer_copper_pike_for_emerald_0"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "magistuarmory:iron_stylet",
+          "amount": 1
+        },
+        {
+          "itemKey": "magistuarmory:iron_shortsword",
+          "amount": 1
+        },
+        {
+          "itemKey": "magistuarmory:iron_katzbalger",
+          "amount": 1
+        }
+      ],
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 3
+      },
+      "tradeExp": 5,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:weaponsmith_multioffer_iron_stylet_for_emerald_0"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "magistuarmory:iron_heavymace",
+          "amount": 1
+        },
+        {
+          "itemKey": "magistuarmory:iron_heavywarhammer",
+          "amount": 1
+        },
+        {
+          "itemKey": "magistuarmory:iron_morgenstern",
+          "amount": 1
+        },
+        {
+          "itemKey": "magistuarmory:iron_chainmorgenstern",
+          "amount": 1
+        }
+      ],
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 3,
+        "amountRange": 5
+      },
+      "tradeExp": 5,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:weaponsmith_multioffer_iron_heavymace_for_emerald_0"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "magistuarmory:iron_estoc",
+          "amount": 1
+        },
+        {
+          "itemKey": "magistuarmory:iron_claymore",
+          "amount": 1
+        },
+        {
+          "itemKey": "magistuarmory:iron_zweihander",
+          "amount": 1
+        }
+      ],
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 4,
+        "amountRange": 7
+      },
+      "tradeExp": 5,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:weaponsmith_multioffer_iron_estoc_for_emerald"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "magistuarmory:iron_lochaberaxe",
+          "amount": 1
+        },
+        {
+          "itemKey": "magistuarmory:iron_concavehalberd",
+          "amount": 1
+        },
+        {
+          "itemKey": "magistuarmory:iron_guisarme",
+          "amount": 1
+        },
+        {
+          "itemKey": "magistuarmory:iron_lucernhammer",
+          "amount": 1
+        }
+      ],
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 5,
+        "amountRange": 8
+      },
+      "tradeExp": 20,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:weaponsmith_multioffer_iron_lochaberaxe_for_emerald_0"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "magistuarmory:iron_pike",
+          "amount": 1
+        },
+        {
+          "itemKey": "magistuarmory:iron_ranseur",
+          "amount": 1
+        },
+        {
+          "itemKey": "magistuarmory:iron_ahlspiess",
+          "amount": 1
+        }
+      ],
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 4
+      },
+      "tradeExp": 5,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:weaponsmith_multioffer_iron_pike_for_emerald_0"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "magistuarmory:steel_stylet",
+          "amount": 1
+        },
+        {
+          "itemKey": "magistuarmory:steel_shortsword",
+          "amount": 1
+        },
+        {
+          "itemKey": "magistuarmory:steel_katzbalger",
+          "amount": 1
+        }
+      ],
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 7,
+        "amountRange": 8
+      },
+      "tradeExp": 20,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:weaponsmith_multioffer_steel_stylet_for_emerald_0"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "magistuarmory:steel_heavymace",
+          "amount": 1
+        },
+        {
+          "itemKey": "magistuarmory:steel_heavywarhammer",
+          "amount": 1
+        },
+        {
+          "itemKey": "magistuarmory:steel_morgenstern",
+          "amount": 1
+        },
+        {
+          "itemKey": "magistuarmory:steel_chainmorgenstern",
+          "amount": 1
+        }
+      ],
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 7,
+        "amountRange": 10
+      },
+      "tradeExp": 30,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:weaponsmith_multioffer_steel_heavymace_for_emerald_0"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "magistuarmory:steel_estoc",
+          "amount": 1
+        },
+        {
+          "itemKey": "magistuarmory:steel_claymore",
+          "amount": 1
+        },
+        {
+          "itemKey": "magistuarmory:steel_zweihander",
+          "amount": 1
+        }
+      ],
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 8,
+        "amountRange": 12
+      },
+      "tradeExp": 30,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:weaponsmith_multioffer_steel_estoc_for_emerald"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "magistuarmory:steel_lochaberaxe",
+          "amount": 1
+        },
+        {
+          "itemKey": "magistuarmory:steel_concavehalberd",
+          "amount": 1
+        },
+        {
+          "itemKey": "magistuarmory:steel_guisarme",
+          "amount": 1
+        },
+        {
+          "itemKey": "magistuarmory:steel_lucernhammer",
+          "amount": 1
+        }
+      ],
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 9,
+        "amountRange": 13
+      },
+      "tradeExp": 30,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:weaponsmith_multioffer_steel_lochaberaxe_for_emerald_0"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "magistuarmory:steel_pike",
+          "amount": 1
+        },
+        {
+          "itemKey": "magistuarmory:steel_ranseur",
+          "amount": 1
+        },
+        {
+          "itemKey": "magistuarmory:steel_ahlspiess",
+          "amount": 1
+        }
+      ],
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 8
+      },
+      "tradeExp": 20,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:weaponsmith_multioffer_steel_pike_for_emerald_0"
+    }
+  ]
+}

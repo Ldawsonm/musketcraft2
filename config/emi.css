@@ -162,7 +162,7 @@
 	/**
 	 * How many columns and rows of ingredients to limit the left sidebar to
 	 */
-	left-sidebar-size: 9, 6;
+	left-sidebar-size: 8, 6;
 
 	/**
 	 * How much space to maintain between the left sidebar and obstructions, in pixels
@@ -298,7 +298,7 @@
 	toggle-visibility: "ctrl key.keyboard.o";
 
 	/**
-	 * Focuse the search bar.
+	 * Focuses the search bar.
 	 */
 	focus-search: "ctrl key.keyboard.f";
 

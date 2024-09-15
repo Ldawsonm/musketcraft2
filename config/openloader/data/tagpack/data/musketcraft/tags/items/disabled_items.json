@@ -64,7 +64,7 @@
         "magistuarmory:iron_flamebladedsword",
         "magistuarmory:wood_flamebladedsword",
         "magistuarmory:stone_flamebladedsword",
-        "magistuarmory:golden_flamebladedsword",
+        "magistuarmory:gold_flamebladedsword",
         "magistuarmory:diamond_flamebladedsword",
         "magistuarmory:copper_flamebladedsword",
         "magistuarmory:steel_flamebladedsword",
@@ -229,6 +229,8 @@
         "toms_storage:ts.polymorphic_item_filter",
         "toms_storage:ts.tag_item_filter",
         "quark:blaze_lantern",
-        "quark:smithing_template_rune"
+        "minecraft:respawn_anchor",
+        "magistuarmory:barding",
+        "magistuarmory:chainmail_horse_armor"
     ]
 }
