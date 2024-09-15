@@ -60,7 +60,8 @@ events.register<crafttweaker.forge.api.event.anvil.AnvilUpdateEvent>((event) => 
     enableRepair(<tag:items:musketcraft:knight>, <item:minecraft:iron_ingot>, event);
     disableRepair(<tag:items:musketcraft:knight>, steel, event);
 
-    enableRepair(<tag:items:musketcraft:militia>, <item:minecraft:leather>, event);
+    enableRepair(<tag:items:musketcraft:militia>, <item:magistuarmory:woolen_fabric>, event);
+    enableRepair(<tag:items:musketcraft:militia>, <item:magistuarmory:leather_strip>, event);
     disableRepair(<tag:items:musketcraft:militia>, steel, event);
 
     enableRepair(<tag:items:musketcraft:corrupted>, <item:minecraft:diamond>, event);
@@ -81,8 +82,8 @@ events.register<crafttweaker.forge.api.event.anvil.AnvilUpdateEvent>((event) => 
 //         event.output = event.left.withDamage((-1 * (<item:magistuarmory:kettlehat>.maxDamage * 0.2 + 0.5) as int));
 //     }});
 
-events.register<crafttweaker.forge.api.event.anvil.AnvilUpdateEvent>((event) => {
-    if <item:magistuarmory:kettlehat>.anyDamage().matches(event.left) && <item:magistuarmory:steel_ingot>.matches(event.right){
-        event.output = air;
-        event.cancel();
-    }});
+// events.register<crafttweaker.forge.api.event.anvil.AnvilUpdateEvent>((event) => {
+//     if <item:magistuarmory:kettlehat>.anyDamage().matches(event.left) && <item:magistuarmory:steel_ingot>.matches(event.right){
+//         event.output = air;
+//         event.cancel();
+//     }});

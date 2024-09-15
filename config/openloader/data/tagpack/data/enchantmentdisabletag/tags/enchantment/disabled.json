@@ -8,6 +8,7 @@
         "difficultraids:lightning_resistance",
         "difficultraids:projectile_evasion",
         "difficultraids:raiders_bane",
-        "supplementaries:stasis"
+        "supplementaries:stasis",
+        "minecraft:mending"
     ]
 }
