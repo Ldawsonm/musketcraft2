@@ -1,179 +1,155 @@
 {
-  "profession": "minecraft:cartographer",
-  "removeOtherTrades": true,
-  "maxTrades": 2,
-  "trades": [
-    {
-      "offer": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
-        "amountRange": 2
-      },
-      "request": {
-        "itemKey": "minecraft:paper",
-        "amount": 3,
-        "amountRange": 5
-      },
-      "tradeExp": 1,
-      "maxUses": 16,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "minecraft:cartographer_emerald_for_paper_0"
-    },
-    {
-      "offer": {
-        "itemKey": "minecraft:map",
-        "amount": 1
-      },
-      "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 3
-      },
-      "tradeExp": 5,
-      "maxUses": 16,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "minecraft:cartographer_map_for_emerald_0"
-    },
-    {
-      "offer": {
-        "itemKey": "supplementaries:slice_map",
-        "amount": 1
-      },
-      "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 4,
-        "amountRange": 5
-      },
-      "tradeExp": 10,
-      "maxUses": 16,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 2,
-      "UTID": "minecraft:cartographer_slice_map_for_emerald_0"
-    },
-    {
-      "offer": {
-        "itemKey": "minecraft:compass",
-        "amount": 1
-      },
-      "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 2
-      },
-      "tradeExp": 10,
-      "maxUses": 16,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 2,
-      "UTID": "minecraft:cartographer_compass_for_emerald_0"
-    },
-    {
-      "offer": {
-        "itemKey": "playertrackingcompass:tracking_compass",
-        "amount": 1
-      },
-      "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 4
-      },
-      "tradeExp": 20,
-      "maxUses": 16,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 3,
-      "UTID": "minecraft:cartographer_tracking_compass_for_emerald_0"
-    },
-    {
-      "multiOffer": [
+    "profession": "minecraft:cartographer",
+    "trades": [
         {
-          "itemKey": "supplementaries:cartographers_quill",
-          "amount": 1,
-          "advancedNBTData": "{zoomLevel:2, targetStructure:\"taxtg:giant_oak_tree\",skinKnown:0,maxSearchRadius:50,display:{Name:\"{\\\"text\\\":\\\"Map to an Old Oak Tree\\\"}\"}}"
+            "tradeLevel": 1,
+            "tradeExp": 1,
+            "maxUses": 16,
+            "request": {
+                "itemKey": "minecraft:paper",
+                "amount": 3,
+                "amountRange": 5
+            },
+            "offer": {
+                "itemKey": "minecraft:emerald",
+                "amount": 1,
+                "amountRange": 2
+            }
         },
         {
-          "itemKey": "supplementaries:cartographers_quill",
-          "amount": 1,
-          "advancedNBTData": "{zoomLevel:2, targetStructure:\"taxtg:giant_spruce_tree\",skinKnown:0,maxSearchRadius:50,display:{Name:\"{\\\"text\\\":\\\"Map to an Old Spruce Tree\\\"}\"}}"
+            "tradeLevel": 1,
+            "tradeExp": 2,
+            "maxUses": 16,
+            "offer": {
+                "itemKey": "minecraft:map",
+                "amount": 1
+            },
+            "request": {
+                "itemKey": "minecraft:emerald",
+                "amount": 2
+            }
         },
         {
-          "itemKey": "supplementaries:cartographers_quill",
-          "amount": 1,
-          "advancedNBTData": "{zoomLevel:2, targetStructure:\"taxtg:giant_jungle_tree\",skinKnown:0,maxSearchRadius:50,display:{Name:\"{\\\"text\\\":\\\"Map to an Old Jungle Tree\\\"}\"}}"
+            "tradeLevel": 2,
+            "tradeExp": 10,
+            "maxUses": 16,
+            "offer": {
+                "itemKey": "supplementaries:slice_map",
+                "amount": 1
+            },
+            "request": {
+                "itemKey": "minecraft:emerald",
+                "amount": 3,
+                "amountRange": 4
+            }
         },
         {
-          "itemKey": "supplementaries:cartographers_quill",
-          "amount": 1,
-          "advancedNBTData": "{zoomLevel:2, targetStructure:\"taxtg:giant_cherryblossom_tree\",skinKnown:0,maxSearchRadius:50,display:{Name:\"{\\\"text\\\":\\\"Map to an Old Cherry Tree\\\"}\"}}"
+            "tradeLevel": 2,
+            "tradeExp": 10,
+            "maxUses": 16,
+            "offer": {
+                "itemKey": "minecraft:compass",
+                "amount": 1
+            },
+            "request": {
+                "itemKey": "minecraft:emerald",
+                "amount": 2
+            }
         },
         {
-          "itemKey": "supplementaries:cartographers_quill",
-          "amount": 1,
-          "advancedNBTData": "{zoomLevel:2, targetStructure:\"terralith:spire\",skinKnown:0,maxSearchRadius:50,display:{Name:\"{\\\"text\\\":\\\"Map to a World Spike\\\"}\"}}"
+            "tradeLevel": 3,
+            "tradeExp": 15,
+            "maxUses": 16,
+            "offer": {
+                "itemKey": "playertrackingcompass:tracking_compass",
+                "amount": 1
+            },
+            "request": {
+                "itemKey": "minecraft:emerald",
+                "amount": 4
+            }
+        },
+        {
+            "tradeLevel": 4,
+            "tradeExp": 20,
+            "maxUses": 2,
+            "multiOffer": [
+                {
+                    "itemKey": "supplementaries:cartographers_quill",
+                    "amount": 1,
+                    "advancedNBTData": "{zoomLevel:2, targetStructure:\"taxtg:giant_oak_tree\",skinKnown:0,maxSearchRadius:50,display:{Name:\"{\\\"text\\\":\\\"Map to an Old Oak Tree\\\"}\"}}"
+                },
+                {
+                    "itemKey": "supplementaries:cartographers_quill",
+                    "amount": 1,
+                    "advancedNBTData": "{zoomLevel:2, targetStructure:\"taxtg:giant_spruce_tree\",skinKnown:0,maxSearchRadius:50,display:{Name:\"{\\\"text\\\":\\\"Map to an Old Spruce Tree\\\"}\"}}"
+                },
+                {
+                    "itemKey": "supplementaries:cartographers_quill",
+                    "amount": 1,
+                    "advancedNBTData": "{zoomLevel:2, targetStructure:\"taxtg:giant_jungle_tree\",skinKnown:0,maxSearchRadius:50,display:{Name:\"{\\\"text\\\":\\\"Map to an Old Jungle Tree\\\"}\"}}"
+                },
+                {
+                    "itemKey": "supplementaries:cartographers_quill",
+                    "amount": 1,
+                    "advancedNBTData": "{zoomLevel:2, targetStructure:\"taxtg:giant_cherryblossom_tree\",skinKnown:0,maxSearchRadius:50,display:{Name:\"{\\\"text\\\":\\\"Map to an Old Cherry Tree\\\"}\"}}"
+                },
+                {
+                    "itemKey": "supplementaries:cartographers_quill",
+                    "amount": 1,
+                    "advancedNBTData": "{zoomLevel:2, targetStructure:\"terralith:spire\",skinKnown:0,maxSearchRadius:50,display:{Name:\"{\\\"text\\\":\\\"Map to a World Spike\\\"}\"}}"
+                }
+            ],
+            "request": {
+                "itemKey": "minecraft:emerald",
+                "amount": 8
+            }
+        },
+        {
+            "tradeLevel": 4,
+            "tradeExp": 20,
+            "maxUses": 16,
+            "offer": {
+                "itemKey": "minecraft:recovery_compass",
+                "amount": 1
+            },
+            "request": {
+                "itemKey": "minecraft:emerald",
+                "amount": 3
+            }
+        },
+        {
+            "tradeLevel": 5,
+            "tradeExp": 25,
+            "maxUses": 2,
+            "multiOffer": [
+                {
+                    "itemKey": "supplementaries:cartographers_quill",
+                    "amount": 1,
+                    "advancedNBTData": "{zoomLevel:2, targetStructure:\"nova_structures:badlands_miner_outpost\",skinKnown:0,maxSearchRadius:50,display:{Name:\"{\\\"text\\\":\\\"Map to a Gold Mine\\\"}\"}}"
+                },
+                {
+                    "itemKey": "supplementaries:cartographers_quill",
+                    "amount": 1,
+                    "advancedNBTData": "{zoomLevel:2, targetStructure:\"nova_structures:witch_villa\",skinKnown:0,maxSearchRadius:50,display:{Name:\"{\\\"text\\\":\\\"Map to a Witch Villa\\\"}\"}}"
+                },
+                {
+                    "itemKey": "supplementaries:cartographers_quill",
+                    "amount": 1,
+                    "advancedNBTData": "{zoomLevel:2, targetStructure:\"terralith:mage_tower\",skinKnown:0,maxSearchRadius:50,display:{Name:\"{\\\"text\\\":\\\"Map to a Mage Tower\\\"}\"}}"
+                },
+                {
+                    "itemKey": "supplementaries:cartographers_quill",
+                    "amount": 1,
+                    "advancedNBTData": "{zoomLevel:2, targetStructure:\"prototypedungeons:pillager_castle\",skinKnown:0,maxSearchRadius:50,display:{Name:\"{\\\"text\\\":\\\"Map to a Corrupted Castle\\\"}\"}}"
+                }
+            ],
+            "request": {
+                "itemKey": "minecraft:emerald",
+                "amount": 12
+            }
         }
-      ],
-      "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 8
-      },
-      "tradeExp": 25,
-      "maxUses": 2,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 4,
-      "UTID": "minecraft:cartographer_multioffer_cartographers_quill_for_emerald_0"
-    },
-    {
-      "offer": {
-        "itemKey": "minecraft:recovery_compass",
-        "amount": 1
-      },
-      "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 3
-      },
-      "tradeExp": 20,
-      "maxUses": 16,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 4,
-      "UTID": "minecraft:cartographer_recovery_compass_for_emerald_0"
-    },
-    {
-      "multiOffer": [
-        {
-          "itemKey": "supplementaries:cartographers_quill",
-          "amount": 1,
-          "advancedNBTData": "{zoomLevel:2, targetStructure:\"nova_structures:badlands_miner_outpost\",skinKnown:0,maxSearchRadius:50,display:{Name:\"{\\\"text\\\":\\\"Map to a Gold Mine\\\"}\"}}"
-        },
-        {
-          "itemKey": "supplementaries:cartographers_quill",
-          "amount": 1,
-          "advancedNBTData": "{zoomLevel:2, targetStructure:\"nova_structures:witch_villa\",skinKnown:0,maxSearchRadius:50,display:{Name:\"{\\\"text\\\":\\\"Map to a Witch Villa\\\"}\"}}"
-        },
-        {
-          "itemKey": "supplementaries:cartographers_quill",
-          "amount": 1,
-          "advancedNBTData": "{zoomLevel:2, targetStructure:\"terralith:mage_tower\",skinKnown:0,maxSearchRadius:50,display:{Name:\"{\\\"text\\\":\\\"Map to a Mage Tower\\\"}\"}}"
-        },
-        {
-          "itemKey": "supplementaries:cartographers_quill",
-          "amount": 1,
-          "advancedNBTData": "{zoomLevel:2, targetStructure:\"prototypedungeons:pillager_castle\",skinKnown:0,maxSearchRadius:50,display:{Name:\"{\\\"text\\\":\\\"Map to a Corrupted Castle\\\"}\"}}"
-        }
-      ],
-      "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 12
-      },
-      "tradeExp": 25,
-      "maxUses": 2,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 5,
-      "UTID": "minecraft:cartographer_multioffer_cartographers_quill_for_emerald_0"
-    }
-  ]
+    ],
+    "removeOtherTrades": true,
+    "maxTrades": 2
 }

@@ -77,6 +77,14 @@ smithing.addTransformRecipe("kastenbrust_boots", <item:magistuarmory:kastenbrust
 craftingTable.remove(<item:magistuarmory:xivcenturyknight_boots>);
 smithing.addTransformRecipe("xivcenturyknight_boots", <item:magistuarmory:xivcenturyknight_boots>, air, <item:magistuarmory:lamellar_boots>, steel);
 
+#Ceremonial Knight
+smithing.remove(<item:magistuarmory:ceremonialarmet>);
+smithing.addTransformRecipe("ceremonialarmet", <item:magistuarmory:ceremonialarmet>, air, <item:magistuarmory:armet>, <item:minecraft:gold_ingot>);
+smithing.remove(<item:magistuarmory:ceremonial_chestplate>);
+smithing.addTransformRecipe("ceremonial_chestplate", <item:magistuarmory:ceremonial_chestplate>, air, <item:magistuarmory:knight_chestplate>, <item:minecraft:gold_ingot>);
+smithing.remove(<item:magistuarmory:ceremonial_boots>);
+smithing.addTransformRecipe("ceremonial_boots", <item:magistuarmory:ceremonial_boots>, air, <item:magistuarmory:knight_boots>, <item:minecraft:gold_ingot>);
+
 ## Soldier Equipment
 #Frogmouth Set
 craftingTable.remove(<item:magistuarmory:stechhelm>);

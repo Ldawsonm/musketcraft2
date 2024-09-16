@@ -1,221 +1,184 @@
 {
-  "profession": "minecraft:librarian",
-  "removeOtherTrades": true,
-  "maxTrades": 2,
-  "trades": [
-    {
-      "offer": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
-        "amountRange": 3
-      },
-      "request": {
-        "itemKey": "minecraft:paper",
-        "amount": 3,
-        "amountRange": 5
-      },
-      "tradeExp": 1,
-      "maxUses": 16,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "minecraft:librarian_emerald_for_paper"
-    },
-    {
-      "offer": {
-        "itemKey": "minecraft:book",
-        "amount": 1
-      },
-      "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1
-      },
-      "tradeExp": 10,
-      "maxUses": 16,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "minecraft:librarian_book_for_emerald"
-    },
-    {
-      "offer": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1
-      },
-      "request": {
-        "itemKey": "minecraft:ink_sac",
-        "amount": 3,
-        "amountRange": 4
-      },
-      "tradeExp": 5,
-      "maxUses": 16,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 2,
-      "UTID": "minecraft:librarian_emerald_for_ink_sac"
-    },
-    {
-      "offer": {
-        "itemKey": "minecraft:enchanted_book",
-        "amount": 1,
-        "semiRandomEnchantments": [
-          {
-            "enchantmentKey": "minecraft:sharpness",
-            "enchantmentLevel": 1,
-            "maxEnchantmentLevel": 3
-          },
-          {
-            "enchantmentKey": "minecraft:fire_aspect",
-            "enchantmentLevel": 1,
-            "maxEnchantmentLevel": 3
-          }
-        ]
-      },
-      "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 5,
-        "amountRange": 7
-      },
-      "tradeExp": 15,
-      "maxUses": 16,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 2,
-      "UTID": "minecraft:librarian_enchanted_book_for_emerald"
-    },
-    {
-      "offer": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
-        "amountRange": 3
-      },
-      "request": {
-        "itemKey": "minecraft:feather",
-        "amount": 3,
-        "amountRange": 4
-      },
-      "tradeExp": 10,
-      "maxUses": 16,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 3,
-      "UTID": "minecraft:librarian_emerald_for_feather"
-    },
-    {
-      "offer": {
-        "itemKey": "minecraft:enchanted_book",
-        "amount": 1,
-        "semiRandomEnchantments": [
-          {
-            "enchantmentKey": "minecraft:protection",
-            "enchantmentLevel": 1,
-            "maxEnchantmentLevel": 3
-          },
-          {
-            "enchantmentKey": "minecraft:feather_falling",
-            "enchantmentLevel": 1,
-            "maxEnchantmentLevel": 3
-          }
-        ]
-      },
-      "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 5,
-        "amountRange": 7
-      },
-      "tradeExp": 20,
-      "maxUses": 16,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 3,
-      "UTID": "minecraft:librarian_enchanted_book_for_emerald"
-    },
-    {
-      "offer": {
-        "itemKey": "minecraft:candle",
-        "amount": 2,
-        "amountRange": 5
-      },
-      "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1
-      },
-      "tradeExp": 10,
-      "maxUses": 16,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 4,
-      "UTID": "minecraft:librarian_candle_for_emerald"
-    },
-    {
-      "offer": {
-        "itemKey": "minecraft:enchanted_book",
-        "amount": 1,
-        "semiRandomEnchantments": [
-          {
-            "enchantmentKey": "minecraft:projectile_protection",
-            "enchantmentLevel": 1,
-            "maxEnchantmentLevel": 3
-          },
-          {
-            "enchantmentKey": "minecraft:power",
-            "enchantmentLevel": 1,
-            "maxEnchantmentLevel": 3
-          }
-        ]
-      },
-      "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 6,
-        "amountRange": 9
-      },
-      "tradeExp": 25,
-      "maxUses": 16,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 4,
-      "UTID": "minecraft:librarian_enchanted_book_for_emerald"
-    },
-    {
-      "offer": {
-        "itemKey": "minecraft:enchanted_book",
-        "amount": 1,
-        "semiRandomEnchantments": [
-          {
-            "enchantmentKey": "minecraft:unbreaking",
-            "enchantmentLevel": 3,
-            "maxEnchantmentLevel": 3
-          }
-        ]
-      },
-      "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 18,
-        "amountRange": 20
-      },
-      "tradeExp": 30,
-      "maxUses": 16,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 5,
-      "UTID": "minecraft:librarian_enchanted_book_for_emerald"
-    },
-    {
-      "offer": {
-        "itemKey": "minecraft:name_tag",
-        "amount": 1
-      },
-      "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 3,
-        "amountRange": 5
-      },
-      "tradeExp": 30,
-      "maxUses": 16,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 5,
-      "UTID": "minecraft:librarian_name_tag_for_emerald"
-    }
-  ]
+    "profession": "minecraft:librarian",
+    "trades": [
+        {
+            "tradeLevel": 1,
+            "tradeExp": 1,
+            "maxUses": 16,
+            "request": {
+                "itemKey": "minecraft:paper",
+                "amount": 3,
+                "amountRange": 5
+            },
+            "offer": {
+                "itemKey": "minecraft:emerald",
+                "amount": 1,
+                "amountRange": 3
+            }
+        },
+        {
+            "tradeLevel": 1,
+            "tradeExp": 2,
+            "maxUses": 16,
+            "offer": {
+                "itemKey": "minecraft:book",
+                "amount": 1
+            },
+            "request": {
+                "itemKey": "minecraft:emerald",
+                "amount": 1
+            }
+        },
+        {
+            "tradeLevel": 2,
+            "tradeExp": 5,
+            "maxUses": 16,
+            "request": {
+                "itemKey": "minecraft:ink_sac",
+                "amount": 3,
+                "amountRange": 4
+            },
+            "offer": {
+                "itemKey": "minecraft:emerald",
+                "amount": 1
+            }
+        },
+        {
+            "tradeLevel": 2,
+            "tradeExp": 10,
+            "maxUses": 16,
+            "offer": {
+                "itemKey": "minecraft:enchanted_book",
+                "amount": 1,
+                "semiRandomEnchantments": [
+                    {
+                        "enchantmentKey": "minecraft:sharpness",
+                        "enchantmentLevel": 1
+                    },
+                    {
+                        "enchantmentKey": "minecraft:fire_aspect",
+                        "enchantmentLevel": 1
+                    }
+                ]
+            },
+            "request": {
+                "itemKey": "minecraft:emerald",
+                "amount": 5,
+                "amountRange": 7
+            }
+        },
+        {
+            "tradeLevel": 3,
+            "tradeExp": 10,
+            "maxUses": 16,
+            "request": {
+                "itemKey": "minecraft:feather",
+                "amount": 3,
+                "amountRange": 4
+            },
+            "offer": {
+                "itemKey": "minecraft:emerald",
+                "amount": 1,
+                "amountRange": 3
+            }
+        },
+        {
+            "tradeLevel": 3,
+            "tradeExp": 15,
+            "maxUses": 16,
+            "offer": {
+                "itemKey": "minecraft:enchanted_book",
+                "amount": 1,
+                "semiRandomEnchantments": [
+                    {
+                        "enchantmentKey": "minecraft:protection",
+                        "enchantmentLevel": 1
+                    },
+                    {
+                        "enchantmentKey": "minecraft:feather_falling",
+                        "enchantmentLevel": 1
+                    }
+                ]
+            },
+            "request": {
+                "itemKey": "minecraft:emerald",
+                "amount": 5,
+                "amountRange": 7
+            }
+        },
+        {
+            "tradeLevel": 4,
+            "tradeExp": 10,
+            "maxUses": 16,
+            "offer": {
+                "itemKey": "minecraft:candle",
+                "amount": 2,
+                "amountRange": 5
+            },
+            "request": {
+                "itemKey": "minecraft:emerald",
+                "amount": 1
+            }
+        },
+        {
+            "tradeLevel": 4,
+            "tradeExp": 20,
+            "maxUses": 16,
+            "offer": {
+                "itemKey": "minecraft:enchanted_book",
+                "amount": 1,
+                "semiRandomEnchantments": [
+                    {
+                        "enchantmentKey": "minecraft:projectile_protection",
+                        "enchantmentLevel": 1
+                    },
+                    {
+                        "enchantmentKey": "minecraft:power",
+                        "enchantmentLevel": 1
+                    }
+                ]
+            },
+            "request": {
+                "itemKey": "minecraft:emerald",
+                "amount": 6,
+                "amountRange": 9
+            }
+        },
+        {
+            "tradeLevel": 5,
+            "tradeExp": 30,
+            "maxUses": 16,
+            "offer": {
+                "itemKey": "minecraft:enchanted_book",
+                "amount": 1,
+                "semiRandomEnchantments": [
+                    {
+                        "enchantmentKey": "minecraft:unbreaking",
+                        "enchantmentLevel": 3
+                    }
+                ]
+            },
+            "request": {
+                "itemKey": "minecraft:emerald",
+                "amount": 18,
+                "amountRange": 20
+            }
+        },
+        {
+            "tradeLevel": 5,
+            "tradeExp": 30,
+            "maxUses": 16,
+            "offer": {
+                "itemKey": "minecraft:name_tag",
+                "amount": 1
+            },
+            "request": {
+                "itemKey": "minecraft:emerald",
+                "amount": 3,
+                "amountRange": 5
+            }
+        }
+    ],
+    "removeOtherTrades": true,
+    "maxTrades": 2
 }

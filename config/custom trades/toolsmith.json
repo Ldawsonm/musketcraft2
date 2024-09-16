@@ -1,270 +1,222 @@
 {
-  "profession": "minecraft:toolsmith",
-  "removeOtherTrades": true,
-  "maxTrades": 2,
-  "trades": [
-    {
-      "offer": {
-        "itemKey": "minecraft:stone_axe",
-        "amount": 1
-      },
-      "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1
-      },
-      "tradeExp": 5,
-      "maxUses": 16,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "minecraft:toolsmith_stone_axe_for_emerald"
-    },
-    {
-      "offer": {
-        "itemKey": "minecraft:stone_shovel",
-        "amount": 1
-      },
-      "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1
-      },
-      "tradeExp": 5,
-      "maxUses": 16,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "minecraft:toolsmith_stone_shovel_for_emerald"
-    },
-    {
-      "offer": {
-        "itemKey": "minecraft:stone_hoe",
-        "amount": 1
-      },
-      "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1
-      },
-      "tradeExp": 5,
-      "maxUses": 16,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "minecraft:toolsmith_stone_hoe_for_emerald"
-    },
-    {
-      "offer": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
-        "amountRange": 2
-      },
-      "request": {
-        "itemKey": "minecraft:coal",
-        "amount": 3,
-        "amountRange": 5
-      },
-      "tradeExp": 2,
-      "maxUses": 16,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "minecraft:toolsmith_emerald_for_coal"
-    },
-    {
-      "offer": {
-        "itemKey": "minecraft:stone_pickaxe",
-        "amount": 1
-      },
-      "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1
-      },
-      "tradeExp": 10,
-      "maxUses": 16,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 2,
-      "UTID": "minecraft:toolsmith_stone_pickaxe_for_emerald"
-    },
-    {
-      "offer": {
-        "itemKey": "minecraft:bell",
-        "amount": 1
-      },
-      "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 6
-      },
-      "tradeExp": 20,
-      "maxUses": 16,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 2,
-      "UTID": "minecraft:toolsmith_bell_for_emerald"
-    },
-    {
-      "offer": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1
-      },
-      "request": {
-        "itemKey": "minecraft:iron_ingot",
-        "amount": 4,
-        "amountRange": 5
-      },
-      "tradeExp": 15,
-      "maxUses": 16,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 2,
-      "UTID": "minecraft:toolsmith_emerald_for_iron_ingot"
-    },
-    {
-      "offer": {
-        "itemKey": "minecraft:iron_axe",
-        "amount": 1
-      },
-      "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 3
-      },
-      "tradeExp": 20,
-      "maxUses": 16,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 3,
-      "UTID": "minecraft:toolsmith_iron_axe_for_emerald"
-    },
-    {
-      "offer": {
-        "itemKey": "minecraft:iron_shovel",
-        "amount": 1
-      },
-      "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 2
-      },
-      "tradeExp": 15,
-      "maxUses": 16,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 3,
-      "UTID": "minecraft:toolsmith_iron_shovel_for_emerald"
-    },
-    {
-      "offer": {
-        "itemKey": "minecraft:iron_hoe",
-        "amount": 1
-      },
-      "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 2
-      },
-      "tradeExp": 15,
-      "maxUses": 16,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 3,
-      "UTID": "minecraft:toolsmith_iron_hoe_for_emerald"
-    },
-    {
-      "offer": {
-        "itemKey": "minecraft:iron_pickaxe",
-        "amount": 1
-      },
-      "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 3
-      },
-      "tradeExp": 20,
-      "maxUses": 16,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 4,
-      "UTID": "minecraft:toolsmith_iron_pickaxe_for_emerald"
-    },
-    {
-      "offer": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1
-      },
-      "request": {
-        "itemKey": "minecraft:gold_ingot",
-        "amount": 2,
-        "amountRange": 3
-      },
-      "tradeExp": 25,
-      "maxUses": 16,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 4,
-      "UTID": "minecraft:toolsmith_emerald_for_gold_ingot"
-    },
-    {
-      "offer": {
-        "itemKey": "minecraft:bucket",
-        "amount": 1
-      },
-      "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 2,
-        "amountRange": 3
-      },
-      "tradeExp": 15,
-      "maxUses": 16,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 4,
-      "UTID": "minecraft:toolsmith_bucket_for_emerald"
-    },
-    {
-      "offer": {
-        "itemKey": "minecraft:piston",
-        "amount": 1
-      },
-      "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 2
-      },
-      "tradeExp": 30,
-      "maxUses": 16,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 5,
-      "UTID": "minecraft:toolsmith_piston_for_emerald"
-    },
-    {
-      "offer": {
-        "itemKey": "minecraft:anvil",
-        "amount": 1
-      },
-      "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 10,
-        "amountRange": 14
-      },
-      "tradeExp": 30,
-      "maxUses": 16,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 5,
-      "UTID": "minecraft:toolsmith_anvil_for_emerald"
-    },
-    {
-      "offer": {
-        "itemKey": "minecraft:iron_door",
-        "amount": 1
-      },
-      "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 4,
-        "amountRange": 5
-      },
-      "tradeExp": 30,
-      "maxUses": 16,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 5,
-      "UTID": "minecraft:toolsmith_iron_door_for_emerald"
-    }
-  ]
+    "profession": "minecraft:toolsmith",
+    "trades": [
+        {
+            "tradeLevel": 1,
+            "tradeExp": 2,
+            "maxUses": 16,
+            "offer": {
+                "itemKey": "minecraft:stone_axe",
+                "amount": 1
+            },
+            "request": {
+                "itemKey": "minecraft:emerald",
+                "amount": 1
+            }
+        },
+        {
+            "tradeLevel": 1,
+            "tradeExp": 2,
+            "maxUses": 16,
+            "offer": {
+                "itemKey": "minecraft:stone_shovel",
+                "amount": 1
+            },
+            "request": {
+                "itemKey": "minecraft:emerald",
+                "amount": 1
+            }
+        },
+        {
+            "tradeLevel": 1,
+            "tradeExp": 2,
+            "maxUses": 16,
+            "offer": {
+                "itemKey": "minecraft:stone_hoe",
+                "amount": 1
+            },
+            "request": {
+                "itemKey": "minecraft:emerald",
+                "amount": 1
+            }
+        },
+        {
+            "tradeLevel": 1,
+            "tradeExp": 1,
+            "maxUses": 16,
+            "request": {
+                "itemKey": "minecraft:coal",
+                "amount": 3,
+                "amountRange": 5
+            },
+            "offer": {
+                "itemKey": "minecraft:emerald",
+                "amount": 1,
+                "amountRange": 2
+            }
+        },
+        {
+            "tradeLevel": 2,
+            "tradeExp": 5,
+            "maxUses": 16,
+            "offer": {
+                "itemKey": "minecraft:stone_pickaxe",
+                "amount": 1
+            },
+            "request": {
+                "itemKey": "minecraft:emerald",
+                "amount": 1
+            }
+        },
+        {
+            "tradeLevel": 2,
+            "tradeExp": 10,
+            "maxUses": 16,
+            "offer": {
+                "itemKey": "minecraft:bell",
+                "amount": 1
+            },
+            "request": {
+                "itemKey": "minecraft:emerald",
+                "amount": 6
+            }
+        },
+        {
+            "tradeLevel": 2,
+            "tradeExp": 5,
+            "maxUses": 16,
+            "request": {
+                "itemKey": "minecraft:iron_ingot",
+                "amount": 4,
+                "amountRange": 5
+            },
+            "offer": {
+                "itemKey": "minecraft:emerald",
+                "amount": 1
+            }
+        },
+        {
+            "tradeLevel": 3,
+            "tradeExp": 15,
+            "maxUses": 16,
+            "offer": {
+                "itemKey": "minecraft:iron_axe",
+                "amount": 1
+            },
+            "request": {
+                "itemKey": "minecraft:emerald",
+                "amount": 3
+            }
+        },
+        {
+            "tradeLevel": 3,
+            "tradeExp": 10,
+            "maxUses": 16,
+            "offer": {
+                "itemKey": "minecraft:iron_shovel",
+                "amount": 1
+            },
+            "request": {
+                "itemKey": "minecraft:emerald",
+                "amount": 2
+            }
+        },
+        {
+            "tradeLevel": 3,
+            "tradeExp": 10,
+            "maxUses": 16,
+            "offer": {
+                "itemKey": "minecraft:iron_hoe",
+                "amount": 1
+            },
+            "request": {
+                "itemKey": "minecraft:emerald",
+                "amount": 2
+            }
+        },
+        {
+            "tradeLevel": 4,
+            "tradeExp": 20,
+            "maxUses": 16,
+            "offer": {
+                "itemKey": "minecraft:iron_pickaxe",
+                "amount": 1
+            },
+            "request": {
+                "itemKey": "minecraft:emerald",
+                "amount": 3
+            }
+        },
+        {
+            "tradeLevel": 4,
+            "tradeExp": 20,
+            "maxUses": 16,
+            "request": {
+                "itemKey": "minecraft:gold_ingot",
+                "amount": 2,
+                "amountRange": 3
+            },
+            "offer": {
+                "itemKey": "minecraft:emerald",
+                "amount": 1
+            }
+        },
+        {
+            "tradeLevel": 4,
+            "tradeExp": 15,
+            "maxUses": 16,
+            "offer": {
+                "itemKey": "minecraft:bucket",
+                "amount": 1
+            },
+            "request": {
+                "itemKey": "minecraft:emerald",
+                "amount": 2,
+                "amountRange": 3
+            }
+        },
+        {
+            "tradeLevel": 5,
+            "tradeExp": 30,
+            "maxUses": 16,
+            "offer": {
+                "itemKey": "minecraft:piston",
+                "amount": 1
+            },
+            "request": {
+                "itemKey": "minecraft:emerald",
+                "amount": 2
+            }
+        },
+        {
+            "tradeLevel": 5,
+            "tradeExp": 30,
+            "maxUses": 16,
+            "offer": {
+                "itemKey": "minecraft:anvil",
+                "amount": 1
+            },
+            "request": {
+                "itemKey": "minecraft:emerald",
+                "amount": 10,
+                "amountRange": 14
+            }
+        },
+        {
+            "tradeLevel": 5,
+            "tradeExp": 30,
+            "maxUses": 16,
+            "offer": {
+                "itemKey": "minecraft:iron_door",
+                "amount": 1
+            },
+            "request": {
+                "itemKey": "minecraft:emerald",
+                "amount": 4,
+                "amountRange": 5
+            }
+        }
+    ],
+    "removeOtherTrades": true,
+    "maxTrades": 3
 }

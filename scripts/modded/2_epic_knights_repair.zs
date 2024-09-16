@@ -54,21 +54,30 @@ public function disableRepair(tag as KnownTag<ItemDefinition>, material as IItem
 events.register<crafttweaker.forge.api.event.anvil.AnvilUpdateEvent>((event) => {
     val steel = <item:magistuarmory:steel_ingot>;
 
-    enableRepair(<tag:items:musketcraft:soldier>, <item:minecraft:iron_ingot>, event);
-    disableRepair(<tag:items:musketcraft:soldier>, steel, event);
+    enableRepair(<tag:items:musketcraft:repair_by/iron>, <item:minecraft:iron_ingot>, event);
+    disableRepair(<tag:items:musketcraft:repair_by/iron>, steel, event);
 
-    enableRepair(<tag:items:musketcraft:knight>, <item:minecraft:iron_ingot>, event);
-    disableRepair(<tag:items:musketcraft:knight>, steel, event);
+    enableRepair(<tag:items:musketcraft:repair_by/diamond>, <item:minecraft:diamond>, event);
+    disableRepair(<tag:items:musketcraft:repair_by/diamond>, <item:minecraft:netherite_ingot>, event);
+    disableRepair(<tag:items:musketcraft:repair_by/diamond>, steel, event);
+    // enableRepair(<tag:items:musketcraft:soldier>, <item:minecraft:iron_ingot>, event);
+    
+
+    // enableRepair(<tag:items:musketcraft:rusted>, <item:minecraft:iron_ingot>, event);
+    // disableRepair(<tag:items:musketcraft:rusted>, steel, event);
+
+    // enableRepair(<tag:items:musketcraft:knight>, <item:minecraft:iron_ingot>, event);
+    // disableRepair(<tag:items:musketcraft:knight>, steel, event);
 
     enableRepair(<tag:items:musketcraft:militia>, <item:magistuarmory:woolen_fabric>, event);
     enableRepair(<tag:items:musketcraft:militia>, <item:magistuarmory:leather_strip>, event);
     disableRepair(<tag:items:musketcraft:militia>, steel, event);
 
-    enableRepair(<tag:items:musketcraft:corrupted>, <item:minecraft:diamond>, event);
-    disableRepair(<tag:items:musketcraft:corrupted>, <item:minecraft:netherite_ingot>, event);
+    // enableRepair(<tag:items:musketcraft:corrupted>, <item:minecraft:diamond>, event);
+    // disableRepair(<tag:items:musketcraft:corrupted>, <item:minecraft:netherite_ingot>, event);
 
-    enableRepair(<tag:items:musketcraft:king>, <item:minecraft:diamond>, event);
-    disableRepair(<tag:items:musketcraft:king>, steel, event);
+    // enableRepair(<tag:items:musketcraft:king>, <item:minecraft:diamond>, event);
+    // disableRepair(<tag:items:musketcraft:king>, steel, event);
 });
 
 
