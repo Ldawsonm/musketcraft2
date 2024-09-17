@@ -1,0 +1,3 @@
+NekosEnchantedBooks-1.20.1-1.8.0.jar
+CompassCoords-1.6.0-mc1.20.jar
+DistantHorizons-2.2.1-a-1.20.1-forge-fabric.jar

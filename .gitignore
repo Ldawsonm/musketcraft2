@@ -11,3 +11,14 @@ ct_dumps
 map_atlases/*
 emi.json
 export/*.zip
+libraries/*
+world/*
+banned-ips.json
+banned-players.json
+eula.txt
+ops.json
+run.bat
+server.properties
+usercache.json
+whitelist.json
+server-icon.png
