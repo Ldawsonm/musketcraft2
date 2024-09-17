@@ -18,6 +18,10 @@ val chain_chest = <item:magistuarmory:chainmail_chestplate>;
 val chain_legs = <item:magistuarmory:chainmail_leggings>;
 val chain_boots = <item:magistuarmory:chainmail_boots>;
 
+craftingTable.remove(steel);
+furnace.remove(steel);
+blastFurnace.remove(steel);
+
 
 craftingTable.addShaped("lily", <item:magistuarmory:lily_decoration>, [
     [air, yel, air],
@@ -43,9 +47,11 @@ smithing.addTransformRecipe("armet", <item:magistuarmory:armet>, air, <item:magi
 craftingTable.remove(<item:magistuarmory:grand_bascinet>);
 smithing.addTransformRecipe("g_bascinet", <item:magistuarmory:grand_bascinet>, air, <item:magistuarmory:cuirassier_helmet>, steel);
 craftingTable.remove(<item:magistuarmory:bascinet>);
-smithing.addTransformRecipe("bascinet", <item:magistuarmory:bascinet>, air, <item:magistuarmory:shishak>, steel);
+smithing.addTransformRecipe("bascinet", <item:magistuarmory:bascinet>, air, <item:magistuarmory:chainmail_helmet>, steel);
 craftingTable.remove(<item:magistuarmory:greathelm>);
 smithing.addTransformRecipe("greathelm", <item:magistuarmory:greathelm>, air, <item:magistuarmory:norman_helmet>, steel);
+craftingTable.remove(<item:magistuarmory:face_helmet>);
+smithing.addTransformRecipe("face_helmet", <item:magistuarmory:face_helmet>, air, <item:magistuarmory:shishak>, steel);
 
 #Chestplates
 craftingTable.remove(<item:magistuarmory:gothic_chestplate>);
@@ -140,9 +146,9 @@ craftingTable.addShaped("kettle", <item:magistuarmory:kettlehat>, [
 ]);
 craftingTable.remove(<item:magistuarmory:platemail_chestplate>);
 craftingTable.addShaped("r_chain_chest", <item:magistuarmory:platemail_chestplate>, [
-    [nug, air, nug],
+    [iron, air, iron],
     [iron, chain_chest, iron],
-    [iron, air, iron]
+    [nug, air, nug]
 ]);
 craftingTable.remove(<item:magistuarmory:platemail_leggings>);
 craftingTable.addShaped("r_chain_legs", <item:magistuarmory:platemail_leggings>, [

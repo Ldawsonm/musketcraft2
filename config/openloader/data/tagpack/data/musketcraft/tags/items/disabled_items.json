@@ -231,6 +231,13 @@
         "quark:blaze_lantern",
         "minecraft:respawn_anchor",
         "magistuarmory:barding",
-        "magistuarmory:chainmail_horse_armor"
+        "magistuarmory:chainmail_horse_armor",
+        "magistuarmory:steel_nugget",
+        "magistuarmory:steel_ring",
+        "magistuarmory:steel_chainmail",
+        "magistuarmory:steel_plate",
+        "magistuarmory:steel_chain",
+        "magistuarmory:small_steel_plate",
+        "magistuarmory:lamellar_rows"
     ]
 }
