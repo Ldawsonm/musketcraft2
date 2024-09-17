@@ -1,142 +1,172 @@
 {
-    "profession": "minecraft:fisherman",
-    "trades": [
-        {
-            "tradeLevel": 1,
-            "tradeExp": 1,
-            "maxUses": 16,
-            "request": {
-                "itemKey": "minecraft:cod",
-                "amount": 3,
-                "amountRange": 4
-            },
-            "offer": {
-                "itemKey": "minecraft:emerald",
-                "amount": 1
-            }
-        },
-        {
-            "tradeLevel": 1,
-            "tradeExp": 2,
-            "maxUses": 16,
-            "request": {
-                "itemKey": "minecraft:salmon",
-                "amount": 3,
-                "amountRange": 4
-            },
-            "offer": {
-                "itemKey": "minecraft:emerald",
-                "amount": 2
-            }
-        },
-        {
-            "tradeLevel": 2,
-            "tradeExp": 2,
-            "maxUses": 16,
-            "offer": {
-                "itemKey": "minecraft:ink_sac",
-                "amount": 1,
-                "amountRange": 2
-            },
-            "request": {
-                "itemKey": "minecraft:emerald",
-                "amount": 1
-            }
-        },
-        {
-            "tradeLevel": 2,
-            "tradeExp": 10,
-            "maxUses": 6,
-            "offer": {
-                "itemKey": "minecraft:fishing_rod",
-                "amount": 1
-            },
-            "request": {
-                "itemKey": "minecraft:emerald",
-                "amount": 3,
-                "amountRange": 5
-            }
-        },
-        {
-            "tradeLevel": 3,
-            "tradeExp": 10,
-            "maxUses": 16,
-            "request": {
-                "itemKey": "naturalist:bass",
-                "amount": 2,
-                "amountRange": 3
-            },
-            "offer": {
-                "itemKey": "minecraft:emerald",
-                "amount": 1
-            }
-        },
-        {
-            "tradeLevel": 3,
-            "tradeExp": 15,
-            "maxUses": 16,
-            "request": {
-                "itemKey": "naturalist:catfish",
-                "amount": 1
-            },
-            "offer": {
-                "itemKey": "minecraft:emerald",
-                "amount": 3
-            }
-        },
-        {
-            "tradeLevel": 4,
-            "tradeExp": 20,
-            "maxUses": 8,
-            "request": {
-                "itemKey": "minecraft:tropical_fish",
-                "amount": 1
-            },
-            "offer": {
-                "itemKey": "minecraft:emerald",
-                "amount": 5
-            }
-        },
-        {
-            "tradeLevel": 4,
-            "tradeExp": 15,
-            "maxUses": 16,
-            "request": {
-                "itemKey": "minecraft:pufferfish",
-                "amount": 1
-            },
-            "offer": {
-                "itemKey": "minecraft:emerald",
-                "amount": 2
-            }
-        },
-        {
-            "tradeLevel": 5,
-            "tradeExp": 30,
-            "maxUses": 16,
-            "offer": {
-                "itemKey": "minecraft:prismarine_shard",
-                "amount": 12
-            },
-            "request": {
-                "itemKey": "minecraft:emerald",
-                "amount": 1
-            }
-        },
-        {
-            "tradeLevel": 5,
-            "tradeExp": 30,
-            "maxUses": 16,
-            "offer": {
-                "itemKey": "minecraft:prismarine_crystals",
-                "amount": 5
-            },
-            "request": {
-                "itemKey": "minecraft:emerald",
-                "amount": 1
-            }
-        }
-    ],
-    "removeOtherTrades": true,
-    "maxTrades": 2
+  "profession": "minecraft:fisherman",
+  "removeOtherTrades": true,
+  "maxTrades": 2,
+  "trades": [
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "minecraft:cod",
+        "amount": 3,
+        "amountRange": 4
+      },
+      "tradeExp": 1,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:fisherman_emerald_for_cod"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 2
+      },
+      "request": {
+        "itemKey": "minecraft:salmon",
+        "amount": 3,
+        "amountRange": 4
+      },
+      "tradeExp": 2,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:fisherman_emerald_for_salmon"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:ink_sac",
+        "amount": 1,
+        "amountRange": 2
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1
+      },
+      "tradeExp": 2,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:fisherman_ink_sac_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:fishing_rod",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 3,
+        "amountRange": 5
+      },
+      "tradeExp": 10,
+      "maxUses": 6,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:fisherman_fishing_rod_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "naturalist:bass",
+        "amount": 2,
+        "amountRange": 3
+      },
+      "tradeExp": 10,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:fisherman_emerald_for_bass"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 3
+      },
+      "request": {
+        "itemKey": "naturalist:catfish",
+        "amount": 1
+      },
+      "tradeExp": 15,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:fisherman_emerald_for_catfish"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 5
+      },
+      "request": {
+        "itemKey": "minecraft:tropical_fish",
+        "amount": 1
+      },
+      "tradeExp": 20,
+      "maxUses": 8,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:fisherman_emerald_for_tropical_fish"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 2
+      },
+      "request": {
+        "itemKey": "minecraft:pufferfish",
+        "amount": 1
+      },
+      "tradeExp": 15,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:fisherman_emerald_for_pufferfish"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:prismarine_shard",
+        "amount": 12
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1
+      },
+      "tradeExp": 30,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:fisherman_prismarine_shard_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:prismarine_crystals",
+        "amount": 5
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1
+      },
+      "tradeExp": 30,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:fisherman_prismarine_crystals_for_emerald"
+    }
+  ]
 }

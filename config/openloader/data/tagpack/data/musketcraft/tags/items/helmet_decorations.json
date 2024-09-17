@@ -1,0 +1,33 @@
+{
+    "replace": false,
+    "values": [
+        "magistuarmory:torse_and_mantle_decoration",
+        "magistuarmory:gazelle_horns_decoration",
+        "magistuarmory:duck_decoration",
+        "magistuarmory:spike_decoration",
+        "magistuarmory:horse_decoration",
+        "magistuarmory:crown_decoration",
+        "magistuarmory:flowercrown_decoration",
+        "magistuarmory:unicorn_decoration",
+        "magistuarmory:bullhorns_decoration",
+        "magistuarmory:dragon_decoration",
+        "magistuarmory:minicrown_decoration",
+        "magistuarmory:torse_decoration",
+        "magistuarmory:two_plumes_decoration",
+        "magistuarmory:antlers_decoration",
+        "magistuarmory:big_plume_decoration",
+        "magistuarmory:plume_left_decoration",
+        "magistuarmory:plume_middle_decoration",
+        "magistuarmory:plume_right_decoration",
+        "magistuarmory:bear_decoration",
+        "magistuarmory:lily_decoration",
+        "magistuarmory:lion_decoration",
+        "magistuarmory:demon_horns_decoration",
+        "magistuarmory:feathers_decoration",
+        "magistuarmory:viking_horns_decoration",
+        "magistuarmory:griffin_decoration",
+        "magistuarmory:hood_decoration",
+        "magistuarmory:ecranche_decoration",
+        "magistuarmory:rondel_decoration"
+    ]
+}

@@ -1,6 +1,8 @@
 {
   "favorites": [],
   "lookup_history": [
+    "item:magistuarmory:spike_decoration",
+    "item:magistuarmory:torse_and_mantle_decoration",
     {
       "type": "item",
       "id": "minecraft:netherite_scrap",
@@ -174,8 +176,6 @@
     "item:magistuarmory:unicorn_decoration",
     "item:magistuarmory:flowercrown_decoration{Damage:0}",
     "item:magistuarmory:crown_decoration{Damage:0}",
-    "item:magistuarmory:spike_decoration",
-    "item:magistuarmory:torse_and_mantle_decoration",
     "item:minecraft:chest",
     "item:naturalist:glow_goop",
     "item:naturalist:cattail_fluff",

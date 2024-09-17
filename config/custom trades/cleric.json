@@ -1,244 +1,283 @@
 {
-    "profession": "minecraft:cleric",
-    "trades": [
+  "profession": "minecraft:cleric",
+  "removeOtherTrades": true,
+  "maxTrades": 2,
+  "trades": [
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 2
+      },
+      "multiRequest": [
         {
-            "tradeLevel": 1,
-            "tradeExp": 1,
-            "maxUses": 16,
-            "multiRequest": [
-                {
-                    "itemKey": "minecraft:rotten_flesh",
-                    "amount": 7,
-                    "amountRange": 9
-                },
-                {
-                    "itemKey": "minecraft:bone",
-                    "amount": 7,
-                    "amountRange": 9
-                }
-            ],
-            "offer": {
-                "itemKey": "minecraft:emerald",
-                "amount": 2
-            }
+          "itemKey": "minecraft:rotten_flesh",
+          "amount": 7,
+          "amountRange": 9
         },
         {
-            "tradeLevel": 1,
-            "tradeExp": 2,
-            "maxUses": 32,
-            "request": {
-                "itemKey": "minecraft:redstone",
-                "amount": 4,
-                "amountRange": 5
-            },
-            "offer": {
-                "itemKey": "minecraft:emerald",
-                "amount": 1
-            }
-        },
-        {
-            "tradeLevel": 1,
-            "tradeExp": 2,
-            "maxUses": 16,
-            "offer": {
-                "itemKey": "minecraft:blaze_powder",
-                "amount": 4
-            },
-            "request": {
-                "itemKey": "minecraft:emerald",
-                "amount": 5
-            }
-        },
-        {
-            "tradeLevel": 2,
-            "tradeExp": 10,
-            "maxUses": 16,
-            "request": {
-                "itemKey": "minecraft:gold_ingot",
-                "amount": 2
-            },
-            "offer": {
-                "itemKey": "minecraft:emerald",
-                "amount": 1
-            }
-        },
-        {
-            "tradeLevel": 2,
-            "tradeExp": 10,
-            "maxUses": 16,
-            "request": {
-                "itemKey": "minecraft:lapis_lazuli",
-                "amount": 3,
-                "amountRange": 4
-            },
-            "offer": {
-                "itemKey": "minecraft:emerald",
-                "amount": 1
-            }
-        },
-        {
-            "tradeLevel": 2,
-            "tradeExp": 10,
-            "maxUses": 16,
-            "offer": {
-                "itemKey": "minecraft:glow_berries",
-                "amount": 2
-            },
-            "request": {
-                "itemKey": "minecraft:emerald",
-                "amount": 1
-            }
-        },
-        {
-            "tradeLevel": 2,
-            "tradeExp": 15,
-            "maxUses": 16,
-            "request": {
-                "itemKey": "minecraft:blaze_rod",
-                "amount": 1
-            },
-            "offer": {
-                "itemKey": "minecraft:emerald",
-                "amount": 4
-            }
-        },
-        {
-            "tradeLevel": 3,
-            "tradeExp": 10,
-            "maxUses": 16,
-            "multiOffer": [
-                {
-                    "itemKey": "minecraft:potion",
-                    "amount": 1,
-                    "advancedNBTData": "{Potion:\"minecraft:regeneration\"}"
-                },
-                {
-                    "itemKey": "minecraft:potion",
-                    "amount": 1,
-                    "advancedNBTData": "{Potion:\"minecraft:healing\"}"
-                }
-            ],
-            "request": {
-                "itemKey": "minecraft:emerald",
-                "amount": 4,
-                "amountRange": 6
-            }
-        },
-        {
-            "tradeLevel": 3,
-            "tradeExp": 15,
-            "maxUses": 16,
-            "request": {
-                "itemKey": "minecraft:glass_bottle",
-                "amount": 3,
-                "amountRange": 4
-            },
-            "offer": {
-                "itemKey": "minecraft:emerald",
-                "amount": 1
-            }
-        },
-        {
-            "tradeLevel": 4,
-            "tradeExp": 15,
-            "maxUses": 16,
-            "multiOffer": [
-                {
-                    "itemKey": "minecraft:potion",
-                    "amount": 1,
-                    "advancedNBTData": "{Potion:\"minecraft:strength\"}"
-                },
-                {
-                    "itemKey": "minecraft:potion",
-                    "amount": 1,
-                    "advancedNBTData": "{Potion:\"minecraft:swiftness\"}"
-                }
-            ],
-            "request": {
-                "itemKey": "minecraft:emerald",
-                "amount": 6,
-                "amountRange": 8
-            }
-        },
-        {
-            "tradeLevel": 4,
-            "tradeExp": 20,
-            "maxUses": 8,
-            "request": {
-                "itemKey": "minecraft:rabbit_foot",
-                "amount": 1
-            },
-            "offer": {
-                "itemKey": "minecraft:emerald",
-                "amount": 3,
-                "amountRange": 10
-            }
-        },
-        {
-            "tradeLevel": 5,
-            "tradeExp": 15,
-            "maxUses": 16,
-            "multiOffer": [
-                {
-                    "itemKey": "minecraft:splash_potion",
-                    "amount": 1,
-                    "advancedNBTData": "{Potion:\"minecraft:poison\"}"
-                },
-                {
-                    "itemKey": "minecraft:splash_potion",
-                    "amount": 1,
-                    "advancedNBTData": "{Potion:\"minecraft:weakness\"}"
-                },
-                {
-                    "itemKey": "minecraft:splash_potion",
-                    "amount": 1,
-                    "advancedNBTData": "{Potion:\"minecraft:healing\"}"
-                },
-                {
-                    "itemKey": "minecraft:splash_potion",
-                    "amount": 1,
-                    "advancedNBTData": "{Potion:\"minecraft:slowness\"}"
-                }
-            ],
-            "request": {
-                "itemKey": "minecraft:emerald",
-                "amount": 5,
-                "amountRange": 7
-            }
-        },
-        {
-            "tradeLevel": 5,
-            "tradeExp": 25,
-            "maxUses": 16,
-            "multiOffer": [
-                {
-                    "itemKey": "minecraft:lingering_potion",
-                    "amount": 1,
-                    "advancedNBTData": "{Potion:\"minecraft:regeneration\"}"
-                },
-                {
-                    "itemKey": "minecraft:lingering_potion",
-                    "amount": 1,
-                    "advancedNBTData": "{Potion:\"minecraft:poison\"}"
-                },
-                {
-                    "itemKey": "minecraft:lingering_potion",
-                    "amount": 1,
-                    "advancedNBTData": "{Potion:\"minecraft:strength\"}"
-                },
-                {
-                    "itemKey": "minecraft:lingering_potion",
-                    "amount": 1,
-                    "advancedNBTData": "{Potion:\"minecraft:weakness\"}"
-                }
-            ],
-            "request": {
-                "itemKey": "minecraft:emerald",
-                "amount": 7,
-                "amountRange": 9
-            }
+          "itemKey": "minecraft:bone",
+          "amount": 7,
+          "amountRange": 9
         }
-    ],
-    "removeOtherTrades": true,
-    "maxTrades": 2
+      ],
+      "tradeExp": 1,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:cleric_emerald_for_multirequest_rotten_flesh"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "minecraft:redstone",
+        "amount": 4,
+        "amountRange": 5
+      },
+      "tradeExp": 2,
+      "maxUses": 32,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:cleric_emerald_for_redstone"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:blaze_powder",
+        "amount": 4
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 5
+      },
+      "tradeExp": 2,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:cleric_blaze_powder_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "minecraft:gold_ingot",
+        "amount": 2
+      },
+      "tradeExp": 10,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:cleric_emerald_for_gold_ingot"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "minecraft:lapis_lazuli",
+        "amount": 3,
+        "amountRange": 4
+      },
+      "tradeExp": 10,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:cleric_emerald_for_lapis_lazuli"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:glow_berries",
+        "amount": 2
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1
+      },
+      "tradeExp": 10,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:cleric_glow_berries_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 4
+      },
+      "request": {
+        "itemKey": "minecraft:blaze_rod",
+        "amount": 1
+      },
+      "tradeExp": 15,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:cleric_emerald_for_blaze_rod"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "minecraft:potion",
+          "amount": 1,
+          "advancedNBTData": "{Potion:\"minecraft:regeneration\"}"
+        },
+        {
+          "itemKey": "minecraft:potion",
+          "amount": 1,
+          "advancedNBTData": "{Potion:\"minecraft:healing\"}"
+        }
+      ],
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 4,
+        "amountRange": 6
+      },
+      "tradeExp": 10,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:cleric_multioffer_potion_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "minecraft:glass_bottle",
+        "amount": 3,
+        "amountRange": 4
+      },
+      "tradeExp": 15,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:cleric_emerald_for_glass_bottle"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "minecraft:potion",
+          "amount": 1,
+          "advancedNBTData": "{Potion:\"minecraft:strength\"}"
+        },
+        {
+          "itemKey": "minecraft:potion",
+          "amount": 1,
+          "advancedNBTData": "{Potion:\"minecraft:swiftness\"}"
+        }
+      ],
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 6,
+        "amountRange": 8
+      },
+      "tradeExp": 15,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:cleric_multioffer_potion_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 3,
+        "amountRange": 10
+      },
+      "request": {
+        "itemKey": "minecraft:rabbit_foot",
+        "amount": 1
+      },
+      "tradeExp": 20,
+      "maxUses": 8,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:cleric_emerald_for_rabbit_foot"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "minecraft:splash_potion",
+          "amount": 1,
+          "advancedNBTData": "{Potion:\"minecraft:poison\"}"
+        },
+        {
+          "itemKey": "minecraft:splash_potion",
+          "amount": 1,
+          "advancedNBTData": "{Potion:\"minecraft:weakness\"}"
+        },
+        {
+          "itemKey": "minecraft:splash_potion",
+          "amount": 1,
+          "advancedNBTData": "{Potion:\"minecraft:healing\"}"
+        },
+        {
+          "itemKey": "minecraft:splash_potion",
+          "amount": 1,
+          "advancedNBTData": "{Potion:\"minecraft:slowness\"}"
+        }
+      ],
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 5,
+        "amountRange": 7
+      },
+      "tradeExp": 15,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:cleric_multioffer_splash_potion_for_emerald"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "minecraft:lingering_potion",
+          "amount": 1,
+          "advancedNBTData": "{Potion:\"minecraft:regeneration\"}"
+        },
+        {
+          "itemKey": "minecraft:lingering_potion",
+          "amount": 1,
+          "advancedNBTData": "{Potion:\"minecraft:poison\"}"
+        },
+        {
+          "itemKey": "minecraft:lingering_potion",
+          "amount": 1,
+          "advancedNBTData": "{Potion:\"minecraft:strength\"}"
+        },
+        {
+          "itemKey": "minecraft:lingering_potion",
+          "amount": 1,
+          "advancedNBTData": "{Potion:\"minecraft:weakness\"}"
+        }
+      ],
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 7,
+        "amountRange": 9
+      },
+      "tradeExp": 25,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:cleric_multioffer_lingering_potion_for_emerald"
+    }
+  ]
 }

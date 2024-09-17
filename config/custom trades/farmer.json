@@ -1,290 +1,338 @@
 {
-    "profession": "minecraft:farmer",
-    "trades": [
+  "profession": "minecraft:farmer",
+  "removeOtherTrades": true,
+  "maxTrades": 2,
+  "trades": [
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 2
+      },
+      "request": {
+        "itemKey": "minecraft:wheat",
+        "amount": 8,
+        "amountRange": 10
+      },
+      "tradeExp": 1,
+      "maxUses": 8,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:farmer_emerald_for_wheat"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "minecraft:potato",
+        "amount": 8,
+        "amountRange": 10
+      },
+      "tradeExp": 1,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:farmer_emerald_for_potato"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:bread",
+        "amount": 5,
+        "amountRange": 7
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "amountRange": 2
+      },
+      "tradeExp": 2,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:farmer_bread_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "minecraft:carrot",
+        "amount": 8,
+        "amountRange": 10
+      },
+      "tradeExp": 1,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:farmer_emerald_for_carrot"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "amountRange": 3
+      },
+      "request": {
+        "itemKey": "minecraft:beetroot",
+        "amount": 8,
+        "amountRange": 10
+      },
+      "tradeExp": 1,
+      "maxUses": 8,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:farmer_emerald_for_beetroot"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 2
+      },
+      "request": {
+        "itemKey": "minecraft:melon_slice",
+        "amount": 3,
+        "amountRange": 7
+      },
+      "tradeExp": 5,
+      "maxUses": 8,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:farmer_emerald_for_melon_slice"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 2
+      },
+      "request": {
+        "itemKey": "minecraft:pumpkin",
+        "amount": 4,
+        "amountRange": 5
+      },
+      "tradeExp": 5,
+      "maxUses": 8,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:farmer_emerald_for_pumpkin"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 3
+      },
+      "request": {
+        "itemKey": "minecraft:sweet_berries",
+        "amount": 2,
+        "amountRange": 5
+      },
+      "tradeExp": 5,
+      "maxUses": 8,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:farmer_emerald_for_sweet_berries"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 2
+      },
+      "request": {
+        "itemKey": "farmersdelight:tomato",
+        "amount": 4,
+        "amountRange": 5
+      },
+      "tradeExp": 5,
+      "maxUses": 8,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:farmer_emerald_for_tomato"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 2
+      },
+      "request": {
+        "itemKey": "farmersdelight:onion",
+        "amount": 4,
+        "amountRange": 5
+      },
+      "tradeExp": 5,
+      "maxUses": 8,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:farmer_emerald_for_onion"
+    },
+    {
+      "multiOffer": [
         {
-            "tradeLevel": 1,
-            "tradeExp": 1,
-            "maxUses": 8,
-            "request": {
-                "itemKey": "minecraft:wheat",
-                "amount": 8,
-                "amountRange": 10
-            },
-            "offer": {
-                "itemKey": "minecraft:emerald",
-                "amount": 2
-            }
+          "itemKey": "farmersdelight:chicken_sandwich",
+          "amount": 1
         },
         {
-            "tradeLevel": 1,
-            "tradeExp": 1,
-            "maxUses": 16,
-            "request": {
-                "itemKey": "minecraft:potato",
-                "amount": 8,
-                "amountRange": 10
-            },
-            "offer": {
-                "itemKey": "minecraft:emerald",
-                "amount": 1
-            }
+          "itemKey": "farmersdelight:hamburger",
+          "amount": 1
         },
         {
-            "tradeLevel": 1,
-            "tradeExp": 2,
-            "maxUses": 16,
-            "offer": {
-                "itemKey": "minecraft:bread",
-                "amount": 5,
-                "amountRange": 7
-            },
-            "request": {
-                "itemKey": "minecraft:emerald",
-                "amount": 1,
-                "amountRange": 2
-            }
+          "itemKey": "farmersdelight:bacon_sandwich",
+          "amount": 1
         },
         {
-            "tradeLevel": 2,
-            "tradeExp": 1,
-            "maxUses": 16,
-            "request": {
-                "itemKey": "minecraft:carrot",
-                "amount": 8,
-                "amountRange": 10
-            },
-            "offer": {
-                "itemKey": "minecraft:emerald",
-                "amount": 1
-            }
+          "itemKey": "farmersdelight:mutton_wrap",
+          "amount": 1
         },
         {
-            "tradeLevel": 2,
-            "tradeExp": 1,
-            "maxUses": 8,
-            "request": {
-                "itemKey": "minecraft:beetroot",
-                "amount": 8,
-                "amountRange": 10
-            },
-            "offer": {
-                "itemKey": "minecraft:emerald",
-                "amount": 1,
-                "amountRange": 3
-            }
+          "itemKey": "farmersdelight:dumplings",
+          "amount": 1
         },
         {
-            "tradeLevel": 2,
-            "tradeExp": 5,
-            "maxUses": 8,
-            "request": {
-                "itemKey": "minecraft:melon_slice",
-                "amount": 3,
-                "amountRange": 7
-            },
-            "offer": {
-                "itemKey": "minecraft:emerald",
-                "amount": 2
-            }
-        },
-        {
-            "tradeLevel": 2,
-            "tradeExp": 5,
-            "maxUses": 8,
-            "request": {
-                "itemKey": "minecraft:pumpkin",
-                "amount": 4,
-                "amountRange": 5
-            },
-            "offer": {
-                "itemKey": "minecraft:emerald",
-                "amount": 2
-            }
-        },
-        {
-            "tradeLevel": 3,
-            "tradeExp": 5,
-            "maxUses": 8,
-            "request": {
-                "itemKey": "minecraft:sweet_berries",
-                "amount": 2,
-                "amountRange": 5
-            },
-            "offer": {
-                "itemKey": "minecraft:emerald",
-                "amount": 3
-            }
-        },
-        {
-            "tradeLevel": 3,
-            "tradeExp": 5,
-            "maxUses": 8,
-            "request": {
-                "itemKey": "farmersdelight:tomato",
-                "amount": 4,
-                "amountRange": 5
-            },
-            "offer": {
-                "itemKey": "minecraft:emerald",
-                "amount": 2
-            }
-        },
-        {
-            "tradeLevel": 3,
-            "tradeExp": 5,
-            "maxUses": 8,
-            "request": {
-                "itemKey": "farmersdelight:onion",
-                "amount": 4,
-                "amountRange": 5
-            },
-            "offer": {
-                "itemKey": "minecraft:emerald",
-                "amount": 2
-            }
-        },
-        {
-            "tradeLevel": 4,
-            "tradeExp": 20,
-            "maxUses": 8,
-            "multiOffer": [
-                {
-                    "itemKey": "farmersdelight:chicken_sandwich",
-                    "amount": 1
-                },
-                {
-                    "itemKey": "farmersdelight:hamburger",
-                    "amount": 1
-                },
-                {
-                    "itemKey": "farmersdelight:bacon_sandwich",
-                    "amount": 1
-                },
-                {
-                    "itemKey": "farmersdelight:mutton_wrap",
-                    "amount": 1
-                },
-                {
-                    "itemKey": "farmersdelight:dumplings",
-                    "amount": 1
-                },
-                {
-                    "itemKey": "farmersdelight:kelp_roll",
-                    "amount": 1
-                }
-            ],
-            "request": {
-                "itemKey": "minecraft:emerald",
-                "amount": 8,
-                "amountRange": 14
-            }
-        },
-        {
-            "tradeLevel": 4,
-            "tradeExp": 5,
-            "maxUses": 8,
-            "request": {
-                "itemKey": "farmersdelight:cabbage",
-                "amount": 4,
-                "amountRange": 5
-            },
-            "offer": {
-                "itemKey": "minecraft:emerald",
-                "amount": 2
-            }
-        },
-        {
-            "tradeLevel": 4,
-            "tradeExp": 5,
-            "maxUses": 8,
-            "request": {
-                "itemKey": "farmersdelight:rice",
-                "amount": 4,
-                "amountRange": 5
-            },
-            "offer": {
-                "itemKey": "minecraft:emerald",
-                "amount": 2
-            }
-        },
-        {
-            "tradeLevel": 5,
-            "tradeExp": 30,
-            "maxUses": 4,
-            "multiOffer": [
-                {
-                    "itemKey": "farmersdelight:pasta_with_meatballs",
-                    "amount": 1
-                },
-                {
-                    "itemKey": "farmersdelight:steak_and_potatoes",
-                    "amount": 1
-                },
-                {
-                    "itemKey": "farmersdelight:noodle_soup",
-                    "amount": 1
-                },
-                {
-                    "itemKey": "farmersdelight:baked_cod_stew",
-                    "amount": 1
-                },
-                {
-                    "itemKey": "farmersdelight:pumpkin_soup",
-                    "amount": 1
-                },
-                {
-                    "itemKey": "farmersdelight:vegetable_noodles",
-                    "amount": 1
-                },
-                {
-                    "itemKey": "farmersdelight:roasted_mutton_chops",
-                    "amount": 1
-                },
-                {
-                    "itemKey": "farmersdelight:squid_ink_pasta",
-                    "amount": 1
-                },
-                {
-                    "itemKey": "farmersdelight:ratatouille",
-                    "amount": 1
-                }
-            ],
-            "request": {
-                "itemKey": "minecraft:emerald",
-                "amount": 17,
-                "amountRange": 23
-            }
-        },
-        {
-            "tradeLevel": 5,
-            "tradeExp": 15,
-            "maxUses": 16,
-            "offer": {
-                "itemKey": "minecraft:golden_carrot",
-                "amount": 3,
-                "amountRange": 4
-            },
-            "request": {
-                "itemKey": "minecraft:emerald",
-                "amount": 4,
-                "amountRange": 6
-            }
-        },
-        {
-            "tradeLevel": 5,
-            "tradeExp": 20,
-            "maxUses": 8,
-            "offer": {
-                "itemKey": "farmersdelight:horse_feed",
-                "amount": 1
-            },
-            "request": {
-                "itemKey": "minecraft:emerald",
-                "amount": 8,
-                "amountRange": 14
-            }
+          "itemKey": "farmersdelight:kelp_roll",
+          "amount": 1
         }
-    ],
-    "removeOtherTrades": true,
-    "maxTrades": 2
+      ],
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 8,
+        "amountRange": 14
+      },
+      "tradeExp": 20,
+      "maxUses": 8,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:farmer_multioffer_chicken_sandwich_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 2
+      },
+      "request": {
+        "itemKey": "farmersdelight:cabbage",
+        "amount": 4,
+        "amountRange": 5
+      },
+      "tradeExp": 5,
+      "maxUses": 8,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:farmer_emerald_for_cabbage"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 2
+      },
+      "request": {
+        "itemKey": "farmersdelight:rice",
+        "amount": 4,
+        "amountRange": 5
+      },
+      "tradeExp": 5,
+      "maxUses": 8,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:farmer_emerald_for_rice"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "farmersdelight:pasta_with_meatballs",
+          "amount": 1
+        },
+        {
+          "itemKey": "farmersdelight:steak_and_potatoes",
+          "amount": 1
+        },
+        {
+          "itemKey": "farmersdelight:noodle_soup",
+          "amount": 1
+        },
+        {
+          "itemKey": "farmersdelight:baked_cod_stew",
+          "amount": 1
+        },
+        {
+          "itemKey": "farmersdelight:pumpkin_soup",
+          "amount": 1
+        },
+        {
+          "itemKey": "farmersdelight:vegetable_noodles",
+          "amount": 1
+        },
+        {
+          "itemKey": "farmersdelight:roasted_mutton_chops",
+          "amount": 1
+        },
+        {
+          "itemKey": "farmersdelight:squid_ink_pasta",
+          "amount": 1
+        },
+        {
+          "itemKey": "farmersdelight:ratatouille",
+          "amount": 1
+        }
+      ],
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 17,
+        "amountRange": 23
+      },
+      "tradeExp": 30,
+      "maxUses": 4,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:farmer_multioffer_pasta_with_meatballs_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:golden_carrot",
+        "amount": 3,
+        "amountRange": 4
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 4,
+        "amountRange": 6
+      },
+      "tradeExp": 15,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:farmer_golden_carrot_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "farmersdelight:horse_feed",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 8,
+        "amountRange": 14
+      },
+      "tradeExp": 20,
+      "maxUses": 8,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:farmer_horse_feed_for_emerald"
+    }
+  ]
 }
