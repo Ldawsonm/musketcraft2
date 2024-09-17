@@ -52,37 +52,37 @@
 	#	(takes effect after restart)
 	#	default: 4
 	#Range: 0 ~ 1453
-	RecruitCost = 4
+	RecruitCost = 8
 	#
 	#The amount of currency required to hire a bowman.
 	#	(takes effect after restart)
 	#	default: 6
 	#Range: 0 ~ 1453
-	BowmanCost = 6
+	BowmanCost = 10
 	#
 	#The amount of currency required to hire a crossbowman.
 	#	(takes effect after restart)
 	#	default: 8
 	#Range: 0 ~ 1453
-	CrossbowmanCost = 8
+	CrossbowmanCost = 13
 	#
 	#The amount of currency required to hire a shieldman.
 	#	(takes effect after restart)
 	#	default: 10
 	#Range: 0 ~ 1453
-	ShieldmanCost = 10
+	ShieldmanCost = 12
 	#
 	#The amount of currency required to hire a horseman.
 	#	(takes effect after restart)
 	#	default: 20
 	#Range: 0 ~ 1453
-	HorsemanCost = 20
+	HorsemanCost = 16
 	#
 	#The amount of currency required to hire a nomad.
 	#	(takes effect after restart)
 	#	default: 19
 	#Range: 0 ~ 1453
-	NomadCost = 19
+	NomadCost = 18
 	#
 	#RecruitHorseUnitsHorse
 	#	(takes effect after restart)
@@ -125,7 +125,7 @@
 	#	(takes effect after restart)
 	#	default: 1
 	#Range: 1 ~ 1453
-	MaxSpawnRecruitsInVillage = 4
+	MaxSpawnRecruitsInVillage = 6
 
 #Recruits Equipment Config:
 [Equipments]
@@ -251,24 +251,24 @@
 	#	(takes effect after restart)
 	#	default: 15.0
 	#Range: 0.0 ~ 100.0
-	RecruitPatrolsSpawnChance = 15.0
+	RecruitPatrolsSpawnChance = 25.0
 	#
 	#The interval in minutes a Recruit Patrol and Caravan can spawn.
 	#	(takes effect after restart)
 	#	default: 30
 	#Range: 1 ~ 60
-	RecruitPatrolSpawnInterval = 30
+	RecruitPatrolSpawnInterval = 60
 	#
 	#The time in minutes a Recruit Patrol and Caravan will despawn.
 	#	(takes effect after restart)
 	#	default: 45
 	#Range: 1 ~ 1453
-	RecruitPatrolDespawnTime = 45
+	RecruitPatrolDespawnTime = 30
 	#
 	#Should modded Pillager Patrols spawn in the world?
 	#	(takes effect after restart)
 	#	default: false
-	ShouldPillagerPatrolsSpawn = false
+	ShouldPillagerPatrolsSpawn = true
 	#
 	#Chance that a modded Pillager Patrol can spawn. (higher values = higher chance to spawn)
 	#	(takes effect after restart)
