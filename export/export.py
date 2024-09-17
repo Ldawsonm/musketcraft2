@@ -49,7 +49,7 @@ for addonDict in profile["installedAddons"]:
 modlistHTML = "<ul>"
 for mod in htmlModEntries:
     modlistHTML = modlistHTML + "\n" + mod
-    print(mod)
+    # print(mod)
 modlistHTML = modlistHTML + "\n</ul>"
 
 ## SAVE FILES AND CREATE ZIP FILE
@@ -67,10 +67,16 @@ with tempfile.TemporaryDirectory() as temp_dir:
 
     # Parse overrides
     base_dir = os.path.abspath(os.path.join(path, '..'))
-    copy_overrides('overrides.txt', temp_dir, base_dir)
+    override_dir = os.path.join(temp_dir, 'overrides')
+    os.makedirs(override_dir, exist_ok=True)
+    copy_overrides('overrides.txt', override_dir, base_dir)
+
+    # Copy remaining mods into overrides
+    copy_remaining_mods(modFiles, override_dir, base_dir)
 
     # Create zip file    
+    print("Writing Zip File")
     output_zip_path = f"{manifest["name"]}-{manifest["version"]}.zip"
     zip_dir = os.path.join(path, output_zip_path)
     create_zip_from_directory(temp_dir, zip_dir)
-shutil.rmtree(temp_dir)
+print("Export Complete!")
