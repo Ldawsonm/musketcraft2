@@ -43,6 +43,66 @@
         {
           "type": "minecraft:loot_table",
           "name": "nova_structures:chests/tavern_quest/illager_manor"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "nova_structures:chests/tavern_quest/bastion"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "nova_structures:chests/tavern_quest/betterdungeon"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "nova_structures:chests/tavern_quest/christmas_village"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "nova_structures:chests/tavern_quest/giant_tree"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "nova_structures:chests/tavern_quest/hopo_mineshaft"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "nova_structures:chests/tavern_quest/illager_castle"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "nova_structures:chests/tavern_quest/mage_tower"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "nova_structures:chests/tavern_quest/mansion"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "nova_structures:chests/tavern_quest/monument"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "nova_structures:chests/tavern_quest/overgrown_temple"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "nova_structures:chests/tavern_quest/pyramid"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "nova_structures:chests/tavern_quest/sandstone_temple"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "nova_structures:chests/tavern_quest/spire"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "nova_structures:chests/tavern_quest/thermal_plant"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "nova_structures:chests/tavern_quest/underground_village"
         }
       ]
     }

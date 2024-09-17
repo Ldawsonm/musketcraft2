@@ -344,7 +344,14 @@
       "weight": 2
     },
 
-    
+    {
+      "structure": "repurposed_structures:village_cherry",
+      "weight": 5
+    },
+    {
+      "structure": "nova_structures:tavern_cherry",
+      "weight": 5
+    },
 
     
 

@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [
+        "taxtg:giant_cherryblossom_tree",
+        "taxtg:giant_jungle_tree",
+        "taxtg:giant_oak_tree",
+        "taxtg:giant_spruce_tree"
+    ]
+}
