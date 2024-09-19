@@ -268,7 +268,7 @@
 	#Should modded Pillager Patrols spawn in the world?
 	#	(takes effect after restart)
 	#	default: false
-	ShouldPillagerPatrolsSpawn = true
+	ShouldPillagerPatrolsSpawn = false
 	#
 	#Chance that a modded Pillager Patrol can spawn. (higher values = higher chance to spawn)
 	#	(takes effect after restart)
