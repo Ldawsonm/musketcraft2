@@ -6,7 +6,7 @@
 	elitesEnabled = true
 	#Extra health that Raiders will receive per additional player in the Raid. 0 to disable Raiders receiving extra health.
 	#Range: 0.0 ~ 1.7976931348623157E308
-	playerHealthBoostAmount = 2.0
+	playerHealthBoostAmount = 0.0
 
 ["Vindicator Settings"]
 	#Level of Sharpness that Vindicator axes will be enchanted with. 0 to disable.
