@@ -1,0 +1,25 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:villager",
+        "minecraft:wandering_trader",
+        "recruits:recruit",
+        "recruits:bowman",
+        "recruits:recruit_shieldman",
+        "recruits:crossbowman",
+        "recruits:captain",
+        "recruits:horseman",
+        "recruits:messenger",
+        "recruits:nomad",
+        "recruits:patrol_leader",
+        "workers:beekeeper",
+        "workers:cattle_farmer",
+        "workers:fisherman",
+        "workers:lumberjack",
+        "workers:merchant",
+        "workers:miner",
+        "workers:rabbit_farmer",
+        "workers:shepherd",
+        "workers:swineherd"
+    ]
+}

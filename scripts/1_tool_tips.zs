@@ -14,13 +14,13 @@ controlTip.setStyle(controlTipStyle);
 // <item:camera:camera>.addTooltip(camTip);
 
 # Player Tracking Compass
-var compTip = Component.literal("Use to track the nearest player");
-compTip.setStyle(<constant:minecraft:formatting:gray>.asStyle());
-<item:playertrackingcompass:tracking_compass>.addTooltip(compTip);
+// var compTip = Component.literal("Use to track the nearest player");
+// compTip.setStyle(<constant:minecraft:formatting:gray>.asStyle());
+// <item:playertrackingcompass:tracking_compass>.addTooltip(compTip);
 
-var compTip2 = Component.literal("Does not track within 10 blocks");
-compTip2.setStyle(<constant:minecraft:formatting:gray>.asStyle());
-<item:playertrackingcompass:tracking_compass>.addTooltip(compTip2);
+// var compTip2 = Component.literal("Does not track within 10 blocks");
+// compTip2.setStyle(<constant:minecraft:formatting:gray>.asStyle());
+// <item:playertrackingcompass:tracking_compass>.addTooltip(compTip2);
 
 # Sail
 var sailTip = Component.literal("Used to craft ships");

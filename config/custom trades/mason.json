@@ -31,7 +31,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "minecraft:mason_emerald_for_multirequest_cobblestone"
+      "UTID": "minecraft:mason_emerald_for_multirequest_cobblestone_0"
     },
     {
       "offer": {
@@ -47,7 +47,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "minecraft:mason_brick_for_emerald"
+      "UTID": "minecraft:mason_brick_for_emerald_0"
     },
     {
       "offer": {
@@ -87,7 +87,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 2,
-      "UTID": "minecraft:mason_emerald_for_multirequest_calcite"
+      "UTID": "minecraft:mason_emerald_for_multirequest_calcite_0"
     },
     {
       "offer": {
@@ -105,7 +105,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 2,
-      "UTID": "minecraft:mason_emerald_for_stone"
+      "UTID": "minecraft:mason_emerald_for_stone_0"
     },
     {
       "offer": {
@@ -123,7 +123,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 3,
-      "UTID": "minecraft:mason_emerald_for_quartz"
+      "UTID": "minecraft:mason_emerald_for_quartz_0"
     },
     {
       "offer": {
@@ -140,7 +140,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 3,
-      "UTID": "minecraft:mason_packed_mud_for_emerald"
+      "UTID": "minecraft:mason_packed_mud_for_emerald_0"
     },
     {
       "multiOffer": [
@@ -234,7 +234,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 4,
-      "UTID": "minecraft:mason_multioffer_white_concrete_for_emerald"
+      "UTID": "minecraft:mason_multioffer_white_concrete_for_emerald_0"
     },
     {
       "offer": {
@@ -251,7 +251,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 4,
-      "UTID": "minecraft:mason_terracotta_for_emerald"
+      "UTID": "minecraft:mason_terracotta_for_emerald_0"
     },
     {
       "multiOffer": [
@@ -277,7 +277,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 5,
-      "UTID": "minecraft:mason_multioffer_azure_froglass_for_emerald"
+      "UTID": "minecraft:mason_multioffer_azure_froglass_for_emerald_0"
     },
     {
       "offer": {
@@ -295,7 +295,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 5,
-      "UTID": "minecraft:mason_myalite_for_emerald"
+      "UTID": "minecraft:mason_myalite_for_emerald_0"
     }
   ]
 }

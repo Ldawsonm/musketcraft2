@@ -18,7 +18,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "minecraft:farmer_emerald_for_wheat"
+      "UTID": "minecraft:farmer_emerald_for_wheat_0"
     },
     {
       "offer": {
@@ -35,7 +35,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "minecraft:farmer_emerald_for_potato"
+      "UTID": "minecraft:farmer_emerald_for_potato_0"
     },
     {
       "offer": {
@@ -53,7 +53,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "minecraft:farmer_bread_for_emerald"
+      "UTID": "minecraft:farmer_bread_for_emerald_0"
     },
     {
       "offer": {
@@ -70,7 +70,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 2,
-      "UTID": "minecraft:farmer_emerald_for_carrot"
+      "UTID": "minecraft:farmer_emerald_for_carrot_0"
     },
     {
       "offer": {
@@ -88,7 +88,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 2,
-      "UTID": "minecraft:farmer_emerald_for_beetroot"
+      "UTID": "minecraft:farmer_emerald_for_beetroot_0"
     },
     {
       "offer": {
@@ -105,7 +105,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 2,
-      "UTID": "minecraft:farmer_emerald_for_melon_slice"
+      "UTID": "minecraft:farmer_emerald_for_melon_slice_0"
     },
     {
       "offer": {
@@ -122,7 +122,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 2,
-      "UTID": "minecraft:farmer_emerald_for_pumpkin"
+      "UTID": "minecraft:farmer_emerald_for_pumpkin_0"
     },
     {
       "offer": {
@@ -139,7 +139,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 3,
-      "UTID": "minecraft:farmer_emerald_for_sweet_berries"
+      "UTID": "minecraft:farmer_emerald_for_sweet_berries_0"
     },
     {
       "offer": {
@@ -156,7 +156,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 3,
-      "UTID": "minecraft:farmer_emerald_for_tomato"
+      "UTID": "minecraft:farmer_emerald_for_tomato_0"
     },
     {
       "offer": {
@@ -173,7 +173,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 3,
-      "UTID": "minecraft:farmer_emerald_for_onion"
+      "UTID": "minecraft:farmer_emerald_for_onion_0"
     },
     {
       "multiOffer": [
@@ -212,7 +212,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 4,
-      "UTID": "minecraft:farmer_multioffer_chicken_sandwich_for_emerald"
+      "UTID": "minecraft:farmer_multioffer_chicken_sandwich_for_emerald_0"
     },
     {
       "offer": {
@@ -229,7 +229,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 4,
-      "UTID": "minecraft:farmer_emerald_for_cabbage"
+      "UTID": "minecraft:farmer_emerald_for_cabbage_0"
     },
     {
       "offer": {
@@ -246,7 +246,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 4,
-      "UTID": "minecraft:farmer_emerald_for_rice"
+      "UTID": "minecraft:farmer_emerald_for_rice_0"
     },
     {
       "multiOffer": [
@@ -297,7 +297,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 5,
-      "UTID": "minecraft:farmer_multioffer_pasta_with_meatballs_for_emerald"
+      "UTID": "minecraft:farmer_multioffer_pasta_with_meatballs_for_emerald_0"
     },
     {
       "offer": {
@@ -315,7 +315,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 5,
-      "UTID": "minecraft:farmer_golden_carrot_for_emerald"
+      "UTID": "minecraft:farmer_golden_carrot_for_emerald_0"
     },
     {
       "offer": {
@@ -332,7 +332,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 5,
-      "UTID": "minecraft:farmer_horse_feed_for_emerald"
+      "UTID": "minecraft:farmer_horse_feed_for_emerald_0"
     }
   ]
 }

@@ -6,7 +6,7 @@
 0 : '{Count:1b,id:"magistuarmory:club",tag:{Damage:0}}',
 1 : '{Count:1b,id:"minecraft:wooden_pickaxe",tag:{Damage:0}}',
 2 : '{Count:1b,id:"minecraft:wooden_axe",tag:{Damage:0}}',
-3 : '{Count:1b,id:"playertrackingcompass:tracking_compass"}',
+3 : '{Count:1b,id:"minecraft:compass"}',
 4 : '{Count:16b,id:"minecraft:apple"}',
 5 : '',
 6 : '',

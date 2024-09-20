@@ -25,7 +25,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "minecraft:cleric_emerald_for_multirequest_rotten_flesh"
+      "UTID": "minecraft:cleric_emerald_for_multirequest_rotten_flesh_0"
     },
     {
       "offer": {
@@ -42,7 +42,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "minecraft:cleric_emerald_for_redstone"
+      "UTID": "minecraft:cleric_emerald_for_redstone_0"
     },
     {
       "offer": {
@@ -58,7 +58,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "minecraft:cleric_blaze_powder_for_emerald"
+      "UTID": "minecraft:cleric_blaze_powder_for_emerald_0"
     },
     {
       "offer": {
@@ -74,7 +74,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 2,
-      "UTID": "minecraft:cleric_emerald_for_gold_ingot"
+      "UTID": "minecraft:cleric_emerald_for_gold_ingot_0"
     },
     {
       "offer": {
@@ -91,7 +91,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 2,
-      "UTID": "minecraft:cleric_emerald_for_lapis_lazuli"
+      "UTID": "minecraft:cleric_emerald_for_lapis_lazuli_0"
     },
     {
       "offer": {
@@ -107,7 +107,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 2,
-      "UTID": "minecraft:cleric_glow_berries_for_emerald"
+      "UTID": "minecraft:cleric_glow_berries_for_emerald_0"
     },
     {
       "offer": {
@@ -123,7 +123,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 2,
-      "UTID": "minecraft:cleric_emerald_for_blaze_rod"
+      "UTID": "minecraft:cleric_emerald_for_blaze_rod_0"
     },
     {
       "multiOffer": [
@@ -148,7 +148,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 3,
-      "UTID": "minecraft:cleric_multioffer_potion_for_emerald"
+      "UTID": "minecraft:cleric_multioffer_potion_for_emerald_0"
     },
     {
       "offer": {
@@ -165,7 +165,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 3,
-      "UTID": "minecraft:cleric_emerald_for_glass_bottle"
+      "UTID": "minecraft:cleric_emerald_for_glass_bottle_0"
     },
     {
       "multiOffer": [
@@ -190,7 +190,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 4,
-      "UTID": "minecraft:cleric_multioffer_potion_for_emerald"
+      "UTID": "minecraft:cleric_multioffer_potion_for_emerald_0"
     },
     {
       "offer": {
@@ -207,7 +207,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 4,
-      "UTID": "minecraft:cleric_emerald_for_rabbit_foot"
+      "UTID": "minecraft:cleric_emerald_for_rabbit_foot_0"
     },
     {
       "multiOffer": [
@@ -242,7 +242,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 5,
-      "UTID": "minecraft:cleric_multioffer_splash_potion_for_emerald"
+      "UTID": "minecraft:cleric_multioffer_splash_potion_for_emerald_0"
     },
     {
       "multiOffer": [
@@ -277,7 +277,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 5,
-      "UTID": "minecraft:cleric_multioffer_lingering_potion_for_emerald"
+      "UTID": "minecraft:cleric_multioffer_lingering_potion_for_emerald_0"
     }
   ]
 }

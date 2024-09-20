@@ -9,7 +9,7 @@ death_storage_duration = -1
 	#Range: > 0
 	skeleton_time = 12000
 	#If the corpse should lie on its face
-	lie_on_face = false
+	lie_on_face = true
 	#If the corpse should wear the players equipment
 	show_equipment = true
 	#If the corpse should fall into the void

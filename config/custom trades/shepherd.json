@@ -18,7 +18,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "minecraft:shepherd_emerald_for_white_wool"
+      "UTID": "minecraft:shepherd_emerald_for_white_wool_0"
     },
     {
       "offer": {
@@ -34,7 +34,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "minecraft:shepherd_shears_for_emerald"
+      "UTID": "minecraft:shepherd_shears_for_emerald_0"
     },
     {
       "offer": {
@@ -51,7 +51,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 2,
-      "UTID": "minecraft:shepherd_woolen_fabric_for_emerald"
+      "UTID": "minecraft:shepherd_woolen_fabric_for_emerald_0"
     },
     {
       "offer": {
@@ -68,7 +68,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 2,
-      "UTID": "minecraft:shepherd_emerald_for_string"
+      "UTID": "minecraft:shepherd_emerald_for_string_0"
     },
     {
       "multiOffer": [
@@ -97,7 +97,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 3,
-      "UTID": "minecraft:shepherd_multioffer_light_gray_dye_for_emerald"
+      "UTID": "minecraft:shepherd_multioffer_light_gray_dye_for_emerald_0"
     },
     {
       "multiOffer": [
@@ -126,7 +126,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 3,
-      "UTID": "minecraft:shepherd_multioffer_red_dye_for_emerald"
+      "UTID": "minecraft:shepherd_multioffer_red_dye_for_emerald_0"
     },
     {
       "multiOffer": [
@@ -155,7 +155,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 4,
-      "UTID": "minecraft:shepherd_multioffer_light_blue_dye_for_emerald"
+      "UTID": "minecraft:shepherd_multioffer_light_blue_dye_for_emerald_0"
     },
     {
       "multiOffer": [
@@ -182,7 +182,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 4,
-      "UTID": "minecraft:shepherd_multioffer_pink_dye_for_emerald"
+      "UTID": "minecraft:shepherd_multioffer_pink_dye_for_emerald_0"
     },
     {
       "multiOffer": [
@@ -206,7 +206,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 5,
-      "UTID": "minecraft:shepherd_multioffer_lime_dye_for_emerald"
+      "UTID": "minecraft:shepherd_multioffer_lime_dye_for_emerald_0"
     },
     {
       "offer": {
@@ -222,7 +222,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 5,
-      "UTID": "minecraft:shepherd_brown_dye_for_emerald"
+      "UTID": "minecraft:shepherd_brown_dye_for_emerald_0"
     }
   ]
 }

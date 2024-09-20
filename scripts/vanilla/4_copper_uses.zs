@@ -51,8 +51,8 @@ craftingTable.addShaped("copper_vault", <item:functionalstorage:oak_1>,
      [copper, <tag:items:minecraft:planks>, copper]]);
 
 # Tracking Compass
-craftingTable.remove(<item:playertrackingcompass:tracking_compass>);
-craftingTable.addShaped("tracking_compass", <item:playertrackingcompass:tracking_compass>,
-    [[air, copper, air],
-     [copper, <item:minecraft:redstone>, copper],
-     [air, copper, air]]);
+// craftingTable.remove(<item:playertrackingcompass:tracking_compass>);
+// craftingTable.addShaped("tracking_compass", <item:playertrackingcompass:tracking_compass>,
+//     [[air, copper, air],
+//      [copper, <item:minecraft:redstone>, copper],
+//      [air, copper, air]]);

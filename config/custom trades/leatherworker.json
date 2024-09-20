@@ -18,7 +18,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "minecraft:leatherworker_emerald_for_leather"
+      "UTID": "minecraft:leatherworker_emerald_for_leather_0"
     },
     {
       "offer": {
@@ -34,7 +34,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "minecraft:leatherworker_emerald_for_antler"
+      "UTID": "minecraft:leatherworker_emerald_for_antler_0"
     },
     {
       "offer": {
@@ -50,7 +50,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 2,
-      "UTID": "minecraft:leatherworker_emerald_for_bear_fur"
+      "UTID": "minecraft:leatherworker_emerald_for_bear_fur_0"
     },
     {
       "offer": {
@@ -67,7 +67,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 2,
-      "UTID": "minecraft:leatherworker_saddle_for_emerald"
+      "UTID": "minecraft:leatherworker_saddle_for_emerald_0"
     },
     {
       "multiOffer": [
@@ -93,7 +93,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 3,
-      "UTID": "minecraft:leatherworker_multioffer_gazelle_horns_decoration_for_emerald"
+      "UTID": "minecraft:leatherworker_multioffer_gazelle_horns_decoration_for_emerald_0"
     },
     {
       "offer": {
@@ -109,7 +109,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 3,
-      "UTID": "minecraft:leatherworker_emerald_for_rabbit_hide"
+      "UTID": "minecraft:leatherworker_emerald_for_rabbit_hide_0"
     },
     {
       "multiOffer": [
@@ -131,7 +131,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 4,
-      "UTID": "minecraft:leatherworker_multioffer_duck_decoration_for_emerald"
+      "UTID": "minecraft:leatherworker_multioffer_duck_decoration_for_emerald_0"
     },
     {
       "multiOffer": [
@@ -153,7 +153,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 4,
-      "UTID": "minecraft:leatherworker_multioffer_bear_decoration_for_emerald"
+      "UTID": "minecraft:leatherworker_multioffer_bear_decoration_for_emerald_0"
     },
     {
       "multiOffer": [
@@ -179,7 +179,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 5,
-      "UTID": "minecraft:leatherworker_multioffer_unicorn_decoration_for_emerald"
+      "UTID": "minecraft:leatherworker_multioffer_unicorn_decoration_for_emerald_0"
     }
   ]
 }

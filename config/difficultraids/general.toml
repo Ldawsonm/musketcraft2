@@ -46,7 +46,7 @@
 ["Insanity Mode"]
 	#Activate Insanity mode.
 	#'Detecting hundreds of raiders in the region. Are you certain whatever you're doing is worth it?'
-	insanityMode = true
+	insanityMode = false
 	#The multiplier for the number of raiders spawned in Insanity mode.
 	#This gets applied on top of whatever difficulty a Raid is at. This will not apply to Default Raids.
 	#Range: 1.0 ~ 1.7976931348623157E308

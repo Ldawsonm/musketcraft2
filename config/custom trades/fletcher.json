@@ -18,7 +18,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "minecraft:fletcher_bow_for_emerald"
+      "UTID": "minecraft:fletcher_bow_for_emerald_0"
     },
     {
       "offer": {
@@ -34,7 +34,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "minecraft:fletcher_arrow_for_emerald"
+      "UTID": "minecraft:fletcher_arrow_for_emerald_0"
     },
     {
       "offer": {
@@ -51,7 +51,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 2,
-      "UTID": "minecraft:fletcher_emerald_for_flint"
+      "UTID": "minecraft:fletcher_emerald_for_flint_0"
     },
     {
       "offer": {
@@ -68,7 +68,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 2,
-      "UTID": "minecraft:fletcher_longbow_for_emerald"
+      "UTID": "minecraft:fletcher_longbow_for_emerald_0"
     },
     {
       "offer": {
@@ -86,7 +86,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 3,
-      "UTID": "minecraft:fletcher_emerald_for_feather"
+      "UTID": "minecraft:fletcher_emerald_for_feather_0"
     },
     {
       "offer": {
@@ -102,7 +102,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 3,
-      "UTID": "minecraft:fletcher_dispenser_for_emerald"
+      "UTID": "minecraft:fletcher_dispenser_for_emerald_0"
     },
     {
       "offer": {
@@ -119,7 +119,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 4,
-      "UTID": "minecraft:fletcher_emerald_for_string"
+      "UTID": "minecraft:fletcher_emerald_for_string_0"
     },
     {
       "offer": {
@@ -136,7 +136,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 4,
-      "UTID": "minecraft:fletcher_crossbow_for_emerald"
+      "UTID": "minecraft:fletcher_crossbow_for_emerald_0"
     },
     {
       "offer": {
@@ -152,7 +152,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 5,
-      "UTID": "minecraft:fletcher_torch_arrow_for_emerald"
+      "UTID": "minecraft:fletcher_torch_arrow_for_emerald_0"
     },
     {
       "offer": {
@@ -168,7 +168,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 5,
-      "UTID": "minecraft:fletcher_rope_arrow_for_emerald"
+      "UTID": "minecraft:fletcher_rope_arrow_for_emerald_0"
     }
   ]
 }

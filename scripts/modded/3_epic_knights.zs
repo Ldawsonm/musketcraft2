@@ -9,6 +9,8 @@ val iron = <item:minecraft:iron_ingot>;
 val nug = <item:minecraft:iron_nugget>;
 val feather = <item:minecraft:feather>;
 val rabbit_hide = <item:minecraft:rabbit_hide>;
+val dye = <tag:items:forge:dyes>;
+val fabric = <item:magistuarmory:woolen_fabric>;
 val iron_helm = <item:minecraft:iron_helmet>;
 val iron_chest = <item:minecraft:iron_chestplate>;
 val iron_legs = <item:minecraft:iron_leggings>;
@@ -238,4 +240,34 @@ craftingTable.addShaped("hussar", <item:magistuarmory:wingedhussar_chestplate>, 
     [feather, rabbit_hide, feather],
     [nug, iron_chest, nug],
     [nug, iron, nug]
+]);
+
+## BANNER PATTERNS
+#Christian Crosses
+craftingTable.addShaped("crusader", <item:magistuarmory:crusader_cross_pattern>, [
+    [air, dye, air],
+    [dye, dye, dye],
+    [air, dye, air]
+]);
+craftingTable.addShaped("apostolic", <item:magistuarmory:apostolic_cross_pattern>, [
+    [air, <item:magistuarmory:crusader_cross_pattern>, air],
+    [dye, dye, dye],
+    [air, dye, air]
+]);
+craftingTable.addShaped("orthodox", <item:magistuarmory:orthodox_cross_pattern>, [
+    [air, air, dye],
+    [air, <item:magistuarmory:apostolic_cross_pattern>, air],
+    [dye, air, air]
+]);
+
+## ARMOR DECORATIONS
+craftingTable.removeByName("magistuarmory:spike_decoration");
+craftingTable.removeByName("magistuarmory:two_plumes_decoration");
+craftingTable.addShaped("spike_decoration", <item:magistuarmory:spike_decoration>, [
+    [fabric, fabric],
+    [iron, air]
+]);
+craftingTable.addShaped("two_plumes_decoration", <item:magistuarmory:two_plumes_decoration>, [
+    [feather, air, feather],
+    [iron, air, iron]
 ]);

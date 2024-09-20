@@ -18,7 +18,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "minecraft:fisherman_emerald_for_cod"
+      "UTID": "minecraft:fisherman_emerald_for_cod_0"
     },
     {
       "offer": {
@@ -35,7 +35,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "minecraft:fisherman_emerald_for_salmon"
+      "UTID": "minecraft:fisherman_emerald_for_salmon_0"
     },
     {
       "offer": {
@@ -52,7 +52,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 2,
-      "UTID": "minecraft:fisherman_ink_sac_for_emerald"
+      "UTID": "minecraft:fisherman_ink_sac_for_emerald_0"
     },
     {
       "offer": {
@@ -69,7 +69,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 2,
-      "UTID": "minecraft:fisherman_fishing_rod_for_emerald"
+      "UTID": "minecraft:fisherman_fishing_rod_for_emerald_0"
     },
     {
       "offer": {
@@ -86,7 +86,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 3,
-      "UTID": "minecraft:fisherman_emerald_for_bass"
+      "UTID": "minecraft:fisherman_emerald_for_bass_0"
     },
     {
       "offer": {
@@ -102,7 +102,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 3,
-      "UTID": "minecraft:fisherman_emerald_for_catfish"
+      "UTID": "minecraft:fisherman_emerald_for_catfish_0"
     },
     {
       "offer": {
@@ -118,7 +118,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 4,
-      "UTID": "minecraft:fisherman_emerald_for_tropical_fish"
+      "UTID": "minecraft:fisherman_emerald_for_tropical_fish_0"
     },
     {
       "offer": {
@@ -134,7 +134,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 4,
-      "UTID": "minecraft:fisherman_emerald_for_pufferfish"
+      "UTID": "minecraft:fisherman_emerald_for_pufferfish_0"
     },
     {
       "offer": {
@@ -150,7 +150,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 5,
-      "UTID": "minecraft:fisherman_prismarine_shard_for_emerald"
+      "UTID": "minecraft:fisherman_prismarine_shard_for_emerald_0"
     },
     {
       "offer": {
@@ -166,7 +166,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 5,
-      "UTID": "minecraft:fisherman_prismarine_crystals_for_emerald"
+      "UTID": "minecraft:fisherman_prismarine_crystals_for_emerald_0"
     }
   ]
 }
