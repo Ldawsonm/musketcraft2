@@ -1,0 +1,33 @@
+{
+    "replace": false,
+    "values": [
+        "magistuarmory:steel_stylet",
+        "magistuarmory:steel_shortsword",
+        "magistuarmory:steel_katzbalger",
+        "magistuarmory:steel_pike",
+        "magistuarmory:steel_ranseur",
+        "magistuarmory:steel_ahlspiess",
+        "magistuarmory:steel_chivalrylance",
+        "magistuarmory:steel_bastardsword",
+        "magistuarmory:steel_estoc",
+        "magistuarmory:steel_claymore",
+        "magistuarmory:steel_zweihander",
+        "magistuarmory:steel_lochaberaxe",
+        "magistuarmory:steel_concavehalberd",
+        "magistuarmory:steel_heavymace",
+        "magistuarmory:steel_heavywarhammer",
+        "magistuarmory:steel_lucernhammer",
+        "magistuarmory:steel_morgenstern",
+        "magistuarmory:steel_chainmorgenstern",
+        "magistuarmory:steel_guisarme",
+        "magistuarmory:steel_heatershield",
+        "magistuarmory:steel_target",
+        "magistuarmory:steel_buckler",
+        "magistuarmory:steel_rondache",
+        "magistuarmory:steel_tartsche",
+        "magistuarmory:steel_ellipticalshield",
+        "magistuarmory:steel_roundshield",
+        "magistuarmory:steel_pavese",
+        "magistuarmory:steel_kiteshield"
+    ]
+}

@@ -18,7 +18,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "minecraft:butcher_emerald_for_porkchop"
+      "UTID": "minecraft:butcher_emerald_for_porkchop_0"
     },
     {
       "offer": {
@@ -35,7 +35,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "minecraft:butcher_emerald_for_mutton"
+      "UTID": "minecraft:butcher_emerald_for_mutton_0"
     },
     {
       "offer": {
@@ -52,7 +52,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "minecraft:butcher_emerald_for_chicken"
+      "UTID": "minecraft:butcher_emerald_for_chicken_0"
     },
     {
       "offer": {
@@ -69,7 +69,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 2,
-      "UTID": "minecraft:butcher_emerald_for_beef"
+      "UTID": "minecraft:butcher_emerald_for_beef_0"
     },
     {
       "offer": {
@@ -85,7 +85,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 2,
-      "UTID": "minecraft:butcher_emerald_for_rabbit"
+      "UTID": "minecraft:butcher_emerald_for_rabbit_0"
     },
     {
       "offer": {
@@ -102,7 +102,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 2,
-      "UTID": "minecraft:butcher_emerald_for_charcoal"
+      "UTID": "minecraft:butcher_emerald_for_charcoal_0"
     },
     {
       "offer": {
@@ -119,7 +119,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 2,
-      "UTID": "minecraft:butcher_cooked_chicken_for_emerald"
+      "UTID": "minecraft:butcher_cooked_chicken_for_emerald_0"
     },
     {
       "offer": {
@@ -135,7 +135,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 3,
-      "UTID": "minecraft:butcher_emerald_for_duck"
+      "UTID": "minecraft:butcher_emerald_for_duck_0"
     },
     {
       "offer": {
@@ -151,7 +151,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 3,
-      "UTID": "minecraft:butcher_emerald_for_venison"
+      "UTID": "minecraft:butcher_emerald_for_venison_0"
     },
     {
       "offer": {
@@ -168,7 +168,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 3,
-      "UTID": "minecraft:butcher_cooked_rabbit_for_emerald"
+      "UTID": "minecraft:butcher_cooked_rabbit_for_emerald_0"
     },
     {
       "offer": {
@@ -185,7 +185,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 4,
-      "UTID": "minecraft:butcher_cooked_mutton_for_emerald"
+      "UTID": "minecraft:butcher_cooked_mutton_for_emerald_0"
     },
     {
       "offer": {
@@ -202,7 +202,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 4,
-      "UTID": "minecraft:butcher_cooked_duck_for_emerald"
+      "UTID": "minecraft:butcher_cooked_duck_for_emerald_0"
     },
     {
       "offer": {
@@ -219,7 +219,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 4,
-      "UTID": "minecraft:butcher_cooked_venison_for_emerald"
+      "UTID": "minecraft:butcher_cooked_venison_for_emerald_0"
     },
     {
       "offer": {
@@ -236,7 +236,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 5,
-      "UTID": "minecraft:butcher_cooked_beef_for_emerald"
+      "UTID": "minecraft:butcher_cooked_beef_for_emerald_0"
     },
     {
       "offer": {
@@ -253,7 +253,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 5,
-      "UTID": "minecraft:butcher_cooked_porkchop_for_emerald"
+      "UTID": "minecraft:butcher_cooked_porkchop_for_emerald_0"
     },
     {
       "offer": {
@@ -269,7 +269,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 5,
-      "UTID": "minecraft:butcher_dog_food_for_emerald"
+      "UTID": "minecraft:butcher_dog_food_for_emerald_0"
     }
   ]
 }

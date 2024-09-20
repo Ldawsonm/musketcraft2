@@ -71,22 +71,6 @@
       "UTID": "minecraft:cartographer_compass_for_emerald"
     },
     {
-      "offer": {
-        "itemKey": "playertrackingcompass:tracking_compass",
-        "amount": 1
-      },
-      "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 4
-      },
-      "tradeExp": 15,
-      "maxUses": 16,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 3,
-      "UTID": "minecraft:cartographer_tracking_compass_for_emerald"
-    },
-    {
       "multiOffer": [
         {
           "itemKey": "supplementaries:cartographers_quill",
@@ -174,6 +158,96 @@
       "demand": 0,
       "tradeLevel": 5,
       "UTID": "minecraft:cartographer_multioffer_cartographers_quill_for_emerald"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "magistuarmory:bull_pattern",
+          "amount": 1
+        },
+        {
+          "itemKey": "magistuarmory:dragon_pattern",
+          "amount": 1
+        },
+        {
+          "itemKey": "magistuarmory:eagle_pattern",
+          "amount": 1
+        },
+        {
+          "itemKey": "magistuarmory:horse_pattern",
+          "amount": 1
+        },
+        {
+          "itemKey": "magistuarmory:lion1_pattern",
+          "amount": 1
+        },
+        {
+          "itemKey": "magistuarmory:lion2_pattern",
+          "amount": 1
+        },
+        {
+          "itemKey": "magistuarmory:snake_pattern",
+          "amount": 1
+        },
+        {
+          "itemKey": "magistuarmory:two-headed_eagle_pattern",
+          "amount": 1
+        }
+      ],
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 4,
+        "amountRange": 6
+      },
+      "tradeExp": 20,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:cartographer_multioffer_bull_pattern_for_emerald"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "magistuarmory:bowl_pattern",
+          "amount": 1
+        },
+        {
+          "itemKey": "magistuarmory:chess_pattern",
+          "amount": 1
+        },
+        {
+          "itemKey": "magistuarmory:lily_pattern",
+          "amount": 1
+        },
+        {
+          "itemKey": "magistuarmory:sun_pattern",
+          "amount": 1
+        },
+        {
+          "itemKey": "magistuarmory:swords_pattern",
+          "amount": 1
+        },
+        {
+          "itemKey": "magistuarmory:tower_pattern",
+          "amount": 1
+        },
+        {
+          "itemKey": "magistuarmory:tree_pattern",
+          "amount": 1
+        }
+      ],
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 4,
+        "amountRange": 6
+      },
+      "tradeExp": 20,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:cartographer_multioffer_bowl_pattern_for_emerald"
     }
   ]
 }

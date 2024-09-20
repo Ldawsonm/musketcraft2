@@ -17,7 +17,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "minecraft:toolsmith_stone_axe_for_emerald"
+      "UTID": "minecraft:toolsmith_stone_axe_for_emerald_0"
     },
     {
       "offer": {
@@ -33,7 +33,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "minecraft:toolsmith_stone_shovel_for_emerald"
+      "UTID": "minecraft:toolsmith_stone_shovel_for_emerald_0"
     },
     {
       "offer": {
@@ -49,7 +49,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "minecraft:toolsmith_stone_hoe_for_emerald"
+      "UTID": "minecraft:toolsmith_stone_hoe_for_emerald_0"
     },
     {
       "offer": {
@@ -67,7 +67,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "minecraft:toolsmith_emerald_for_coal"
+      "UTID": "minecraft:toolsmith_emerald_for_coal_0"
     },
     {
       "offer": {
@@ -83,7 +83,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 2,
-      "UTID": "minecraft:toolsmith_stone_pickaxe_for_emerald"
+      "UTID": "minecraft:toolsmith_stone_pickaxe_for_emerald_0"
     },
     {
       "offer": {
@@ -99,7 +99,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 2,
-      "UTID": "minecraft:toolsmith_bell_for_emerald"
+      "UTID": "minecraft:toolsmith_bell_for_emerald_0"
     },
     {
       "offer": {
@@ -116,7 +116,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 2,
-      "UTID": "minecraft:toolsmith_emerald_for_iron_ingot"
+      "UTID": "minecraft:toolsmith_emerald_for_iron_ingot_0"
     },
     {
       "offer": {
@@ -132,7 +132,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 3,
-      "UTID": "minecraft:toolsmith_iron_axe_for_emerald"
+      "UTID": "minecraft:toolsmith_iron_axe_for_emerald_0"
     },
     {
       "offer": {
@@ -148,7 +148,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 3,
-      "UTID": "minecraft:toolsmith_iron_shovel_for_emerald"
+      "UTID": "minecraft:toolsmith_iron_shovel_for_emerald_0"
     },
     {
       "offer": {
@@ -164,7 +164,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 3,
-      "UTID": "minecraft:toolsmith_iron_hoe_for_emerald"
+      "UTID": "minecraft:toolsmith_iron_hoe_for_emerald_0"
     },
     {
       "offer": {
@@ -180,7 +180,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 4,
-      "UTID": "minecraft:toolsmith_iron_pickaxe_for_emerald"
+      "UTID": "minecraft:toolsmith_iron_pickaxe_for_emerald_0"
     },
     {
       "offer": {
@@ -197,7 +197,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 4,
-      "UTID": "minecraft:toolsmith_emerald_for_gold_ingot"
+      "UTID": "minecraft:toolsmith_emerald_for_gold_ingot_0"
     },
     {
       "offer": {
@@ -214,7 +214,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 4,
-      "UTID": "minecraft:toolsmith_bucket_for_emerald"
+      "UTID": "minecraft:toolsmith_bucket_for_emerald_0"
     },
     {
       "offer": {
@@ -230,7 +230,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 5,
-      "UTID": "minecraft:toolsmith_piston_for_emerald"
+      "UTID": "minecraft:toolsmith_piston_for_emerald_0"
     },
     {
       "offer": {
@@ -247,7 +247,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 5,
-      "UTID": "minecraft:toolsmith_anvil_for_emerald"
+      "UTID": "minecraft:toolsmith_anvil_for_emerald_0"
     },
     {
       "offer": {
@@ -264,7 +264,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 5,
-      "UTID": "minecraft:toolsmith_iron_door_for_emerald"
+      "UTID": "minecraft:toolsmith_iron_door_for_emerald_0"
     }
   ]
 }

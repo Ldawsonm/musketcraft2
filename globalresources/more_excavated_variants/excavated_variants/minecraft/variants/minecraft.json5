@@ -167,6 +167,176 @@
         'stone',
       ],
     },
+    {
+      id: 'white_erracotta',
+      lang: {
+        en_us: 'White Terracotta',
+      },
+      block_id: 'minecraft:white_terracotta',
+      types: [
+        'stone',
+      ],
+    },
+    {
+      id: 'light_gray_terracotta',
+      lang: {
+        en_us: 'Light Gray Terracotta',
+      },
+      block_id: 'minecraft:light_gray_terracotta',
+      types: [
+        'stone',
+      ],
+    },
+    {
+      id: 'gray_terracotta',
+      lang: {
+        en_us: 'Gray Terracotta',
+      },
+      block_id: 'minecraft:gray_terracotta',
+      types: [
+        'stone',
+      ],
+    },
+    {
+      id: 'black_terracotta',
+      lang: {
+        en_us: 'Black Terracotta',
+      },
+      block_id: 'minecraft:black_terracotta',
+      types: [
+        'stone',
+      ],
+    },
+    {
+      id: 'brown_terracotta',
+      lang: {
+        en_us: 'Brown Terracotta',
+      },
+      block_id: 'minecraft:brown_terracotta',
+      types: [
+        'stone',
+      ],
+    },
+    {
+      id: 'red_terracotta',
+      lang: {
+        en_us: 'Red Terracotta',
+      },
+      block_id: 'minecraft:red_terracotta',
+      types: [
+        'stone',
+      ],
+    },
+    {
+      id: 'orange_terracotta',
+      lang: {
+        en_us: 'Orange Terracotta',
+      },
+      block_id: 'minecraft:orange_terracotta',
+      types: [
+        'stone',
+      ],
+    },
+    {
+      id: 'yellow_terracotta',
+      lang: {
+        en_us: 'Yellow Terracotta',
+      },
+      block_id: 'minecraft:yellow_terracotta',
+      types: [
+        'stone',
+      ],
+    },
+    {
+      id: 'lime_terracotta',
+      lang: {
+        en_us: 'Lime Terracotta',
+      },
+      block_id: 'minecraft:lime_terracotta',
+      types: [
+        'stone',
+      ],
+    },
+    {
+      id: 'green_terracotta',
+      lang: {
+        en_us: 'Green Terracotta',
+      },
+      block_id: 'minecraft:green_terracotta',
+      types: [
+        'stone',
+      ],
+    },
+    {
+      id: 'cyan_terracotta',
+      lang: {
+        en_us: 'Cyan Terracotta',
+      },
+      block_id: 'minecraft:cyan_terracotta',
+      types: [
+        'stone',
+      ],
+    },
+    {
+      id: 'light_blue_terracotta',
+      lang: {
+        en_us: 'Light Blue Terracotta',
+      },
+      block_id: 'minecraft:light_blue_terracotta',
+      types: [
+        'stone',
+      ],
+    },
+    {
+      id: 'blue_terracotta',
+      lang: {
+        en_us: 'Blue Terracotta',
+      },
+      block_id: 'minecraft:blue_terracotta',
+      types: [
+        'stone',
+      ],
+    },
+    {
+      id: 'purple_terracotta',
+      lang: {
+        en_us: 'Purple Terracotta',
+      },
+      block_id: 'minecraft:purple_terracotta',
+      types: [
+        'stone',
+      ],
+    },
+    {
+      id: 'magenta_terracotta',
+      lang: {
+        en_us: 'Magenta Terracotta',
+      },
+      block_id: 'minecraft:magenta_terracotta',
+      types: [
+        'stone',
+      ],
+    },
+    {
+      id: 'pink_terracotta',
+      lang: {
+        en_us: 'Pink Terracotta',
+      },
+      block_id: 'minecraft:pink_terracotta',
+      types: [
+        'stone',
+      ],
+    },
+    {
+      id: 'packed_mud',
+      lang: {
+        en_us: 'Packed Mud',
+      },
+      block_id: 'minecraft:packed_mud',
+      types: [
+        'stone',
+      ],
+    },
   ],
   provided_ores: [
     {

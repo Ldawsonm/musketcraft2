@@ -17,7 +17,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "minecraft:armorer_chainmail_helmet_for_emerald"
+      "UTID": "minecraft:armorer_chainmail_helmet_for_emerald_0"
     },
     {
       "offer": {
@@ -33,7 +33,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "minecraft:armorer_chainmail_chestplate_for_emerald"
+      "UTID": "minecraft:armorer_chainmail_chestplate_for_emerald_0"
     },
     {
       "offer": {
@@ -49,7 +49,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "minecraft:armorer_chainmail_leggings_for_emerald"
+      "UTID": "minecraft:armorer_chainmail_leggings_for_emerald_0"
     },
     {
       "offer": {
@@ -65,7 +65,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "minecraft:armorer_chainmail_boots_for_emerald"
+      "UTID": "minecraft:armorer_chainmail_boots_for_emerald_0"
     },
     {
       "multiOffer": [
@@ -87,7 +87,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 2,
-      "UTID": "minecraft:armorer_multioffer_cuirassier_boots_for_emerald"
+      "UTID": "minecraft:armorer_multioffer_cuirassier_boots_for_emerald_0"
     },
     {
       "multiOffer": [
@@ -109,7 +109,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 2,
-      "UTID": "minecraft:armorer_multioffer_norman_helmet_for_emerald"
+      "UTID": "minecraft:armorer_multioffer_norman_helmet_for_emerald_0"
     },
     {
       "offer": {
@@ -125,7 +125,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 2,
-      "UTID": "minecraft:armorer_platemail_chestplate_for_emerald"
+      "UTID": "minecraft:armorer_platemail_chestplate_for_emerald_0"
     },
     {
       "offer": {
@@ -141,7 +141,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 2,
-      "UTID": "minecraft:armorer_platemail_leggings_for_emerald"
+      "UTID": "minecraft:armorer_platemail_leggings_for_emerald_0"
     },
     {
       "multiOffer": [
@@ -163,7 +163,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 3,
-      "UTID": "minecraft:armorer_multioffer_halfarmor_chestplate_for_emerald"
+      "UTID": "minecraft:armorer_multioffer_halfarmor_chestplate_for_emerald_0"
     },
     {
       "multiOffer": [
@@ -190,7 +190,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 3,
-      "UTID": "minecraft:armorer_multioffer_iron_target_for_emerald"
+      "UTID": "minecraft:armorer_multioffer_iron_target_for_emerald_0"
     },
     {
       "offer": {
@@ -206,7 +206,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 3,
-      "UTID": "minecraft:armorer_lamellar_chestplate_for_emerald"
+      "UTID": "minecraft:armorer_lamellar_chestplate_for_emerald_0"
     },
     {
       "offer": {
@@ -222,7 +222,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 3,
-      "UTID": "minecraft:armorer_lamellar_boots_for_emerald"
+      "UTID": "minecraft:armorer_lamellar_boots_for_emerald_0"
     },
     {
       "multiOffer": [
@@ -248,7 +248,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 4,
-      "UTID": "minecraft:armorer_multioffer_kettlehat_for_emerald"
+      "UTID": "minecraft:armorer_multioffer_kettlehat_for_emerald_0"
     },
     {
       "multiOffer": [
@@ -279,7 +279,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 4,
-      "UTID": "minecraft:armorer_multioffer_iron_heatershield_for_emerald"
+      "UTID": "minecraft:armorer_multioffer_iron_heatershield_for_emerald_0"
     },
     {
       "offer": {
@@ -295,7 +295,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 4,
-      "UTID": "minecraft:armorer_crusader_chestplate_for_emerald"
+      "UTID": "minecraft:armorer_crusader_chestplate_for_emerald_0"
     },
     {
       "offer": {
@@ -311,7 +311,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 4,
-      "UTID": "minecraft:armorer_crusader_leggings_for_emerald"
+      "UTID": "minecraft:armorer_crusader_leggings_for_emerald_0"
     },
     {
       "offer": {
@@ -327,7 +327,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 5,
-      "UTID": "minecraft:armorer_platemail_boots_for_emerald"
+      "UTID": "minecraft:armorer_platemail_boots_for_emerald_0"
     },
     {
       "offer": {
@@ -344,7 +344,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 5,
-      "UTID": "minecraft:armorer_wingedhussar_chestplate_for_emerald"
+      "UTID": "minecraft:armorer_wingedhussar_chestplate_for_emerald_0"
     },
     {
       "offer": {
@@ -360,7 +360,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 5,
-      "UTID": "minecraft:armorer_iron_rondache_for_emerald"
+      "UTID": "minecraft:armorer_iron_rondache_for_emerald_0"
     },
     {
       "offer": {
@@ -376,7 +376,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 5,
-      "UTID": "minecraft:armorer_iron_pavese_for_emerald"
+      "UTID": "minecraft:armorer_iron_pavese_for_emerald_0"
     }
   ]
 }

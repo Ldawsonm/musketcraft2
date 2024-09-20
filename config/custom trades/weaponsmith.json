@@ -27,7 +27,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "minecraft:weaponsmith_multioffer_copper_stylet_for_emerald"
+      "UTID": "minecraft:weaponsmith_multioffer_copper_stylet_for_emerald_0"
     },
     {
       "multiOffer": [
@@ -58,7 +58,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "minecraft:weaponsmith_multioffer_copper_heavymace_for_emerald"
+      "UTID": "minecraft:weaponsmith_multioffer_copper_heavymace_for_emerald_0"
     },
     {
       "multiOffer": [
@@ -85,7 +85,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 3,
-      "UTID": "minecraft:weaponsmith_multioffer_copper_estoc_for_emerald"
+      "UTID": "minecraft:weaponsmith_multioffer_copper_estoc_for_emerald_0"
     },
     {
       "multiOffer": [
@@ -116,7 +116,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 3,
-      "UTID": "minecraft:weaponsmith_multioffer_copper_lochaberaxe_for_emerald"
+      "UTID": "minecraft:weaponsmith_multioffer_copper_lochaberaxe_for_emerald_0"
     },
     {
       "multiOffer": [
@@ -142,7 +142,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "minecraft:weaponsmith_multioffer_copper_pike_for_emerald"
+      "UTID": "minecraft:weaponsmith_multioffer_copper_pike_for_emerald_0"
     },
     {
       "multiOffer": [
@@ -168,7 +168,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 2,
-      "UTID": "minecraft:weaponsmith_multioffer_iron_stylet_for_emerald"
+      "UTID": "minecraft:weaponsmith_multioffer_iron_stylet_for_emerald_0"
     },
     {
       "multiOffer": [
@@ -199,7 +199,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 2,
-      "UTID": "minecraft:weaponsmith_multioffer_iron_heavymace_for_emerald"
+      "UTID": "minecraft:weaponsmith_multioffer_iron_heavymace_for_emerald_0"
     },
     {
       "multiOffer": [
@@ -226,7 +226,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 3,
-      "UTID": "minecraft:weaponsmith_multioffer_iron_estoc_for_emerald"
+      "UTID": "minecraft:weaponsmith_multioffer_iron_estoc_for_emerald_0"
     },
     {
       "multiOffer": [
@@ -257,7 +257,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 4,
-      "UTID": "minecraft:weaponsmith_multioffer_iron_lochaberaxe_for_emerald"
+      "UTID": "minecraft:weaponsmith_multioffer_iron_lochaberaxe_for_emerald_0"
     },
     {
       "multiOffer": [
@@ -283,7 +283,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 2,
-      "UTID": "minecraft:weaponsmith_multioffer_iron_pike_for_emerald"
+      "UTID": "minecraft:weaponsmith_multioffer_iron_pike_for_emerald_0"
     },
     {
       "multiOffer": [
@@ -310,7 +310,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 4,
-      "UTID": "minecraft:weaponsmith_multioffer_steel_stylet_for_emerald"
+      "UTID": "minecraft:weaponsmith_multioffer_steel_stylet_for_emerald_0"
     },
     {
       "multiOffer": [
@@ -341,7 +341,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 5,
-      "UTID": "minecraft:weaponsmith_multioffer_steel_heavymace_for_emerald"
+      "UTID": "minecraft:weaponsmith_multioffer_steel_heavymace_for_emerald_0"
     },
     {
       "multiOffer": [
@@ -368,7 +368,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 5,
-      "UTID": "minecraft:weaponsmith_multioffer_steel_estoc_for_emerald"
+      "UTID": "minecraft:weaponsmith_multioffer_steel_estoc_for_emerald_0"
     },
     {
       "multiOffer": [
@@ -399,7 +399,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 5,
-      "UTID": "minecraft:weaponsmith_multioffer_steel_lochaberaxe_for_emerald"
+      "UTID": "minecraft:weaponsmith_multioffer_steel_lochaberaxe_for_emerald_0"
     },
     {
       "multiOffer": [
@@ -425,7 +425,7 @@
       "priceMultiplier": 0.05,
       "demand": 0,
       "tradeLevel": 4,
-      "UTID": "minecraft:weaponsmith_multioffer_steel_pike_for_emerald"
+      "UTID": "minecraft:weaponsmith_multioffer_steel_pike_for_emerald_0"
     }
   ]
 }
