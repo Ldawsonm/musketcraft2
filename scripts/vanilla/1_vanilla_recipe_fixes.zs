@@ -4,6 +4,17 @@ val stick = <item:minecraft:stick>;
 val planks = <tag:items:minecraft:planks>;
 val logs = <tag:items:minecraft:logs>;
 
+craftingTable.addShapeless("stripped_oak", <item:minecraft:oak_planks> * 4, [<item:minecraft:stripped_oak_log>]);
+craftingTable.addShapeless("stripped_spruce", <item:minecraft:spruce_planks> * 4, [<item:minecraft:stripped_spruce_log>]);
+craftingTable.addShapeless("stripped_birch", <item:minecraft:birch_planks> * 4, [<item:minecraft:stripped_birch_log>]);
+craftingTable.addShapeless("stripped_jungle", <item:minecraft:birch_planks> * 4, [<item:minecraft:stripped_birch_log>]);
+craftingTable.addShapeless("stripped_acacia", <item:minecraft:acacia_planks> * 4, [<item:minecraft:stripped_acacia_log>]);
+craftingTable.addShapeless("stripped_dark_oak", <item:minecraft:dark_oak_planks> * 4, [<item:minecraft:stripped_dark_oak_log>]);
+craftingTable.addShapeless("stripped_mangrove", <item:minecraft:mangrove_planks> * 4, [<item:minecraft:stripped_mangrove_log>]);
+craftingTable.addShapeless("stripped_cherry", <item:minecraft:cherry_planks> * 4, [<item:minecraft:stripped_cherry_log>]);
+craftingTable.addShapeless("stripped_crimson", <item:minecraft:crimson_planks> * 4, [<item:minecraft:stripped_crimson_stem>]);
+craftingTable.addShapeless("stripped_warped", <item:minecraft:warped_planks> * 4, [<item:minecraft:stripped_warped_stem>]);
+
 
 // craftingTable.addShaped("stick", stick*4, [
 //     [planks],

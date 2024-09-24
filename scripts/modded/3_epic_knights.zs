@@ -10,6 +10,7 @@ val nug = <item:minecraft:iron_nugget>;
 val feather = <item:minecraft:feather>;
 val rabbit_hide = <item:minecraft:rabbit_hide>;
 val dye = <tag:items:forge:dyes>;
+val wool = <tag:items:minecraft:wool>;
 val fabric = <item:magistuarmory:woolen_fabric>;
 val iron_helm = <item:minecraft:iron_helmet>;
 val iron_chest = <item:minecraft:iron_chestplate>;
@@ -270,4 +271,11 @@ craftingTable.addShaped("spike_decoration", <item:magistuarmory:spike_decoration
 craftingTable.addShaped("two_plumes_decoration", <item:magistuarmory:two_plumes_decoration>, [
     [feather, air, feather],
     [iron, air, iron]
+]);
+
+## WOOLEN FABRIC
+craftingTable.removeByName("magistuarmory:woolen_fabric_from_wool");
+craftingTable.addShaped("woolen_fabric_from_wool", fabric * 4, [
+    [wool, wool],
+    [wool, air]
 ]);
