@@ -119,13 +119,13 @@
 	#Should Recruits instead of Iron Golems spawn in Villages
 	#	(takes effect after restart)
 	#	default: true
-	OverrideIronGolemSpawn = false
+	OverrideIronGolemSpawn = true
 	#
 	#Max Recruits in a Village Chunk to Spawn
 	#	(takes effect after restart)
 	#	default: 1
 	#Range: 1 ~ 1453
-	MaxSpawnRecruitsInVillage = 6
+	MaxSpawnRecruitsInVillage = 1
 
 #Recruits Equipment Config:
 [Equipments]
@@ -245,7 +245,7 @@
 	#Should Recruits spawn as Patrols in the world?
 	#	(takes effect after restart)
 	#	default: true
-	ShouldRecruitPatrolsSpawn = true
+	ShouldRecruitPatrolsSpawn = false
 	#
 	#Chance that a Recruit Patrol can spawn. (higher values = higher chance to spawn)
 	#	(takes effect after restart)

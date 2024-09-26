@@ -16,6 +16,13 @@ craftingTable.addShapeless("stripped_crimson", <item:minecraft:crimson_planks> *
 craftingTable.addShapeless("stripped_warped", <item:minecraft:warped_planks> * 4, [<item:minecraft:stripped_warped_stem>]);
 
 
+furnace.addRecipe("stripped_to_charcoal", <item:minecraft:charcoal>, <tag:items:minecraft:logs_that_burn>, 0.15, 200);
+<recipetype:clayworks:baking>.addJsonRecipe("stripped_to_charcoal_kiln", {
+ ingredient: <tag:items:minecraft:logs_that_burn>,
+ result: <item:minecraft:charcoal>.registryName,
+ experience: 0.15 as float,
+ cookingtime:100
+ });
 // craftingTable.addShaped("stick", stick*4, [
 //     [planks],
 //     [planks]

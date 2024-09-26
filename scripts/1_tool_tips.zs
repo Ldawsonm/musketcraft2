@@ -141,7 +141,7 @@ inscriptionTip0.setStyle(<constant:minecraft:formatting:white>.asStyle());
 var inscriptionTip = Component.literal("Bind to Diamond equipment");
 inscriptionTip.setStyle(<constant:minecraft:formatting:dark_gray>.asStyle());
 <item:minecraft:netherite_upgrade_smithing_template>.addTooltip(inscriptionTip);
-var inscriptionTip2 = Component.literal("and Corrupt a Hero's Medallion");
+var inscriptionTip2 = Component.literal("and Corrupt a Savior's Medallion");
 inscriptionTip2.setStyle(<constant:minecraft:formatting:dark_gray>.asStyle());
 <item:minecraft:netherite_upgrade_smithing_template>.addTooltip(inscriptionTip2);
 

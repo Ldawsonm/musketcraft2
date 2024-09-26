@@ -7,10 +7,12 @@ val medallion = <item:minecraft:netherite_ingot>;
 val strip = <item:magistuarmory:leather_strip>;
 val iron = <item:minecraft:iron_ingot>;
 val nug = <item:minecraft:iron_nugget>;
+val stick = <item:minecraft:stick>;
 val feather = <item:minecraft:feather>;
 val rabbit_hide = <item:minecraft:rabbit_hide>;
 val dye = <tag:items:forge:dyes>;
 val wool = <tag:items:minecraft:wool>;
+val wood = <tag:items:minecraft:planks>;
 val fabric = <item:magistuarmory:woolen_fabric>;
 val iron_helm = <item:minecraft:iron_helmet>;
 val iron_chest = <item:minecraft:iron_chestplate>;
@@ -247,7 +249,7 @@ craftingTable.addShaped("hussar", <item:magistuarmory:wingedhussar_chestplate>, 
 #Christian Crosses
 craftingTable.addShaped("crusader", <item:magistuarmory:crusader_cross_pattern>, [
     [air, dye, air],
-    [dye, dye, dye],
+    [dye, <item:minecraft:paper>, dye],
     [air, dye, air]
 ]);
 craftingTable.addShaped("apostolic", <item:magistuarmory:apostolic_cross_pattern>, [
@@ -278,4 +280,46 @@ craftingTable.removeByName("magistuarmory:woolen_fabric_from_wool");
 craftingTable.addShaped("woolen_fabric_from_wool", fabric * 4, [
     [wool, wool],
     [wool, air]
+]);
+
+## WOODEN SHIELDS
+craftingTable.remove(<item:magistuarmory:wood_heatershield>);
+craftingTable.addShaped("wood_heater", <item:magistuarmory:wood_heatershield>, [
+    [wood, wood, wood],
+    [wood, wood, iron],
+    [air, wood, air]
+]);
+
+craftingTable.remove(<item:magistuarmory:wood_ellipticalshield>);
+craftingTable.addShaped("wood_elliptical", <item:magistuarmory:wood_ellipticalshield>, [
+    [wood, wood, iron],
+    [wood, wood, wood],
+    [air, wood, wood]
+]);
+
+craftingTable.remove(<item:magistuarmory:wood_roundshield>);
+craftingTable.addShaped("wood_round", <item:magistuarmory:wood_roundshield>, [
+    [air, wood, iron],
+    [wood, wood, wood],
+    [air, wood, air]
+]);
+
+craftingTable.remove(<item:magistuarmory:wood_kiteshield>);
+craftingTable.addShaped("wood_kite", <item:magistuarmory:wood_kiteshield>, [
+    [wood, wood, wood],
+    [wood, iron, wood],
+    [air, wood, air]
+]);
+
+## MISC WEAPONS
+craftingTable.addShaped("club", <item:magistuarmory:club>, [
+    [air, air, wood],
+    [air, wood, air],
+    [stick, air, air]
+]);
+
+craftingTable.addShaped("barbed_club", <item:magistuarmory:barbedclub>, [
+    [nug, nug, nug],
+    [nug, <item:magistuarmory:club>, nug],
+    [nug, nug, nug]
 ]);
