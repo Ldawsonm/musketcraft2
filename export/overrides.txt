@@ -16,13 +16,17 @@ config/ambientsounds-client.json
 config/amendments-common.toml
 config/astikorcarts-common.toml
 config/badmobs-common.toml
+config/callablehorses-common.toml
 config/carryon-common.toml
 config/compasscoords-client.toml
 config/deathfinder-server.toml
 config/easyanvils-server.toml
 config/emi.css
 config/farmersdelight-common.toml
+config/fasterladderclimbing-client.toml
+config/friendlyfire.json
 config/ftbbackups2.json
+config/horse_colors-common.toml
 config/map_atlases-client.toml
 config/map_atlases-common.toml
 config/modelfix-client.toml
