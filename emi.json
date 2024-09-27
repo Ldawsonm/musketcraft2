@@ -1,6 +1,7 @@
 {
   "favorites": [],
   "lookup_history": [
+    "item:minecraft:oak_log",
     "item:minecraft:iron_ingot",
     "item:mcwdoors:iron_portcullis",
     "item:mcwdoors:wooden_portcullis",
@@ -11,7 +12,6 @@
     "item:minecraft:hay_block",
     "item:magistuarmory:barbedclub{Damage:0}",
     "item:magistuarmory:club{Damage:0}",
-    "item:minecraft:oak_log",
     "item:minecraft:stripped_jungle_log",
     "item:minecraft:jungle_log",
     "#item:minecraft:jungle_logs",
