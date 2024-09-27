@@ -63,3 +63,15 @@ craftingTable.addShaped("xp_tome", <item:xpbook:xp_tome>, [
     [lapis, <item:minecraft:book>, lapis],
     [lapis, lapis, lapis]
 ]);
+
+# Diamond Lead
+craftingTable.remove(<item:leashed:diamond_lead>);
+craftingTable.addShapeless("diamond_lead", <item:leashed:diamond_lead> * 2, [<item:minecraft:diamond>, <item:minecraft:lead>, <item:minecraft:lead>]);
+
+# Golden Hopper
+craftingTable.remove(<item:goldenhopper:golden_hopper>);
+craftingTable.addShaped("golden_hopper", <item:goldenhopper:golden_hopper>, [
+    [gold, air, gold],
+    [gold, <item:minecraft:hopper>, gold],
+    [air, gold, air]
+]);

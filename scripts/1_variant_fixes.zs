@@ -11,10 +11,10 @@ craftingTable.addShapeless("cherry_planks", <item:minecraft:cherry_planks> * 4, 
 craftingTable.addShapeless("crimson_planks", <item:minecraft:crimson_planks> * 4, [<item:minecraft:crimson_stem>]);
 craftingTable.addShapeless("warped_planks", <item:minecraft:warped_planks> * 4, [<item:minecraft:warped_stem>]);
 
-furnace.addRecipe("furnace_charcoal", <item:minecraft:charcoal>, <tag:items:minecraft:logs>, 0.5, 200);
-<recipetype:clayworks:baking>.addJsonRecipe("kiln_charcoal", {
-    ingredient: <tag:items:minecraft:logs>,
-    result: <item:minecraft:charcoal>.registryName,
-    experience: 0.5 as float,
-    cookingtime:100
-});
+// furnace.addRecipe("furnace_charcoal", <item:minecraft:charcoal>, <tag:items:minecraft:logs>, 0.5, 200);
+// <recipetype:clayworks:baking>.addJsonRecipe("kiln_charcoal", {
+//     ingredient: <tag:items:minecraft:logs>,
+//     result: <item:minecraft:charcoal>.registryName,
+//     experience: 0.5 as float,
+//     cookingtime:100
+// });

@@ -36,3 +36,13 @@ craftingTable.addShaped("netherrack", <item:minecraft:netherrack> * 2, [
     [granite, quartz],
     [quartz, granite]
 ]);
+
+# Name Tag Recipe
+val paper = <item:minecraft:paper>;
+val gold = <item:minecraft:gold_ingot>;
+// val string = ;
+craftingTable.addShaped("name_tag", <item:minecraft:name_tag>, [
+    [air, air, <item:minecraft:string>],
+    [gold, paper, air],
+    [gold, gold, air]
+]);

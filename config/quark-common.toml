@@ -1745,7 +1745,7 @@
 		"Disable Mushroom Block Removal" = true
 		#Makes tripwire hooks unable to be duplicated
 		"Disable Tripwire Hook Dupe" = true
-		"Non Griefing Entities" = ["minecraft:creeper", "minecraft:enderman"]
+		"Non Griefing Entities" = ["minecraft:enderman"]
 		"Elytra Allowed Dimensions" = ["minecraft:the_end"]
 		#Makes villages spawn less often when close to spawn
 		"Village Spawn Nerf" = false

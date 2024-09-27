@@ -196,7 +196,7 @@
 	#Range: > 0
 	ashenmancer_minionMaxSharpnessLevel = 5
 	#Whether or not Ashenmancer minions are allowed to grief blocks. Enabling this will cause Ashenmancer wither skulls to explode.
-	ashenmancer_allowMobGriefing = false
+	ashenmancer_allowMobGriefing = true
 	#Damage dealt by the Wither effect applied by Ashenmancer Wither Skulls. Warning: This ignores armor!
 	#Range: 0.0 ~ 1.7976931348623157E308
 	ashenmancer_witherSkullWitherTickDamage = 4.0
