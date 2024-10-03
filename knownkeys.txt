@@ -148,3 +148,8 @@ key.voice_chat_settings
 key.voice_chat_group
 key.voice_chat_toggle_recording
 key.voice_chat_adjust_volumes
+key.toolbelt.open
+key.toolbelt.cycle.left
+key.toolbelt.cycle.right
+key.toolbelt.slot
+key.craftpresence.config_keycode.name

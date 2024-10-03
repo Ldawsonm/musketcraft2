@@ -481,6 +481,10 @@
         "mcwdoors:warped_swamp_door",
         "mcwdoors:warped_tropical_door",
         "mcwdoors:warped_waffle_door",
-        "mcwdoors:warped_western_door"
+        "mcwdoors:warped_western_door",
+        "hangglider:reinforced_hang_glider",
+        "hangglider:glider_wing",
+        "hangglider:glider_framework",
+        "another_furniture:service_bell"
     ]
 }

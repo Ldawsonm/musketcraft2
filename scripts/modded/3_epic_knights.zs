@@ -22,6 +22,10 @@ val chain_helm = <item:magistuarmory:chainmail_helmet>;
 val chain_chest = <item:magistuarmory:chainmail_chestplate>;
 val chain_legs = <item:magistuarmory:chainmail_leggings>;
 val chain_boots = <item:magistuarmory:chainmail_boots>;
+val stone = <tag:items:minecraft:stone_tool_materials>;
+val gold = <item:minecraft:gold_ingot>;
+val diamond = <item:minecraft:diamond>;
+val copper = <item:minecraft:copper_ingot>;
 
 craftingTable.remove(steel);
 furnace.remove(steel);
@@ -282,34 +286,7 @@ craftingTable.addShaped("woolen_fabric_from_wool", fabric * 4, [
     [wool, air]
 ]);
 
-## WOODEN SHIELDS
-craftingTable.remove(<item:magistuarmory:wood_heatershield>);
-craftingTable.addShaped("wood_heater", <item:magistuarmory:wood_heatershield>, [
-    [wood, wood, wood],
-    [wood, wood, iron],
-    [air, wood, air]
-]);
 
-craftingTable.remove(<item:magistuarmory:wood_ellipticalshield>);
-craftingTable.addShaped("wood_elliptical", <item:magistuarmory:wood_ellipticalshield>, [
-    [wood, wood, iron],
-    [wood, wood, wood],
-    [air, wood, wood]
-]);
-
-craftingTable.remove(<item:magistuarmory:wood_roundshield>);
-craftingTable.addShaped("wood_round", <item:magistuarmory:wood_roundshield>, [
-    [air, wood, iron],
-    [wood, wood, wood],
-    [air, wood, air]
-]);
-
-craftingTable.remove(<item:magistuarmory:wood_kiteshield>);
-craftingTable.addShaped("wood_kite", <item:magistuarmory:wood_kiteshield>, [
-    [wood, wood, wood],
-    [wood, iron, wood],
-    [air, wood, air]
-]);
 
 ## MISC WEAPONS
 craftingTable.addShaped("club", <item:magistuarmory:club>, [
@@ -321,5 +298,37 @@ craftingTable.addShaped("club", <item:magistuarmory:club>, [
 craftingTable.addShaped("barbed_club", <item:magistuarmory:barbedclub>, [
     [nug, nug, nug],
     [nug, <item:magistuarmory:club>, nug],
+    [nug, nug, nug]
+]);
+
+## FLAILS
+craftingTable.addShaped("iron_morningstar", <item:magistuarmory:iron_chainmorgenstern>, [
+    [nug, nug, nug],
+    [nug, <item:magistuarmory:iron_morgenstern>, nug],
+    [nug, nug, nug]
+]);
+craftingTable.addShaped("wood_morningstar", <item:magistuarmory:wood_chainmorgenstern>, [
+    [nug, nug, nug],
+    [nug, <item:magistuarmory:wood_morgenstern>, nug],
+    [nug, nug, nug]
+]);
+craftingTable.addShaped("stone_morningstar", <item:magistuarmory:stone_chainmorgenstern>, [
+    [nug, nug, nug],
+    [nug, <item:magistuarmory:stone_morgenstern>, nug],
+    [nug, nug, nug]
+]);
+craftingTable.addShaped("gold_morningstar", <item:magistuarmory:gold_chainmorgenstern>, [
+    [nug, nug, nug],
+    [nug, <item:magistuarmory:gold_morgenstern>, nug],
+    [nug, nug, nug]
+]);
+craftingTable.addShaped("diamond_morningstar", <item:magistuarmory:diamond_chainmorgenstern>, [
+    [nug, nug, nug],
+    [nug, <item:magistuarmory:diamond_morgenstern>, nug],
+    [nug, nug, nug]
+]);
+craftingTable.addShaped("copper_morningstar", <item:magistuarmory:copper_chainmorgenstern>, [
+    [nug, nug, nug],
+    [nug, <item:magistuarmory:copper_morgenstern>, nug],
     [nug, nug, nug]
 ]);
