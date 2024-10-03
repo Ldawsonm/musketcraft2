@@ -204,11 +204,11 @@
 	#Should Pillagers have increased Combat Range, so they can shoot from far away.
 	#	(takes effect after restart)
 	#	default: false
-	PillagerIncreasedCombatRange = false
+	PillagerIncreasedCombatRange = true
 	#
 	#Should Vindicators can spawn with shield and sword and AI to use these.
 	#	(takes effect after restart)
-	#	default: false
+	#	default: falseS
 	VindicatorSpawnItems = false
 	#
 	#Should Pillagers can spawn with shield and sword and AI to use these.

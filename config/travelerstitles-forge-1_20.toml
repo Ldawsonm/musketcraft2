@@ -177,7 +177,7 @@
 		"Reset Waystone Cache When Changing Dimensions" = true
 		# The distance from a Waystone (in blocks) at which the Waystone's title will trigger.
 		# Default: 30
-		"Waystone Title Range" = 100
+		"Waystone Title Range" = 32
 		# Whether or not Waystone titles should override Biome titles.
 		# That is, if a player enters the area for a Waystone while also entering a new biome,
 		# the Waystone title will take precedence.

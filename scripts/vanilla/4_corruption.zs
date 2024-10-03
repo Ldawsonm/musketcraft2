@@ -6,9 +6,9 @@ val corruption = <item:minecraft:netherite_scrap>;
 
 craftingTable.remove(tablet);
 craftingTable.addShaped("tablet", tablet *2, [
-    [stone, tablet, stone],
-    [stone, em_block, stone],
-    [stone, em_block, stone]
+    [em_block, stone, em_block],
+    [em_block, tablet, em_block],
+    [em_block, stone, em_block]
 ]);
 
 craftingTable.remove(<item:minecraft:netherite_ingot>);

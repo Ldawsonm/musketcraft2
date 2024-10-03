@@ -8,6 +8,8 @@ val leather = <item:minecraft:leather>;
 val gold = <item:minecraft:gold_ingot>;
 val diamond = <item:minecraft:diamond>;
 val lapis = <item:minecraft:lapis_lazuli>;
+val feather = <item:minecraft:feather>;
+val wood = <tag:items:minecraft:planks>;
 
 # Glass Item Frame
 craftingTable.remove(<item:quark:glass_item_frame>);
@@ -75,3 +77,22 @@ craftingTable.addShaped("golden_hopper", <item:goldenhopper:golden_hopper>, [
     [gold, <item:minecraft:hopper>, gold],
     [air, gold, air]
 ]);
+
+# Hang glider
+craftingTable.remove(<item:hangglider:hang_glider>);
+craftingTable.addShaped("hang_glider", <item:hangglider:hang_glider>, [
+    [air, feather, air],
+    [feather, <item:minecraft:netherite_ingot>, feather],
+    [feather, feather, feather]
+]);
+
+# Trading Post
+craftingTable.remove(<item:tradingpost:trading_post>);
+craftingTable.addShaped("trading_post", <item:tradingpost:trading_post>, [
+    [emerald_block, emerald_block],
+    [wood, wood],
+    [wood, wood]
+]);
+
+
+
