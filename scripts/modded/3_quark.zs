@@ -59,3 +59,11 @@ for key in hedgeDict {
         [hedgeDict[key]["log"]]
     ]);
 }
+
+# Vertical Bamboo Sawmill
+<recipetype:woodworks:sawing>.addJsonRecipe("vertical_bamboo_sawmill", {
+            result: <item:quark:vertical_bamboo_planks>.registryName,
+            ingredient: <item:minecraft:bamboo_planks>,
+            type: "woodworks:sawmill",
+            count: 1
+    });

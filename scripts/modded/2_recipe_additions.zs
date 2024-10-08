@@ -22,7 +22,27 @@ createCabinetRecipe("crimson", <item:minecraft:crimson_planks>, <item:farmersdel
 createCabinetRecipe("warped", <item:minecraft:warped_planks>, <item:farmersdelight:warped_cabinet>);
 
 
-
+val air = <item:minecraft:air>;
 
 # NATURALIST
-# Froglight
+# Froglass
+val glass = <item:minecraft:glass>;
+val lichen = <item:minecraft:glow_lichen>;
+
+craftingTable.addShaped("azure_froglass", <item:naturalist:azure_froglass>, [
+    [air, <item:minecraft:blue_dye>, air],
+    [lichen, glass, lichen],
+    [air, lichen, air]
+]);
+
+craftingTable.addShaped("verdant_froglass", <item:naturalist:verdant_froglass>, [
+    [air, <item:minecraft:green_dye>, air],
+    [lichen, glass, lichen],
+    [air, lichen, air]
+]);
+
+craftingTable.addShaped("crimson_froglass", <item:naturalist:crimson_froglass>, [
+    [air, <item:minecraft:red_dye>, air],
+    [lichen, glass, lichen],
+    [air, lichen, air]
+]);

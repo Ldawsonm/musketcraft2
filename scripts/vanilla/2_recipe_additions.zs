@@ -46,3 +46,23 @@ craftingTable.addShaped("name_tag", <item:minecraft:name_tag>, [
     [gold, paper, air],
     [gold, gold, air]
 ]);
+
+# Froglight Recipes
+val shroomlight = <item:minecraft:shroomlight>;
+val lichen = <item:minecraft:glow_lichen>;
+
+craftingTable.addShaped("ochre_frog", <item:minecraft:ochre_froglight>, [
+    [air, <item:minecraft:yellow_dye>, air],
+    [lichen, shroomlight, lichen],
+    [air, lichen, air]
+]);
+craftingTable.addShaped("verdant_frog", <item:minecraft:verdant_froglight>, [
+    [air, <item:minecraft:green_dye>, air],
+    [lichen, shroomlight, lichen],
+    [air, lichen, air]
+]);
+craftingTable.addShaped("pearl_frog", <item:minecraft:pearlescent_froglight>, [
+    [air, <item:minecraft:purple_dye>, air],
+    [lichen, shroomlight, lichen],
+    [air, lichen, air]
+]);

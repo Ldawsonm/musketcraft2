@@ -41,13 +41,13 @@ craftingTable.addShaped("copper_abacus", <item:quark:abacus>,
 craftingTable.remove(<item:quark:crate>);
 craftingTable.addShaped("copper_crate", <item:quark:crate>, 
     [[copper, <tag:items:minecraft:planks>, copper],
-     [<tag:items:minecraft:planks>, <tag:items:forge:chests/wooden>, <tag:items:minecraft:planks>],
+     [<tag:items:minecraft:planks>, <item:minecraft:chest>, <tag:items:minecraft:planks>],
      [copper, <tag:items:minecraft:planks>, copper]]);
 # Storage Vault
 craftingTable.remove(<item:functionalstorage:oak_1>);
 craftingTable.addShaped("copper_vault", <item:functionalstorage:oak_1>, 
     [[copper, <tag:items:minecraft:planks>, copper],
-     [air, <tag:items:forge:chests/wooden>, air],
+     [air, <item:minecraft:chest>, air],
      [copper, <tag:items:minecraft:planks>, copper]]);
 
 # Tracking Compass
