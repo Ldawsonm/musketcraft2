@@ -52,4 +52,4 @@ fancymenu_data/*
 globalresources/*
 scripts/*
 shadermods/*
-emi.json
+./emi.json

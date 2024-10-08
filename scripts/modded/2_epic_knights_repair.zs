@@ -36,11 +36,18 @@ val air = <item:minecraft:air>;
 // }
 
 public function enableRepair(tag as KnownTag<ItemDefinition>, material as IItemStack, event as AnvilUpdateEvent) as void {
-    val repair_amount = 0.25;
     if tag.contains(event.left) && material.matches(event.right){
+        val repair_proportion = 0.25 * event.right.amount;
         val curr_item = event.left;
-        val repair = ((event.left.maxDamage as double) * repair_amount + 0.5) as int;
-        event.output = event.left.withDamage(curr_item.damage - repair);
+        val repair = ((event.left.maxDamage as double) * repair_proportion + 0.5) as int;
+        val repair_amount = curr_item.damage - repair;
+        event.output = event.left.withDamage(repair_amount);
+        if (repair_amount < 0) {
+            val matCost as int = ((curr_item.damage / (0.25 * curr_item.maxDamage)) + 0.5) as int;
+            event.materialCost = matCost;
+        }
+        
+
     }
 }
 

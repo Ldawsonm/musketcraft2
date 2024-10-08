@@ -35,7 +35,7 @@
 	droppedXPPercent = 1.0
 	#Percent of dropped experience that can be recovered
 	#Range: 0.0 ~ 1.0
-	recoverableXPPercent = 0.0
+	recoverableXPPercent = 1.0
 
 [hunger]
 	#Hunger settings
